@@ -1,0 +1,29 @@
+﻿/**/ {}
+
+#total_table
+{
+	border-collapse: collapse;
+}
+
+#total_table td
+{
+	border-bottom: dotted 1px #999999;
+	padding: 3px;
+}
+
+#total_table td.currency
+{
+	text-align: right;
+	padding-left: 100px;
+}
+
+#total_table tr.footer td
+{
+	font-weight: bold;
+}
+
+.subquestion
+{
+	margin-left: 25px;
+	border: solid 1px #dddddd;
+}

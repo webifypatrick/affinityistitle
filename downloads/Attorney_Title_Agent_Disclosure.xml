@@ -1,0 +1,7195 @@
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="1"/>
+<w:rPr>
+<w:sz w:val="7"/>
+<w:szCs w:val="7"/>
+</w:rPr>
+</w:pPr>
+<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+<w:bookmarkEnd w:id="0"/>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:line="475" w:lineRule="exact"/>
+<w:ind w:left="2906"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:position w:val="-9"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="-9"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:pict>
+<v:group id="_x0000_s1026" style="width:298.8pt;height:23.8pt;mso-position-horizontal-relative:char;mso-position-vertical-relative:line" coordsize="5976,476">
+<v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+<v:stroke joinstyle="miter"/>
+<v:formulas>
+<v:f eqn="if lineDrawn pixelLineWidth 0"/>
+<v:f eqn="sum @0 1 0"/>
+<v:f eqn="sum 0 0 @1"/>
+<v:f eqn="prod @2 1 2"/>
+<v:f eqn="prod @3 21600 pixelWidth"/>
+<v:f eqn="prod @3 21600 pixelHeight"/>
+<v:f eqn="sum @0 0 1"/>
+<v:f eqn="prod @6 1 2"/>
+<v:f eqn="prod @7 21600 pixelWidth"/>
+<v:f eqn="sum @8 21600 0"/>
+<v:f eqn="prod @7 21600 pixelHeight"/>
+<v:f eqn="sum @10 21600 0"/>
+</v:formulas>
+<v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+<o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype>
+<v:shape id="_x0000_s1027" type="#_x0000_t75" style="position:absolute;left:22;top:194;width:5534;height:230"/>
+<v:group id="_x0000_s1028" style="position:absolute;left:43;top:72;width:605;height:404" coordorigin="43,72" coordsize="605,404">
+<v:shape id="_x0000_s1029" style="position:absolute;left:43;top:72;width:605;height:404" coordorigin="43,72" coordsize="605,404" path="m43,475r605,l648,72,43,72r,403xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1030" style="position:absolute;top:202;width:116;height:202" coordorigin=",202" coordsize="116,202">
+<v:shape id="_x0000_s1031" style="position:absolute;top:202;width:116;height:202" coordorigin=",202" coordsize="116,202" path="m,403r115,l115,202,,202,,403xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1032" style="position:absolute;left:374;width:5098;height:432" coordorigin="374" coordsize="5098,432">
+<v:shape id="_x0000_s1033" style="position:absolute;left:374;width:5098;height:432" coordorigin="374" coordsize="5098,432" path="m374,432r5098,l5472,,374,r,432xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1034" style="position:absolute;left:5098;top:72;width:879;height:360" coordorigin="5098,72" coordsize="879,360">
+<v:shape id="_x0000_s1035" style="position:absolute;left:5098;top:72;width:879;height:360" coordorigin="5098,72" coordsize="879,360" path="m5098,432r878,l5976,72r-878,l5098,432xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+<v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+<v:stroke joinstyle="miter"/>
+<v:path gradientshapeok="t" o:connecttype="rect"/>
+</v:shapetype>
+<v:shape id="_x0000_s1036" type="#_x0000_t202" style="position:absolute;width:5976;height:476" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="57"/>
+<w:ind w:left="676"/>
+<w:rPr>
+<w:sz w:val="34"/>
+<w:szCs w:val="34"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="34"/>
+</w:rPr>
+<w:t>Affinity Title Services,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="65"/>
+<w:sz w:val="34"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="34"/>
+</w:rPr>
+<w:t>LLC</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+</v:shape>
+</v:group>
+<w10:anchorlock/>
+</v:group>
+</w:pict>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="2"/>
+<w:rPr>
+<w:sz w:val="14"/>
+<w:szCs w:val="14"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="69"/>
+<w:ind w:left="3345"/>
+<w:rPr>
+<w:sz w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="24"/>
+</w:rPr>
+<w:t>ATTORNEY-TITLE AGENT</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-15"/>
+<w:sz w:val="24"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="24"/>
+</w:rPr>
+<w:t>DISCLOSURE</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="4"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:sz w:val="13"/>
+<w:szCs w:val="13"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblW w:w="0" w:type="auto"/>
+<w:tblInd w:w="100" w:type="dxa"/>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:left w:w="0" w:type="dxa"/>
+<w:right w:w="0" w:type="dxa"/>
+</w:tblCellMar>
+<w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="4965"/>
+<w:gridCol w:w="3141"/>
+<w:gridCol w:w="2894"/>
+</w:tblGrid>
+<w:tr w:rsidR="0059387E" w:rsidTr="008F6AEA">
+<w:trPr>
+<w:trHeight w:hRule="exact" w:val="215"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="11000" w:type="dxa"/>
+<w:gridSpan w:val="3"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="10999"/>
+</w:tabs>
+<w:spacing w:line="204" w:lineRule="exact"/>
+<w:ind w:left="200"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t xml:space="preserve">Property: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-14"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="99"/>
+<w:u w:val="single" w:color="000000"/>
+</w:rPr>
+<w:t xml:space="preserve">   [GRANTORADDRESSLINE1] [GRANTORADDRESSLINE2]</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:u w:val="single" w:color="000000"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="0059387E" w:rsidTr="008F6AEA">
+<w:trPr>
+<w:trHeight w:hRule="exact" w:val="548"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="11000" w:type="dxa"/>
+<w:gridSpan w:val="3"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:spacing w:line="179" w:lineRule="exact"/>
+<w:ind w:left="1025"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Street</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-7"/>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Address</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="0059387E" w:rsidTr="008F6AEA">
+<w:trPr>
+<w:trHeight w:hRule="exact" w:val="215"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4965" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="10999"/>
+</w:tabs>
+<w:spacing w:line="204" w:lineRule="exact"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-14"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="99"/>
+<w:u w:val="single" w:color="000000"/>
+</w:rPr>
+<w:t xml:space="preserve">   [GRANTORCITY]</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:u w:val="single" w:color="000000"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3141" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="10999"/>
+</w:tabs>
+<w:spacing w:line="204" w:lineRule="exact"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-14"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="99"/>
+<w:u w:val="single" w:color="000000"/>
+</w:rPr>
+<w:t xml:space="preserve">   [GRANTORSTATE]</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:u w:val="single" w:color="000000"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2894" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="10999"/>
+</w:tabs>
+<w:spacing w:line="204" w:lineRule="exact"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-14"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="99"/>
+<w:u w:val="single" w:color="000000"/>
+</w:rPr>
+<w:t xml:space="preserve">   [GRANTORZIP]</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:u w:val="single" w:color="000000"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="0059387E" w:rsidTr="008F6AEA">
+<w:trPr>
+<w:trHeight w:hRule="exact" w:val="178"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4965" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:ind w:left="3048"/>
+<w:rPr>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>City</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3141" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:spacing w:line="179" w:lineRule="exact"/>
+<w:ind w:left="455"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>State</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2894" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:spacing w:line="179" w:lineRule="exact"/>
+<w:ind w:left="68"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Zip</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Code</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="7"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:sz w:val="13"/>
+<w:szCs w:val="13"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblW w:w="0" w:type="auto"/>
+<w:tblInd w:w="100" w:type="dxa"/>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:left w:w="0" w:type="dxa"/>
+<w:right w:w="0" w:type="dxa"/>
+</w:tblCellMar>
+<w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="4715"/>
+<w:gridCol w:w="6485"/>
+</w:tblGrid>
+<w:tr w:rsidR="0059387E" w:rsidTr="008F6AEA">
+<w:trPr>
+<w:trHeight w:hRule="exact" w:val="215"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4715" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="7462"/>
+</w:tabs>
+<w:spacing w:line="204" w:lineRule="exact"/>
+<w:ind w:left="200" w:right="-2748"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>Please be advised</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-11"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>that</w:t>
+</w:r>
+<w:r><w:rPr><w:spacing w:val="-1"/></w:rPr>
+<w:t xml:space="preserve"> </w:t></w:r><w:r><w:rPr><w:w w:val="99"/><w:u w:val="single" w:color="000000"/></w:rPr><w:t xml:space="preserve"> [SELLERSATTORNEY]</w:t></w:r><w:r><w:rPr><w:u w:val="single" w:color="000000"/>
+</w:rPr><w:tab/>
+</w:r></w:p>
+</w:tc><w:tc><w:tcPr><w:tcW w:w="3830" w:type="dxa"/><w:tcBorders><w:top w:val="nil"/><w:left w:val="nil"/><w:bottom w:val="nil"/><w:right w:val="nil"/></w:tcBorders></w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00F90F23" w:rsidP="00335B70"><w:pPr><w:spacing w:line="204" w:lineRule="exact"/><w:rPr><w:szCs w:val="20"/></w:rPr></w:pPr><w:bookmarkStart w:id="0" w:name="_GoBack"/><w:bookmarkEnd w:id="0"/><w:r>
+<w:t>(Agent) is authorized to issue title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-26"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>insurance</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="8"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:sz w:val="15"/>
+<w:szCs w:val="15"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblW w:w="0" w:type="auto"/>
+<w:tblInd w:w="300" w:type="dxa"/>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:left w:w="0" w:type="dxa"/>
+<w:right w:w="0" w:type="dxa"/>
+</w:tblCellMar>
+<w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="5256"/>
+<w:gridCol w:w="288"/>
+<w:gridCol w:w="5256"/>
+</w:tblGrid>
+<w:tr w:rsidR="0059387E" w:rsidTr="008F6AEA">
+<w:trPr>
+<w:trHeight w:hRule="exact" w:val="667"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="5256" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:spacing w:line="179" w:lineRule="exact"/>
+<w:ind w:left="4"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Name of Client</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>(print)</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="288" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA"/>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="5256" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:spacing w:line="179" w:lineRule="exact"/>
+<w:ind w:left="4"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Name of Client</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>(print)</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="0059387E" w:rsidTr="008F6AEA">
+<w:trPr>
+<w:trHeight w:hRule="exact" w:val="670"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="5256" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:spacing w:line="179" w:lineRule="exact"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Signature of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-8"/>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Client</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="288" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA"/>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="5256" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:spacing w:line="179" w:lineRule="exact"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Signature of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-8"/>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Client</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="0059387E" w:rsidTr="008F6AEA">
+<w:trPr>
+<w:trHeight w:hRule="exact" w:val="178"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="5256" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:spacing w:line="179" w:lineRule="exact"/>
+<w:ind w:left="1"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Date</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="288" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA"/>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="5256" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="008F6AEA">
+<w:pPr>
+<w:spacing w:line="179" w:lineRule="exact"/>
+<w:ind w:left="1"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="16"/>
+</w:rPr>
+<w:t>Date</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:sectPr w:rsidR="0059387E" w:rsidSect="0059387E">
+<w:pgSz w:w="12240" w:h="15840"/>
+<w:pgMar w:top="480" w:right="360" w:bottom="280" w:left="420" w:header="720" w:footer="720" w:gutter="0"/>
+<w:cols w:space="720"/>
+</w:sectPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:sz w:val="12"/>
+<w:szCs w:val="12"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1037" type="#_x0000_t202" style="position:absolute;margin-left:252.85pt;margin-top:182pt;width:26.55pt;height:11.75pt;z-index:-11;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:line="234" w:lineRule="exact"/>
+<w:rPr>
+<w:sz w:val="13"/>
+<w:szCs w:val="13"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>ATG</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="9"/>
+<w:sz w:val="13"/>
+</w:rPr>
+<w:t>?</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1038" type="#_x0000_t202" style="position:absolute;margin-left:97.2pt;margin-top:180.7pt;width:132.5pt;height:14.4pt;z-index:-10;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:pStyle w:val="BodyText"/>
+<w:spacing w:before="34"/>
+</w:pPr>
+<w:r>
+<w:t>Attorneys? Title Guaranty</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-15"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Fund,</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1039" type="#_x0000_t202" style="position:absolute;margin-left:227.5pt;margin-top:183.75pt;width:19.45pt;height:10pt;z-index:-9;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:pStyle w:val="BodyText"/>
+<w:spacing w:line="199" w:lineRule="exact"/>
+<w:ind w:left="33"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:w w:val="95"/>
+</w:rPr>
+<w:t>Inc.,</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1040" type="#_x0000_t202" style="position:absolute;margin-left:156.25pt;margin-top:264.75pt;width:24.5pt;height:10pt;z-index:-8;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:pStyle w:val="BodyText"/>
+<w:spacing w:line="199" w:lineRule="exact"/>
+<w:ind w:left="26"/>
+</w:pPr>
+<w:r>
+<w:t>ATG</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1041" type="#_x0000_t202" style="position:absolute;margin-left:98.65pt;margin-top:183.75pt;width:184.35pt;height:11.65pt;z-index:-7;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="3016"/>
+</w:tabs>
+<w:spacing w:line="232" w:lineRule="exact"/>
+<w:ind w:left="57"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t>Affinity Title Services,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="31"/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t>LLC</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve">(  </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:position w:val="-2"/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t>ATS</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="37"/>
+<w:position w:val="-2"/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>)</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1042" type="#_x0000_t202" style="position:absolute;margin-left:415.4pt;margin-top:357.1pt;width:29.6pt;height:10.8pt;z-index:-6;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:pStyle w:val="BodyText"/>
+<w:spacing w:line="216" w:lineRule="exact"/>
+</w:pPr>
+<w:r>
+<w:t>ATG.</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1043" type="#_x0000_t202" style="position:absolute;margin-left:32.4pt;margin-top:183.6pt;width:555.85pt;height:35.3pt;z-index:-5;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="1555"/>
+<w:tab w:val="left" w:pos="5037"/>
+</w:tabs>
+<w:spacing w:line="208" w:lineRule="exact"/>
+<w:ind w:left="71"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>as an agent</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-7"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>for</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t>Affinity Title Services, LLC ( ATS</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="38"/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t>)</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>plans</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>issue</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>as</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>part</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>his/her</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>representation</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>on</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>your</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:pStyle w:val="BodyText"/>
+<w:ind w:left="71" w:right="241"/>
+</w:pPr>
+<w:r>
+<w:t>real</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>estate</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>transaction. Agent</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>has</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>a financial</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>interest</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>in</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>portion</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>transaction</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>will</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>be</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>paid</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>a</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>fee</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>for</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>providing</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="1"/>
+<w:w w:val="99"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>services as a title insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>agent.</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1044" type="#_x0000_t202" style="position:absolute;margin-left:35.3pt;margin-top:224.2pt;width:551.55pt;height:113.5pt;z-index:-4;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:pStyle w:val="BodyText"/>
+<w:spacing w:line="204" w:lineRule="exact"/>
+</w:pPr>
+<w:r>
+<w:t xml:space="preserve">You are also receiving a DS-1 Disclosure Statement setting forth the estimated total title fees in this transaction. Final title  </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="28"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>insurance</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:pStyle w:val="BodyText"/>
+<w:ind w:right="216"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-14"/>
+</w:rPr>
+<w:t>c</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-14"/>
+<w:position w:val="1"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>d</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-14"/>
+</w:rPr>
+<w:t>harges</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-9"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>will</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="23"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>be</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="26"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>set</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="26"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>forth</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="25"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>on</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="25"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="26"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Closing</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="25"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Disclosure</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="24"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Form,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="29"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>ALTA</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Settlement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="23"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Statement,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="24"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>or</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="24"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>HUD-1</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="27"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Settlement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="26"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Statement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="26"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>you</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="27"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>will</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-1"/>
+<w:w w:val="99"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>receive at the closing of the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-23"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>transaction.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:pStyle w:val="BodyText"/>
+<w:spacing w:before="129" w:line="228" w:lineRule="auto"/>
+<w:ind w:right="211"/>
+</w:pPr>
+<w:r>
+<w:t>You</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="29"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>are</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="31"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>not</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="30"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>required</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="32"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="32"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>use</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="23"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:position w:val="-2"/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t>ATS</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="24"/>
+<w:position w:val="-2"/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>as</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="30"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>a</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="31"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>condition</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="29"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>for</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="31"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>settlement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="30"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="31"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>your</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="31"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>transaction.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="31"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>There</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="31"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>are</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="31"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>other</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="31"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>settlement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="30"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>service</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="31"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>providers</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="99"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve">available with similar services. </w:t>
+</w:r>
+<w:r>
+<w:t>You are free to shop around to determine that you are receiving the best services and the best rate</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="34"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>for</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="99"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>these</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-11"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>services.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:pStyle w:val="BodyText"/>
+<w:spacing w:before="122"/>
+<w:ind w:left="13" w:right="217"/>
+</w:pPr>
+<w:r>
+<w:t>In</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>event</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="26"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>you</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="22"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>have</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="24"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>any</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>questions</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="25"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>with</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>respect</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="25"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Agent?s</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>representation</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="22"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>or</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="24"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>with</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>respect</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="25"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Agent?s</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>role</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>as</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>a</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="24"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>agent,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>please</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="99"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>cont</w:t>
+</w:r>
+<w:r>
+<w:t>act</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>Agent.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>You</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>may</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-7"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>also,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>if</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>you</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>desire,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>seek</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>an</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>opinion</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>from</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-7"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>another</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>attorney</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-7"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>regarding</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>provision</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>these</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t>services.</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1045" type="#_x0000_t202" style="position:absolute;margin-left:30.25pt;margin-top:339.85pt;width:406.1pt;height:30.25pt;z-index:-3;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:line="212" w:lineRule="exact"/>
+<w:ind w:left="114"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:b/>
+</w:rPr>
+<w:t>ACKNOWLEDGMENT AND</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-10"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+</w:rPr>
+<w:t>APPROVAL</w:t>
+</w:r>
+<w:r>
+<w:t>:</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:pStyle w:val="BodyText"/>
+<w:spacing w:before="124"/>
+<w:ind w:left="114"/>
+<w:rPr>
+<w:sz w:val="17"/>
+<w:szCs w:val="17"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>I/we</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-1"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>understand</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>approve</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>foregoing</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-3"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>that</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>Agent</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>will</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>provide</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-4"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t>through</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-2"/>
+<w:position w:val="1"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:sz w:val="17"/>
+</w:rPr>
+<w:t>ATS.</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1046" type="#_x0000_t202" style="position:absolute;margin-left:36pt;margin-top:188.65pt;width:533.55pt;height:37.45pt;z-index:-2;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="4" w:line="266" w:lineRule="auto"/>
+<w:ind w:left="28" w:right="16" w:hanging="15"/>
+<w:rPr>
+<w:sz w:val="18"/>
+<w:szCs w:val="18"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>as</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>an</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>agent</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>for</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Affinity</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Services,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>(</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>ATS</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>)</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>plans</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>issue</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>as</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>part</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>his/her</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>representation</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>on</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>your</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>real</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>estate</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="104"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>transaction.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Agent</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>has</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>a</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>financial</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>interest</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>in</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>portion</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>transaction</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>will</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>be</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>paid</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>a</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>fee</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>for</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>providing</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>services</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="104"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>as a title insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-23"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>agent.</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:noProof/>
+</w:rPr>
+<w:pict>
+<v:group id="_x0000_s1047" style="position:absolute;margin-left:30.25pt;margin-top:180.7pt;width:558pt;height:189.4pt;z-index:-1;mso-position-horizontal-relative:page;mso-position-vertical-relative:page" coordorigin="605,3614" coordsize="11160,3788">
+<v:group id="_x0000_s1048" style="position:absolute;left:5069;top:3658;width:519;height:29" coordorigin="5069,3658" coordsize="519,29">
+<v:shape id="_x0000_s1049" style="position:absolute;left:5069;top:3658;width:519;height:29" coordorigin="5069,3658" coordsize="519,29" path="m5069,3686r518,l5587,3658r-518,l5069,3686xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1050" style="position:absolute;left:1944;top:3614;width:2650;height:58" coordorigin="1944,3614" coordsize="2650,58">
+<v:shape id="_x0000_s1051" style="position:absolute;left:1944;top:3614;width:2650;height:58" coordorigin="1944,3614" coordsize="2650,58" path="m1944,3672r2650,l4594,3614r-2650,l1944,3672xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1052" style="position:absolute;left:2146;top:3686;width:1757;height:274" coordorigin="2146,3686" coordsize="1757,274">
+<v:shape id="_x0000_s1053" style="position:absolute;left:2146;top:3686;width:1757;height:274" coordorigin="2146,3686" coordsize="1757,274" path="m2146,3686r,8l2153,3715r7,15l2182,3751r14,29l2225,3802r29,21l2283,3845r361,79l2825,3924r51,l2912,3924r51,l3028,3924r57,7l3136,3931r51,l3223,3931r137,7l3382,3938r14,8l3404,3946r65,l3483,3953r7,l3505,3953r14,l3534,3953r21,7l3772,3960r65,-22l3859,3931r14,l3888,3924r7,l3895,3917r7,e" filled="f" strokeweight="1.44pt">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1054" style="position:absolute;left:648;top:3672;width:11117;height:706" coordorigin="648,3672" coordsize="11117,706">
+<v:shape id="_x0000_s1055" style="position:absolute;left:648;top:3672;width:11117;height:706" coordorigin="648,3672" coordsize="11117,706" path="m648,4378r11117,l11765,3672r-11117,l648,4378xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1056" style="position:absolute;left:8525;top:3643;width:3024;height:461" coordorigin="8525,3643" coordsize="3024,461">
+<v:shape id="_x0000_s1057" style="position:absolute;left:8525;top:3643;width:3024;height:461" coordorigin="8525,3643" coordsize="3024,461" path="m8525,4104r3024,l11549,3643r-3024,l8525,4104xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1058" style="position:absolute;left:8726;top:7142;width:173;height:216" coordorigin="8726,7142" coordsize="173,216">
+<v:shape id="_x0000_s1059" style="position:absolute;left:8726;top:7142;width:173;height:216" coordorigin="8726,7142" coordsize="173,216" path="m8726,7358r173,l8899,7142r-173,l8726,7358xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1060" style="position:absolute;left:706;top:4493;width:11031;height:2261" coordorigin="706,4493" coordsize="11031,2261">
+<v:shape id="_x0000_s1061" style="position:absolute;left:706;top:4493;width:11031;height:2261" coordorigin="706,4493" coordsize="11031,2261" path="m706,6754r11030,l11736,4493r-11030,l706,6754xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1062" style="position:absolute;left:605;top:6797;width:8122;height:605" coordorigin="605,6797" coordsize="8122,605">
+<v:shape id="_x0000_s1063" style="position:absolute;left:605;top:6797;width:8122;height:605" coordorigin="605,6797" coordsize="8122,605" path="m605,7402r8121,l8726,6797r-8121,l605,7402xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1064" style="position:absolute;left:9245;top:6538;width:807;height:202" coordorigin="9245,6538" coordsize="807,202">
+<v:shape id="_x0000_s1065" style="position:absolute;left:9245;top:6538;width:807;height:202" coordorigin="9245,6538" coordsize="807,202" path="m9245,6739r806,l10051,6538r-806,l9245,6739xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+</v:group>
+<v:group id="_x0000_s1066" style="position:absolute;left:720;top:3773;width:10671;height:749" coordorigin="720,3773" coordsize="10671,749">
+<v:shape id="_x0000_s1067" style="position:absolute;left:720;top:3773;width:10671;height:749" coordorigin="720,3773" coordsize="10671,749" path="m720,4522r10670,l11390,3773r-10670,l720,4522xe" stroked="f">
+<v:path arrowok="t"/>
+</v:shape>
+<v:shape id="_x0000_s1068" type="#_x0000_t202" style="position:absolute;left:605;top:3614;width:11160;height:3788" filled="f" stroked="f">
+<v:textbox inset="0,0,0,0">
+<w:txbxContent>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="134" w:line="266" w:lineRule="auto"/>
+<w:ind w:left="143" w:right="766"/>
+<w:rPr>
+<w:sz w:val="18"/>
+<w:szCs w:val="18"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>as</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>an</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>agent</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>for</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Affinity</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Services,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>LLC,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>(</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>ATS</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>)</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>plans</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>issue</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>as</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>part</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>his/her</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>representation</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>on</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>your</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>real</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>estate</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="104"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>transaction.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="38"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Agent</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>has</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>a</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>financial</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>interest</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>in</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>portion</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>transaction</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>will</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>be</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>paid</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>a</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>fee</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>for</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>providing</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>services</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>as</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="103"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>a title insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-19"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>agent.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="160" w:line="266" w:lineRule="auto"/>
+<w:ind w:left="143" w:right="786"/>
+<w:rPr>
+<w:sz w:val="18"/>
+<w:szCs w:val="18"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>You</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>are</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>also</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>receiving</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>a</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>DS-1</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Disclosure</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Statement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>setting</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>forth</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>estimated</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>total</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>fees</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>in</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>this</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>transaction.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="39"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Final</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="104"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>charges</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>will</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>be</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>set</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>forth</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>on</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Closing</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Disclosure</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Form,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>ALTA</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Settlement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Statement,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>or</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>HUD-1</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Settlement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Statement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>you</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>will</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>receive</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="104"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>at the closing of the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-27"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>transaction.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="145" w:line="266" w:lineRule="auto"/>
+<w:ind w:left="143" w:right="632"/>
+<w:rPr>
+<w:sz w:val="18"/>
+<w:szCs w:val="18"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>You</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>are</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>not</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>required</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>use</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>ATS</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>as</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>a</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>condition</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>for</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>settlement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>your</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>transaction.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="38"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>There</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>are</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>other</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>settlement</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>service</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>providers</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>available</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="104"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>with</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>similar</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>services.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="38"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>You</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>are</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>free</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>shop</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>around</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>determine</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>that</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>you</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>are</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>receiving</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>best</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>services</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>best</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>rate</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>for</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>these</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>services.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="160" w:line="266" w:lineRule="auto"/>
+<w:ind w:left="143" w:right="891"/>
+<w:rPr>
+<w:sz w:val="18"/>
+<w:szCs w:val="18"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>In</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>event</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>you</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>have</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>any</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>questions</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>with</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>respect</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Agent's</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>representation</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>or</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>with</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>respect</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>to</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Agent's</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>role</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>as</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>a</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>agent,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>please</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-5"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>contact</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="104"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Agent.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="37"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>You</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>may</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>also,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>if</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>you</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>desire,</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>seek</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>an</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>opinion</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>from</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>another</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>attorney</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>regarding</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>provision</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>of</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>these</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>services.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="8"/>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:sz w:val="17"/>
+<w:szCs w:val="17"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:ind w:left="158"/>
+<w:rPr>
+<w:sz w:val="18"/>
+<w:szCs w:val="18"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>ACKNOWLEDGMENT AND</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:spacing w:val="-37"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>APPROVAL:</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="81"/>
+<w:ind w:left="158"/>
+<w:rPr>
+<w:sz w:val="18"/>
+<w:szCs w:val="18"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>I/we</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>understand</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>approve</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>the</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>foregoing</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>and</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>that</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>Agent</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>will</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>provide</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>title</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>insurance</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>through</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:spacing w:val="-6"/>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:w w:val="105"/>
+<w:sz w:val="18"/>
+</w:rPr>
+<w:t>ATS.</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+</v:shape>
+</v:group>
+<w10:wrap anchorx="page" anchory="page"/>
+</v:group>
+</w:pict>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="1"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:sz w:val="10"/>
+<w:szCs w:val="10"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:line="137" w:lineRule="exact"/>
+<w:ind w:left="300" w:right="-15"/>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:sz w:val="12"/>
+<w:szCs w:val="12"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial"/>
+<w:sz w:val="12"/>
+</w:rPr>
+<w:t>ATG FORM</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="12"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial"/>
+<w:sz w:val="12"/>
+</w:rPr>
+<w:t>3051</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:line="137" w:lineRule="exact"/>
+<w:ind w:left="300" w:right="-15"/>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:sz w:val="12"/>
+<w:szCs w:val="12"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
+<w:sz w:val="12"/>
+</w:rPr>
+<w:t>? ATG (REV.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
+<w:spacing w:val="-3"/>
+<w:sz w:val="12"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
+<w:sz w:val="12"/>
+</w:rPr>
+<w:t>4/16)</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:sz w:val="12"/>
+<w:szCs w:val="12"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:br w:type="column"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:spacing w:before="1"/>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:sz w:val="10"/>
+<w:szCs w:val="10"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="0059387E" w:rsidRDefault="00D14D2C" w:rsidP="0059387E">
+<w:pPr>
+<w:ind w:left="300"/>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:sz w:val="12"/>
+<w:szCs w:val="12"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial"/>
+<w:sz w:val="12"/>
+</w:rPr>
+<w:t>FOR USE IN:</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial"/>
+<w:spacing w:val="30"/>
+<w:sz w:val="12"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial"/>
+<w:sz w:val="12"/>
+</w:rPr>
+<w:t>IL</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00D14D2C"/>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00D14D2C"/>
+<w:sectPr w:rsidR="00CA06F6" w:rsidSect="00582E59">
+<w:endnotePr>
+<w:numFmt w:val="decimal"/>
+</w:endnotePr>
+<w:type w:val="continuous"/>
+<w:pgSz w:w="12240" w:h="15840" w:code="1"/>
+<w:pgMar w:top="720" w:right="720" w:bottom="720" w:left="720" w:header="720" w:footer="331" w:gutter="0"/>
+<w:cols w:num="2" w:space="720" w:equalWidth="0">
+<w:col w:w="1332" w:space="8580"/>
+<w:col w:w="1548"/>
+</w:cols>
+<w:noEndnote/>
+</w:sectPr>

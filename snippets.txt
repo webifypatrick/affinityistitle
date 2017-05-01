@@ -1,0 +1,8 @@
+
+Template field with DataBinder Expression:
+
+<asp:TemplateField HeaderText="State" SortExpression="State">
+    <ItemTemplate>
+        <%# DataBinder.Eval(Container.DataItem, "PropertyState")%>
+    </ItemTemplate>
+</asp:TemplateField>

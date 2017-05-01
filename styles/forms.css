@@ -1,0 +1,301 @@
+﻿.search_filter
+{
+	border: solid 1px #c1c1c1;
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: #ffffff;
+	width: 600px;
+	color: #666666;
+	font-size: 10pt;
+}
+.search_filter input
+{
+	border: solid 1px #c1c1c1;
+	background-color: #e5e5e5;
+	color: #666666;
+	font-size: 10pt;
+}
+
+.hidden
+{
+	display: none;
+}
+
+fieldset
+{
+	border: solid 1px #c1c1c1;
+	margin-bottom: 20px;
+	padding: 10px 10px 50px 10px;
+	background-color: #ffffff;
+}
+
+/* clearfix for sarari - seems to have no effect on other browsers */
+fieldset:after 
+{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+legend
+{
+	font-weight: bold;
+	color: #555555;
+}
+
+.readonly
+{
+	margin-right: 25px;
+	padding: 0px 3px 0px 3px;
+}
+
+/* overrides for dynamic forms */
+.groupheader
+{
+	border-left: solid 1px #c1c1c1;
+	border-right: solid 1px #c1c1c1;
+	border-top: solid 1px #c1c1c1;
+	background-image: url("../images/th_bg_gradient_gray.gif");
+    background-repeat: repeat-x;
+    font-weight: bold;
+	padding: 4px 4px 4px 4px;
+	margin-top: 15px;
+}
+
+.fields fieldset
+{
+	border-left: solid 1px #c1c1c1;
+	border-right: solid 1px #c1c1c1;
+	border-bottom: solid 1px #c1c1c1;
+	margin: 0px 0px 8px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+.fields legend
+{   
+	display: none;
+}
+
+
+fieldset div
+{
+	color: #555555;
+}
+
+fieldset .label, fieldset .input
+{
+	padding: 0px 5px 3px 0px;
+}
+
+fieldset .actions
+{
+	padding-top: 12px;
+}
+
+.upload
+{
+	font-family: Times New Roman, Serif;
+	font-size: 10pt;
+}
+
+.textbox, select, .select, textarea, .textarea, .upload
+{
+	border: solid 1px #c1c1c1;
+	color: #555555;
+}
+
+.datepicker
+{
+	vertical-align: middle;
+}
+
+.datepicker img
+{
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+
+
+/* label element is for checkbox/radio options. */
+label
+{
+	padding-right: 10px;
+}
+
+/* .label class is for the question text */
+.label
+{
+	padding-right: 10px;
+	color: #222222;
+}
+
+.line
+{
+	vertical-align: middle;
+	padding-top: 5px;
+	clear: both;
+}
+
+.field
+{
+}
+
+.horizontal
+{
+	float: left;
+}
+
+.width_75
+{
+	width: 75px;
+}
+.width_100
+{
+	width: 100px;
+}
+.width_125
+{
+	width: 125px;
+}
+.width_150
+{
+	width: 150px;
+}
+.width_175
+{
+	width: 175px;
+}
+.width_200
+{
+	width: 200px;
+}
+
+.width_250
+{
+	width: 250px;
+}
+
+.width_300
+{
+	width: 300px;
+}
+
+.width_350
+{
+	width: 350px;
+}
+
+.width_400
+{
+	width: 400px;
+}
+
+.input
+{
+	padding-right: 5px;
+}
+
+.vertical
+{
+	clear: left;
+}
+
+.tip
+{
+	color: #4D7FCF;
+	/* background-color: #BDD6F0; */
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+	padding: 2px 4px 2px 24px;
+	background-image: url("../images/ico_information.gif");
+}
+
+#group_originator
+{
+	clear: left;
+	float:left;
+	width: 575px;
+	margin-right: 10px;
+}
+
+#group_lender
+{
+	clear: left;
+	float:left;
+	width: 575px;
+	margin-right: 10px;
+}
+
+#group_lenders
+{
+	float:left;
+	width: 575px;
+	margin-left: 10px;
+}
+
+#Email_Signature
+{
+	clear: left;
+}
+
+#group_broker
+{
+	float:left;
+	width: 575px;
+}
+
+#group_applicant
+{
+	clear: left;
+	float:left;
+	width: 575px;
+}
+
+#group_buyersattorney
+{
+	clear: left;
+	float:left;
+	width: 575px;
+	margin-right: 10px;
+}
+
+#group_sellersattorney
+{
+	float:left;
+	width: 575px;
+}
+
+#group_listingrealtor
+{
+	clear: left;
+	float:left;
+	width: 575px;
+	margin-right: 10px;
+}
+
+#group_sellingrealtor
+{
+	float:left;
+	width: 575px;
+}
+
+#group_notes
+{
+	clear: left;
+}
+
+#action_buttons
+{
+	clear: left;
+}
+
+.underline
+{
+	margin-top: 5px;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	border-bottom: dotted 1px #e5e5e5;
+}

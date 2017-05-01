@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<request>
+	<group name="general" legend="Schedule Information">
+		<line>
+			<field sp_id="OFF1COD" rei_id="" name="1stChoiceLocation" label="1st Choice: Location"  input="select" class="horizontal" labelclass="label">
+				<attribute name="onchange">setVisibility('line_1stChoiceLocationOther',this.options[this.selectedIndex].value != 'Other')</attribute>
+				<option value="NONE" label="Select Location..." />
+				<option value="Other" />
+				<option value="Affinity Addison" />
+				<option value="Affinity Des Plaines" />
+				<option value="Affinity Loop Chicago" />
+				<option value="Affinity Grayslake" />
+				<option value="Affinity Merrillville" />
+				<option value="Affinity Palatine" />
+				<option value="Affinity Skokie" />
+				<option value="ATG - Aurora" />
+				<option value="ATG - Champaign" />
+				<option value="ATG - Homewood" />
+				<option value="ATG - Libertyville" />
+				<option value="ATG - Lombard" />
+				<option value="ATG - Loop" />
+				<option value="ATG - Metro East" />
+				<option value="ATG - Mt Prospect" />
+				<option value="ATG - NLT - Belvidere" />
+				<option value="ATG - NLT - Crystal Lake" />
+				<option value="ATG - NLT - Rockford" />
+				<option value="ATG - North Riverside" />
+				<option value="ATG - Northwest" />
+				<option value="ATG - Oak Lawn" />
+				<option value="ATG - Orland Park" />
+				<option value="ATG - Schaumburg" />
+				<option value="ATG - Skokie" />
+				<option value="ATG - Wheaton" />
+				<option value="ATG - Wisconsin" />
+				<option value="Bank of America" />
+				<!--option value="Central State Mortgage" /-->
+				<option value="Dan F.Hofstetter" />
+				<option value="DKMO" />
+				<option value="FA - Arlington Heights" />
+				<option value="FA - Aurora" />
+				<option value="FA - Bensenville" />
+				<option value="FA - Chicago - Loop" />
+				<option value="FA - Chicago - Irving Park" />
+				<option value="FA - Elgin" />
+				<option value="FA - Crystal Lake" />
+				<option value="FA - Flowerfield" />
+				<option value="FA - Gurnee" />
+				<option value="FA - Hickory Hills" />
+				<option value="FA - Hoffman Estates" />
+				<option value="FA - Joliet" />
+				<option value="FA - Lombard" />
+				<option value="FA - Naperville" />
+				<option value="FA - Northbrook" />
+				<option value="FA - Oak Park" />
+				<option value="FA - Park Ridge" />
+				<option value="FA - Skokie" />
+				<option value="FA - St. Charles" />
+				<option value="FA - Tinley Park" />
+				<option value="FA - Vernon Hills" />
+				<option value="FA - Warrenville" />
+				<option value="FA - Westchester" />
+				<option value="FA - Wheaton" />
+				<option value="FA - Woodridge" />
+				<option value="Gus Apostolopoulos" />
+				<option value="In Home (Remote)" />
+				<option value="Jay Chie" />
+				<option value="JC Financial" />
+				<option value="Joel Hymen" />
+				<option value="Joseph G. Haffner" />
+				<option value="Lender" />
+				<option value="Marshall Richter" />
+				<!--option value="MB Financial - Addison" />
+				<option value="MB Financial - Ashland" />
+				<option value="MB Financial - Aurora" />
+				<option value="MB Financial - Banking Center - Calumet Torence Drive" />
+				<option value="MB Financial - Banking Center - Calumet Burnham" />
+				<option value="MB Financial - Banking Center - Halsted" />
+				<option value="MB Financial - Banking Center - Lincoln Ave (HQ)" />
+				<option value="MB Financial - Banking Center - Lincoln Ave Drive" />
+				<option value="MB Financial - Banking Center - Niles" />
+				<option value="MB Financial - Banking Center - North Clark" />
+				<option value="MB Financial - Banking Center - River Forest" />
+				<option value="MB Financial - Banking Center - Riverside Plaza" />
+				<option value="MB Financial - Banking Center - South Port" />
+				<option value="MB Financial - Banking Center - Western Ave Drive" />
+				<option value="MB Financial - Banking Center - Western Avenue" />
+				<option value="MB Financial - Banking Center - Wheeling" />
+				<option value="MB Financial - Blemont" />
+				<option value="MB Financial - Bensenville" />
+				<option value="MB Financial - Bolingbrook" />
+				<option value="MB Financial - Broadview" />
+				<option value="MB Financial - Burbank" />
+				<option value="MB Financial - Burr Ridge (North)" />
+				<option value="MB Financial - Burr Ridge (South)" />
+				<option value="MB Financial - Countryside" />
+				<option value="MB Financial - Damen" />
+				<option value="MB Financial - Darien" />
+				<option value="MB Financial - Dolton" />
+				<option value="MB Financial - Dolton South" />
+				<option value="MB Financial - Elmhurst" />
+				<option value="MB Financial - Executive Banking Center" />
+				<option value="MB Financial - Garfield Ridge" />
+				<option value="MB Financial - Gladstone Park" />
+				<option value="MB Financial - Glencoe" />
+				<option value="MB Financial - Glenview (North)" />
+				<option value="MB Financial - Glenview (South)" />
+				<option value="MB Financial - Glenwood" />
+				<option value="MB Financial - Graue Mill" />
+				<option value="MB Financial - Highland Park" />
+				<option value="MB Financial - Homer Glen" />
+				<option value="MB Financial - Huron" />
+				<option value="MB Financial - LaGrange" />
+				<option value="MB Financial - LaGrange Park" />
+				<option value="MB Financial - LaSalle &amp; Madison" />
+				<option value="MB Financial - Lemont" />
+				<option value="MB Financial - Lincolnwood" />
+				<option value="MB Financial - Lisle" />
+				<option value="MB Financial - Lombard" />
+				<option value="MB Financial - Milwaukee" />
+				<option value="MB Financial - Morton Grove" />
+				<option value="MB Financial - Mount Prospect" />
+				<option value="MB Financial - Naperville" />
+				<option value="MB Financial - Niles" />
+				<option value="MB Financial - North Loop" />
+				<option value="MB Financial - North Riverside (Main)" />
+				<option value="MB Financial - Northbrook" />
+				<option value="MB Financial - Oak Brook" />
+				<option value="MB Financial - Oak Lawn" />
+				<option value="MB Financial - Oak Park" />
+				<option value="MB Financial - Orland Park" />
+				<option value="MB Financial - Orland Hills" />
+				<option value="MB Financial - Palatine" />
+				<option value="MB Financial - Park Ridge" />
+				<option value="MB Financial - Philadelphia" />
+				<option value="MB Financial - Pilsen" />
+				<option value="MB Financial - Rosemont" />
+				<option value="MB Financial - Schaumburg w/b Korean Banking" />
+				<option value="MB Financial - Sheridan" />
+				<option value="MB Financial - South Chicago" />
+				<option value="MB Financial - South Holland" />
+				<option value="MB Financial - South Holland Motor Bank" />
+				<option value="MB Financial - South Wacker" />
+				<option value="MB Financial - St. Charles" />
+				<option value="MB Financial - Tinley Park (North)" />
+				<option value="MB Financial - Tinley Park (South)" />
+				<option value="MB Financial - Touhy" />
+				<option value="MB Financial - Ukrainian Village" />
+				<option value="MB Financial - Univerisity Center" />
+				<option value="MB Financial - Walt's Crete" />
+				<option value="MB Financial - Walt's Dyer &amp; Admin" />
+				<option value="MB Financial - Walt's Frankfort" />
+				<option value="MB Financial - Walt's Homewood" />
+				<option value="MB Financial - Walt's South Holland" />
+				<option value="MB Financial - Walt's Tinley Park" />
+				<option value="MB Financial - Warrenville" />
+				<option value="MB Financial - Waukegan" />
+				<option value="MB Financial - West Loop" />
+				<option value="MB Financial - Western Avenue Drive-up" />
+				<option value="MB Financial - Wheaton" /-->
+				<option value="Mortgage Brokers office" />
+				<option value="Palmer House &amp; Alexander" />
+				<option value="Realtors office" />
+				<option value="Rosenthal office" />
+				<!--option value="Second Federal" />
+				<option value="World Savings" /-->
+			</field>
+			<field sp_id="SETTDATE" rei_id="" name="1stChoiceDate" label="Date" input="date" class="horizontal" labelclass="label">
+				<attribute name="onchange">this.value = convertDate(this.value);  if(!isDate(this.value) &amp;&amp; this.value != ''){alert('Please enter the date in the format mm/dd/yyyy.'); return false;}</attribute>
+			</field>
+			<field sp_id="SETTTIME" rei_id="" name="1stChoiceTime" label="Time"  input="select" class="horizontal" labelclass="label">
+				<option value="" label="Select Time..." />
+				<option value="8:00 AM" />
+				<option value="8:30 AM" />
+				<option value="9:00 AM" />
+				<option value="9:30 AM" />
+				<option value="10:00 AM" />
+				<option value="10:30 AM" />
+				<option value="11:00 AM" />
+				<option value="11:30 AM" />
+				<option value="12:00 PM" />
+				<option value="12:30 PM" />
+				<option value="1:00 PM" />
+				<option value="1:30 PM" />
+				<option value="2:00 PM" />
+				<option value="2:30 PM" />
+				<option value="3:00 PM" />
+				<option value="3:30 PM" />
+				<option value="4:00 PM" />
+				<option value="4:30 PM" />
+				<option value="5:00 PM" />
+				<option value="5:30 PM" />
+				<option value="6:00 PM" />
+				<option value="6:30 PM" />
+				<option value="7:00 PM" />
+				<option value="7:30 PM" />
+				<option value="8:00 PM" />
+				<option value="8:30 PM" />
+			</field>
+		</line>
+		<line name="line_1stChoiceLocationOther" hidden="1stChoiceLocation=Other">
+			<field sp_id="OFF1COD" name="1stChoiceLocationOther" label="Please Specify Other:" class="horizontal" type="text"></field>
+		</line>
+		<line>
+			<field sp_id="TX09CMT" rei_id="" name="2ndChoiceLocation" label="2nd Choice: Location"  input="select" class="horizontal" labelclass="label">
+				<attribute name="onchange">setVisibility('line_2ndChoiceLocationOther',this.options[this.selectedIndex].value != 'Other')</attribute>
+				<option value="NONE" label="Select Location..." />
+				<option value="Other" />
+				<option value="Affinity Addison" />
+				<option value="Affinity Des Plaines" />
+				<option value="Affinity Loop Chicago" />
+				<option value="Affinity Grayslake" />
+				<option value="Affinity Merrillville" />
+				<option value="Affinity Palatine" />
+				<option value="Affinity Skokie" />
+				<option value="ATG - Aurora" />
+				<option value="ATG - Champaign" />
+				<option value="ATG - Homewood" />
+				<option value="ATG - Libertyville" />
+				<option value="ATG - Lombard" />
+				<option value="ATG - Loop" />
+				<option value="ATG - Metro East" />
+				<option value="ATG - Mt Prospect" />
+				<option value="ATG - NLT - Belvidere" />
+				<option value="ATG - NLT - Crystal Lake" />
+				<option value="ATG - NLT - Rockford" />
+				<option value="ATG - North Riverside" />
+				<option value="ATG - Northwest" />
+				<option value="ATG - Oak Lawn" />
+				<option value="ATG - Orland Park" />
+				<option value="ATG - Schaumburg" />
+				<option value="ATG - Skokie" />
+				<option value="ATG - Wheaton" />
+				<option value="ATG - Wisconsin" />
+				<option value="Bank of America" />
+				<option value="Central State Mortgage" />
+				<option value="Dan F.Hofstetter" />
+				<option value="Drost,Kivlahan,Mcmahon &amp; O'Conn" />
+				<option value="FA - Arlington Heights" />
+				<option value="FA - Aurora" />
+				<option value="FA - Barrington" />
+				<option value="FA - Bensenville" />
+				<option value="FA - Bollingbrook" />
+				<option value="FA - Crystal Lake" />
+				<option value="FA - Elgin" />
+				<option value="FA - Gurnee" />
+				<option value="FA - Hickory Hills" />
+				<option value="FA - Homewood" />
+				<option value="FA - Hyde Park" />
+				<option value="FA - Joliet" />
+				<option value="FA - Lake Forest" />
+				<option value="FA - Lincolnwood" />
+				<option value="FA - Lombard" />
+				<option value="FA - Loop" />
+				<option value="FA - Morris" />
+				<option value="FA - Naperville" />
+				<option value="FA - Oak Park" />
+				<option value="FA - O'Hare" />
+				<option value="FA - Ottawa" />
+				<option value="FA - Princeton" />
+				<option value="FA - Skokie" />
+				<option value="FA - St Charles" />
+				<option value="FA - Tinley Park" />
+				<option value="FA - Vernon Hills" />
+				<option value="FA - Warrenville" />
+				<option value="FA - Waukegan" />
+				<option value="FA - Westchester" />
+				<option value="FA - Wheaton" />
+				<option value="FA - Woodstock" />
+				<option value="FA - Yorkville" />
+				<option value="FA- Lakeview" />
+				<option value="Gus Apostolopoulos" />
+				<option value="In Home (Remote)" />
+				<option value="Jay Chie" />
+				<option value="JC Financial" />
+				<option value="Joel Hymen" />
+				<option value="Joseph G. Haffner" />
+				<option value="Lender" />
+				<option value="Marshall Richter" />
+				<!--option value="MB Financial - Addison" />
+				<option value="MB Financial - Ashland" />
+				<option value="MB Financial - Aurora" />
+				<option value="MB Financial - Banking Center - Calumet Torence Drive" />
+				<option value="MB Financial - Banking Center - Calumet Burnham" />
+				<option value="MB Financial - Banking Center - Halsted" />
+				<option value="MB Financial - Banking Center - Lincoln Ave (HQ)" />
+				<option value="MB Financial - Banking Center - Lincoln Ave Drive" />
+				<option value="MB Financial - Banking Center - Niles" />
+				<option value="MB Financial - Banking Center - North Clark" />
+				<option value="MB Financial - Banking Center - River Forest" />
+				<option value="MB Financial - Banking Center - Riverside Plaza" />
+				<option value="MB Financial - Banking Center - South Port" />
+				<option value="MB Financial - Banking Center - Western Ave Drive" />
+				<option value="MB Financial - Banking Center - Western Avenue" />
+				<option value="MB Financial - Banking Center - Wheeling" />
+				<option value="MB Financial - Blemont" />
+				<option value="MB Financial - Bensenville" />
+				<option value="MB Financial - Bolingbrook" />
+				<option value="MB Financial - Broadview" />
+				<option value="MB Financial - Burbank" />
+				<option value="MB Financial - Burr Ridge (North)" />
+				<option value="MB Financial - Burr Ridge (South)" />
+				<option value="MB Financial - Countryside" />
+				<option value="MB Financial - Damen" />
+				<option value="MB Financial - Darien" />
+				<option value="MB Financial - Dolton" />
+				<option value="MB Financial - Dolton South" />
+				<option value="MB Financial - Elmhurst" />
+				<option value="MB Financial - Executive Banking Center" />
+				<option value="MB Financial - Garfield Ridge" />
+				<option value="MB Financial - Gladstone Park" />
+				<option value="MB Financial - Glencoe" />
+				<option value="MB Financial - Glenview (North)" />
+				<option value="MB Financial - Glenview (South)" />
+				<option value="MB Financial - Glenwood" />
+				<option value="MB Financial - Graue Mill" />
+				<option value="MB Financial - Highland Park" />
+				<option value="MB Financial - Homer Glen" />
+				<option value="MB Financial - Huron" />
+				<option value="MB Financial - LaGrange" />
+				<option value="MB Financial - LaGrange Park" />
+				<option value="MB Financial - LaSalle &amp; Madison" />
+				<option value="MB Financial - Lemont" />
+				<option value="MB Financial - Lincolnwood" />
+				<option value="MB Financial - Lisle" />
+				<option value="MB Financial - Lombard" />
+				<option value="MB Financial - Milwaukee" />
+				<option value="MB Financial - Morton Grove" />
+				<option value="MB Financial - Mount Prospect" />
+				<option value="MB Financial - Naperville" />
+				<option value="MB Financial - Niles" />
+				<option value="MB Financial - North Loop" />
+				<option value="MB Financial - North Riverside (Main)" />
+				<option value="MB Financial - Northbrook" />
+				<option value="MB Financial - Oak Brook" />
+				<option value="MB Financial - Oak Lawn" />
+				<option value="MB Financial - Oak Park" />
+				<option value="MB Financial - Orland Park" />
+				<option value="MB Financial - Orland Hills" />
+				<option value="MB Financial - Palatine" />
+				<option value="MB Financial - Park Ridge" />
+				<option value="MB Financial - Philadelphia" />
+				<option value="MB Financial - Pilsen" />
+				<option value="MB Financial - Rosemont" />
+				<option value="MB Financial - Schaumburg w/b Korean Banking" />
+				<option value="MB Financial - Sheridan" />
+				<option value="MB Financial - South Chicago" />
+				<option value="MB Financial - South Holland" />
+				<option value="MB Financial - South Holland Motor Bank" />
+				<option value="MB Financial - South Wacker" />
+				<option value="MB Financial - St. Charles" />
+				<option value="MB Financial - Tinley Park (North)" />
+				<option value="MB Financial - Tinley Park (South)" />
+				<option value="MB Financial - Touhy" />
+				<option value="MB Financial - Ukrainian Village" />
+				<option value="MB Financial - Univerisity Center" />
+				<option value="MB Financial - Walt's Crete" />
+				<option value="MB Financial - Walt's Dyer &amp; Admin" />
+				<option value="MB Financial - Walt's Frankfort" />
+				<option value="MB Financial - Walt's Homewood" />
+				<option value="MB Financial - Walt's South Holland" />
+				<option value="MB Financial - Walt's Tinley Park" />
+				<option value="MB Financial - Warrenville" />
+				<option value="MB Financial - Waukegan" />
+				<option value="MB Financial - West Loop" />
+				<option value="MB Financial - Western Avenue Drive-up" />
+				<option value="MB Financial - Wheaton" /-->				<option value="Mortgage Brokers office" />
+				<option value="Palmer House &amp; Alexander" />
+				<option value="Realtors office" />
+				<option value="Rosenthal office" />
+				<option value="Second Federal" />
+				<option value="World Savings" />
+			</field>
+			<field sp_id="TX09CMT" rei_id="" name="2ndChoiceDate" label="Date" input="date" class="horizontal" labelclass="label">
+				<attribute name="onchange">this.value = convertDate(this.value); if(!isDate(this.value) &amp;&amp; this.value != ''){alert('Please enter the date in the format mm/dd/yyyy.'); return false;}</attribute>
+			</field>
+			<field sp_id="TX09CMT" rei_id="" name="2ndChoiceTime" label="Time"  input="select" class="horizontal" labelclass="label">
+				<option value="" label="Select Time..." />
+				<option value="8:00 AM" />
+				<option value="8:30 AM" />
+				<option value="9:00 AM" />
+				<option value="9:30 AM" />
+				<option value="10:00 AM" />
+				<option value="10:30 AM" />
+				<option value="11:00 AM" />
+				<option value="11:30 AM" />
+				<option value="12:00 PM" />
+				<option value="12:30 PM" />
+				<option value="1:00 PM" />
+				<option value="1:30 PM" />
+				<option value="2:00 PM" />
+				<option value="2:30 PM" />
+				<option value="3:00 PM" />
+				<option value="3:30 PM" />
+				<option value="4:00 PM" />
+				<option value="4:30 PM" />
+				<option value="5:00 PM" />
+				<option value="5:30 PM" />
+				<option value="6:00 PM" />
+				<option value="6:30 PM" />
+				<option value="7:00 PM" />
+				<option value="7:30 PM" />
+				<option value="8:00 PM" />
+				<option value="8:30 PM" />
+			</field>
+		</line>
+		<line name="line_2ndChoiceLocationOther" hidden="2ndChoiceLocation=Other">
+			<field sp_id="TX09CMT" name="2ndChoiceLocationOther" label="Please Specify Other:" class="horizontal" type="text"></field>
+		</line>
+		<line>
+			<field sp_id="TX09CMT" rei_id="" name="3rdChoiceLocation" label="3rd Choice: Location"  input="select" class="horizontal" labelclass="label">
+				<attribute name="onchange">setVisibility('line_3rdChoiceLocationOther',this.options[this.selectedIndex].value != 'Other')</attribute>
+				<option value="NONE" label="Select Location..." />
+				<option value="Other" />
+				<option value="Affinity Addison" />
+				<option value="Affinity Des Plaines" />
+				<option value="Affinity Loop Chicago" />
+				<option value="Affinity Grayslake" />
+				<option value="Affinity Merrillville" />
+				<option value="Affinity Palatine" />
+				<option value="Affinity Skokie" />
+				<option value="ATG - Aurora" />
+				<option value="ATG - Champaign" />
+				<option value="ATG - Homewood" />
+				<option value="ATG - Libertyville" />
+				<option value="ATG - Lombard" />
+				<option value="ATG - Loop" />
+				<option value="ATG - Metro East" />
+				<option value="ATG - Mt Prospect" />
+				<option value="ATG - NLT - Belvidere" />
+				<option value="ATG - NLT - Crystal Lake" />
+				<option value="ATG - NLT - Rockford" />
+				<option value="ATG - North Riverside" />
+				<option value="ATG - Northwest" />
+				<option value="ATG - Oak Lawn" />
+				<option value="ATG - Orland Park" />
+				<option value="ATG - Schaumburg" />
+				<option value="ATG - Skokie" />
+				<option value="ATG - Wheaton" />
+				<option value="ATG - Wisconsin" />
+				<option value="Bank of America" />
+				<option value="Central State Mortgage" />
+				<option value="Dan F.Hofstetter" />
+				<option value="Drost,Kivlahan,Mcmahon &amp; O'Conn" />
+				<option value="FA - Arlington Heights" />
+				<option value="FA - Aurora" />
+				<option value="FA - Barrington" />
+				<option value="FA - Bensenville" />
+				<option value="FA - Bollingbrook" />
+				<option value="FA - Crystal Lake" />
+				<option value="FA - Elgin" />
+				<option value="FA - Gurnee" />
+				<option value="FA - Hickory Hills" />
+				<option value="FA - Homewood" />
+				<option value="FA - Hyde Park" />
+				<option value="FA - Joliet" />
+				<option value="FA - Lake Forest" />
+				<option value="FA - Lincolnwood" />
+				<option value="FA - Lombard" />
+				<option value="FA - Loop" />
+				<option value="FA - Morris" />
+				<option value="FA - Naperville" />
+				<option value="FA - Oak Park" />
+				<option value="FA - O'Hare" />
+				<option value="FA - Ottawa" />
+				<option value="FA - Princeton" />
+				<option value="FA - Skokie" />
+				<option value="FA - St Charles" />
+				<option value="FA - Tinley Park" />
+				<option value="FA - Vernon Hills" />
+				<option value="FA - Warrenville" />
+				<option value="FA - Waukegan" />
+				<option value="FA - Westchester" />
+				<option value="FA - Wheaton" />
+				<option value="FA - Woodstock" />
+				<option value="FA - Yorkville" />
+				<option value="FA- Lakeview" />
+				<option value="Gus Apostolopoulos" />
+				<option value="In Home (Remote)" />
+				<option value="Jay Chie" />
+				<option value="JC Financial" />
+				<option value="Joel Hymen" />
+				<option value="Joseph G. Haffner" />
+				<option value="Lender" />
+				<option value="Marshall Richter" />
+				<!--option value="MB Financial - Addison" />
+				<option value="MB Financial - Ashland" />
+				<option value="MB Financial - Aurora" />
+				<option value="MB Financial - Banking Center - Calumet Torence Drive" />
+				<option value="MB Financial - Banking Center - Calumet Burnham" />
+				<option value="MB Financial - Banking Center - Halsted" />
+				<option value="MB Financial - Banking Center - Lincoln Ave (HQ)" />
+				<option value="MB Financial - Banking Center - Lincoln Ave Drive" />
+				<option value="MB Financial - Banking Center - Niles" />
+				<option value="MB Financial - Banking Center - North Clark" />
+				<option value="MB Financial - Banking Center - River Forest" />
+				<option value="MB Financial - Banking Center - Riverside Plaza" />
+				<option value="MB Financial - Banking Center - South Port" />
+				<option value="MB Financial - Banking Center - Western Ave Drive" />
+				<option value="MB Financial - Banking Center - Western Avenue" />
+				<option value="MB Financial - Banking Center - Wheeling" />
+				<option value="MB Financial - Blemont" />
+				<option value="MB Financial - Bensenville" />
+				<option value="MB Financial - Bolingbrook" />
+				<option value="MB Financial - Broadview" />
+				<option value="MB Financial - Burbank" />
+				<option value="MB Financial - Burr Ridge (North)" />
+				<option value="MB Financial - Burr Ridge (South)" />
+				<option value="MB Financial - Countryside" />
+				<option value="MB Financial - Damen" />
+				<option value="MB Financial - Darien" />
+				<option value="MB Financial - Dolton" />
+				<option value="MB Financial - Dolton South" />
+				<option value="MB Financial - Elmhurst" />
+				<option value="MB Financial - Executive Banking Center" />
+				<option value="MB Financial - Garfield Ridge" />
+				<option value="MB Financial - Gladstone Park" />
+				<option value="MB Financial - Glencoe" />
+				<option value="MB Financial - Glenview (North)" />
+				<option value="MB Financial - Glenview (South)" />
+				<option value="MB Financial - Glenwood" />
+				<option value="MB Financial - Graue Mill" />
+				<option value="MB Financial - Highland Park" />
+				<option value="MB Financial - Homer Glen" />
+				<option value="MB Financial - Huron" />
+				<option value="MB Financial - LaGrange" />
+				<option value="MB Financial - LaGrange Park" />
+				<option value="MB Financial - LaSalle &amp; Madison" />
+				<option value="MB Financial - Lemont" />
+				<option value="MB Financial - Lincolnwood" />
+				<option value="MB Financial - Lisle" />
+				<option value="MB Financial - Lombard" />
+				<option value="MB Financial - Milwaukee" />
+				<option value="MB Financial - Morton Grove" />
+				<option value="MB Financial - Mount Prospect" />
+				<option value="MB Financial - Naperville" />
+				<option value="MB Financial - Niles" />
+				<option value="MB Financial - North Loop" />
+				<option value="MB Financial - North Riverside (Main)" />
+				<option value="MB Financial - Northbrook" />
+				<option value="MB Financial - Oak Brook" />
+				<option value="MB Financial - Oak Lawn" />
+				<option value="MB Financial - Oak Park" />
+				<option value="MB Financial - Orland Park" />
+				<option value="MB Financial - Orland Hills" />
+				<option value="MB Financial - Palatine" />
+				<option value="MB Financial - Park Ridge" />
+				<option value="MB Financial - Philadelphia" />
+				<option value="MB Financial - Pilsen" />
+				<option value="MB Financial - Rosemont" />
+				<option value="MB Financial - Schaumburg w/b Korean Banking" />
+				<option value="MB Financial - Sheridan" />
+				<option value="MB Financial - South Chicago" />
+				<option value="MB Financial - South Holland" />
+				<option value="MB Financial - South Holland Motor Bank" />
+				<option value="MB Financial - South Wacker" />
+				<option value="MB Financial - St. Charles" />
+				<option value="MB Financial - Tinley Park (North)" />
+				<option value="MB Financial - Tinley Park (South)" />
+				<option value="MB Financial - Touhy" />
+				<option value="MB Financial - Ukrainian Village" />
+				<option value="MB Financial - Univerisity Center" />
+				<option value="MB Financial - Walt's Crete" />
+				<option value="MB Financial - Walt's Dyer &amp; Admin" />
+				<option value="MB Financial - Walt's Frankfort" />
+				<option value="MB Financial - Walt's Homewood" />
+				<option value="MB Financial - Walt's South Holland" />
+				<option value="MB Financial - Walt's Tinley Park" />
+				<option value="MB Financial - Warrenville" />
+				<option value="MB Financial - Waukegan" />
+				<option value="MB Financial - West Loop" />
+				<option value="MB Financial - Western Avenue Drive-up" />
+				<option value="MB Financial - Wheaton" /-->
+				<option value="Mortgage Brokers office" />
+				<option value="Palmer House &amp; Alexander" />
+				<option value="Realtors office" />
+				<option value="Rosenthal office" />
+				<option value="Second Federal" />
+				<option value="World Savings" />
+			</field>
+			<field sp_id="TX09CMT" rei_id="" name="3rdChoiceDate" label="Date" input="date" class="horizontal" labelclass="label">
+				<attribute name="onchange">this.value = convertDate(this.value);  if(!isDate(this.value) &amp;&amp; this.value != ''){alert('Please enter the date in the format mm/dd/yyyy.'); return false;}</attribute>
+			</field>
+			<field sp_id="TX09CMT" rei_id="" name="3rdChoiceTime" label="Time"  input="select" class="horizontal" labelclass="label">
+				<option value="" label="Select Time..." />
+				<option value="8:00 AM" />
+				<option value="8:30 AM" />
+				<option value="9:00 AM" />
+				<option value="9:30 AM" />
+				<option value="10:00 AM" />
+				<option value="10:30 AM" />
+				<option value="11:00 AM" />
+				<option value="11:30 AM" />
+				<option value="12:00 PM" />
+				<option value="12:30 PM" />
+				<option value="1:00 PM" />
+				<option value="1:30 PM" />
+				<option value="2:00 PM" />
+				<option value="2:30 PM" />
+				<option value="3:00 PM" />
+				<option value="3:30 PM" />
+				<option value="4:00 PM" />
+				<option value="4:30 PM" />
+				<option value="5:00 PM" />
+				<option value="5:30 PM" />
+				<option value="6:00 PM" />
+				<option value="6:30 PM" />
+				<option value="7:00 PM" />
+				<option value="7:30 PM" />
+				<option value="8:00 PM" />
+				<option value="8:30 PM" />
+			</field>
+		</line>
+		<line name="line_3rdChoiceLocationOther" hidden="3rdChoiceLocation=Other">
+			<field ts_id="" sp_id="TX09CMT" rei_id="" name="3rdChoiceLocationOther" label="Please Specify Other:" class="horizontal" type="text"></field>
+		</line>
+	</group>
+	<group name="notes" legend="Comments/Notes">
+		<line>
+			<field ts_id="" sp_id="TX09CMT" rei_id="" name="Notes" label="Comments/Notes"  input="textarea" width="500" class="vertical" />
+		</line>
+	</group>
+	<group name="hiddeninfo" legend="Hidden Information" hidden="true">
+		<line>
+			<field ts_id="" sp_id="TX09CRBY" rei_id="" name="Source" input="text" default="WEB" />
+			<field ts_id="" sp_id="TX09RQDT" rei_id="" name="RequestDueDate" input="text" defaultcallback="NOW" />
+			<field ts_id="" sp_id="TX09CRDT" rei_id="" name="SubmittedDate" input="text" defaultcallback="NOW" />
+			<field ts_id="" sp_id="TX09STAT" rei_id="" name="ClosingRequestStatus" input="text" default="Required" />
+			<field ts_id="" sp_id="SETTSTAT" rei_id="" name="SettlementStatus" input="text" default="Tentative" />
+		</line>
+	</group>
+</request>

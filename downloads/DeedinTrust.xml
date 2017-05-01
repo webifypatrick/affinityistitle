@@ -1,0 +1,3722 @@
+<w:tbl>
+<w:tblPr>
+<w:tblpPr w:leftFromText="180" w:rightFromText="180" w:vertAnchor="page" w:horzAnchor="margin" w:tblpX="150" w:tblpY="785"/>
+<w:tblW w:w="0" w:type="auto"/>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:left w:w="120" w:type="dxa"/>
+<w:right w:w="120" w:type="dxa"/>
+</w:tblCellMar>
+<w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="4197"/>
+<w:gridCol w:w="6543"/>
+</w:tblGrid>
+<w:tr w:rsidR="003C374F">
+<w:tblPrEx>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:trPr>
+<w:trHeight w:val="3816"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4197" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:left w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:bottom w:val="nil"/>
+<w:right w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:bookmarkStart w:id="0" w:name="SoftPro"/>
+<w:bookmarkStart w:id="1" w:name="_GoBack"/>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="CG Times Bold" w:hAnsi="CG Times Bold"/>
+<w:b/>
+<w:bCs/>
+<w:smallCaps/>
+<w:spacing w:val="-4"/>
+<w:sz w:val="36"/>
+<w:szCs w:val="36"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="CG Times" w:hAnsi="CG Times"/>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="CG Times" w:hAnsi="CG Times"/>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:instrText xml:space="preserve">PRIVATE </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="CG Times" w:hAnsi="CG Times"/>
+<w:spacing w:val="-3"/>
+</w:rPr>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="CG Times" w:hAnsi="CG Times"/>
+<w:spacing w:val="-3"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Goudy Old Style" w:hAnsi="Goudy Old Style"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-3"/>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="CG Times Bold" w:hAnsi="CG Times Bold"/>
+<w:b/>
+<w:bCs/>
+<w:smallCaps/>
+<w:spacing w:val="-4"/>
+<w:sz w:val="36"/>
+<w:szCs w:val="36"/>
+</w:rPr>
+<w:t>Deed In Trust</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Goudy Old Style" w:hAnsi="Goudy Old Style"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-3"/>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Goudy Old Style" w:hAnsi="Goudy Old Style"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-3"/>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:instrText xml:space="preserve">PRIVATE </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Goudy Old Style" w:hAnsi="Goudy Old Style"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-3"/>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Goudy Old Style" w:hAnsi="Goudy Old Style"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-3"/>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:pStyle w:val="PlainText"/>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">CAUTION: Consult a lawyer before using or acting under this form. </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:i/>
+<w:iCs/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>Neither the publisher nor the seller of this form makes any warranty with respect thereto, including any warranty of merchantability or fitness for a particular purpose.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:pStyle w:val="PlainText"/>
+<w:rPr>
+<w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>THE GRANTOR</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type grantor's name]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/></w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:i/>
+<w:iCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>,</w:t>
+</w:r>
+<w:r w:rsidR="0081518B">
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:i/>
+<w:iCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:i/>
+<w:iCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:iCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>of</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type grantor's address line 1]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type grantor's address line 2]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="6543" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="7" w:space="0" w:color="auto"/>
+<w:bottom w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:i/>
+<w:iCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>(The Above Space for Recorder's Use Only)</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="003C374F">
+<w:tblPrEx>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:trPr>
+<w:trHeight w:val="10122"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="10740" w:type="dxa"/>
+<w:gridSpan w:val="2"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:bottom w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:right w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">of the </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type town type]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">of </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type grantors' town]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> of the County of </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type grantor’s County]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">, and State of Illinois in consideration  of the sum TEN DOLLARS ($10.00) in hand paid, </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">, </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">and other good and valuable consideration, the receipt of which is hereby acknowledged, hereby conveys and quit claims to </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type trustee's name]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> as Trustee , under the terms and provisions of a certain Trust Agreement dated the </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type date of trust]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">, and designed as Trust No. </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type trust number]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> , and to any and all successors as Trustee appointed under said Trust Agreement, or who may be legally appointed, the following described real estate: (See 3rd page for legal description.)</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t>Property Index Number (PIN):</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type PIN]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t>Address of Real Estate:</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type property address]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>TO HAVE AND TO HOLD said real estate and appurtenances thereto upon the trusts set forth in said Trust Agreement and for the following uses:</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t>1.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t>The Trustee (or Trustees, as the case may be), is invested with the following powers: (a) to manage, improve, divide, or subdivide the trust property, or any part thereof, (b) To sell on any terms, grant options to purchase, contract to sell, to convey with or  without consideration, to convey to successor in trust, any or all of the title and estate of the trust, and to grant to such successor or successors in trust all the powers vested in the Trustee. © To mortgage, encumber or otherwise transfer the trust property, or any interest therein, as security for advances or loans. (d) To dedicate parks, street, highways or alleys, and to vacate any portion of the premises. (e) To lease and enter into leases for the whole or part of the premises, from time to time, but any such leasehold or renewal shall not exceed a single term of 199 years, and to renew, extend or modify any existing lease.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t>2.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t>Any party dealing with the Trustee with regard to the trust property, whether by contract, sale, mortgage, lease or otherwise, shall not be required to see to the application of the purchase money, loan proceeds, rental or other consideration given, nor shall be required to see that the terms of the trust have been complied with, or to enquire into powers and authority of the Trustee, and the execution of every contract, option, deal, mortgage or other instrument dealing with the trust property, shall be conclusive evidence in favor of every person relying upon or claiming under such conveyance or other instrument; that at the time of the execution and delivery of any of the aforesaid instruments, the Trust Agreement above described was in full force and effect; that said instrument so executed was pursuant to and in accordance with the authority granted the Trustee, and is binding upon the beneficiary or beneficiaries under said Trust Agreement; and if said instrument is executed by a successor or successors in trust, that he or they were duly appointed and are fully invested with the title, estate, rights, powers and duties of the preceding Trustee.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t>3.</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t>The interest of each and every beneficiary under said Trust Agreement and hereunder, and of all persons claiming under any of the beneficiaries, shall be only in the earnings, avails and proceeds arising from sale or other disposition of the trust property, and such interest is hereby declared to be personal only, and the beneficiary or beneficiaries of the trust shall not have any title or interest therein, legal or equitable, except as stated.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:sectPr w:rsidR="003C374F">
+<w:endnotePr>
+<w:numFmt w:val="decimal"/>
+</w:endnotePr>
+<w:pgSz w:w="12240" w:h="15840" w:code="1"/>
+<w:pgMar w:top="720" w:right="720" w:bottom="720" w:left="720" w:header="720" w:footer="331" w:gutter="0"/>
+<w:pgNumType w:start="1"/>
+<w:cols w:space="720"/>
+<w:noEndnote/>
+</w:sectPr>
+</w:pPr>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblW w:w="0" w:type="auto"/>
+<w:tblInd w:w="210" w:type="dxa"/>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:left w:w="120" w:type="dxa"/>
+<w:right w:w="120" w:type="dxa"/>
+</w:tblCellMar>
+<w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="10652"/>
+</w:tblGrid>
+<w:tr w:rsidR="003C374F">
+<w:tblPrEx>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:trPr>
+<w:trHeight w:val="13719"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="10652" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:left w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:bottom w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:right w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:lastRenderedPageBreak/>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve">PRIVATE </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">4. </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t xml:space="preserve">In the event of the inability, refusal of the Trustee herein named, to act, or upon his removal from the County </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type successor trustee's name]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> is then appointed as Successor Trustee herein with like powers and authority as is vested in the Trustee named herein.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t>All of the covenants, conditions, powers, rights and duties vested hereby, in the respective parties, shall inure to and be binding upon their heirs, legal representatives and assigns.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+<w:t>If the title to any of the above real estate now is or hereafter shall be registered, the Registrar of Title is directed not to register or note in the Certificate of Title, duplicate thereof, or memorial, the words “in trust” or “upon condition”, or “with limitation”, or words of similar import, in compliance with the statute of the State of Illinois in such case made and provided.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">The Grantor(s) hereby waive(s) and release(s) any and all right and benefit under and by virtue of the Statutes of the State of </w:t>
+</w:r>
+<w:smartTag w:uri="urn:schemas-microsoft-com:office:smarttags" w:element="State">
+<w:smartTag w:uri="urn:schemas-microsoft-com:office:smarttags" w:element="place">
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>Illinois</w:t>
+</w:r>
+</w:smartTag>
+</w:smartTag>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> providing for the exemption of homestead from sale or execution or otherwise.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:ind w:firstLine="690"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">DATED this </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type date]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> day of </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type month]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">, </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type year]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:noProof/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tbl>
+<w:tblPr>
+<w:tblpPr w:leftFromText="280" w:rightFromText="280" w:vertAnchor="text" w:horzAnchor="margin" w:tblpY="50"/>
+<w:tblOverlap w:val="never"/>
+<w:tblW w:w="0" w:type="auto"/>
+<w:tblLayout w:type="fixed"/>
+<w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="4105"/>
+<w:gridCol w:w="900"/>
+<w:gridCol w:w="630"/>
+<w:gridCol w:w="3690"/>
+<w:gridCol w:w="990"/>
+</w:tblGrid>
+<w:tr w:rsidR="00CA06F6">
+<w:trPr>
+<w:trHeight w:val="357"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4105" w:type="dxa"/>
+<w:tcBorders>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="900" w:type="dxa"/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>(SEAL)</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="630" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3690" w:type="dxa"/>
+<w:tcBorders><w:bottom w:val="single" w:sz="4" w:space="0" w:xxxx="xx" w:color="auto"/></w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="990" w:type="dxa"/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:b/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:b/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type grantor's name]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:t>(SEAL)</w:t></w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00CA06F6">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4105" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:t>[GRANTOR]</w:t>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type grantor's name]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="900" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type grantor's name]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="630" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3690" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:t>[GRANTOR2]</w:t>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="990" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00CA06F6">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4105" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="900" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:r>
+</w:p>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="630" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3690" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="990" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00CA06F6"><w:trPr><w:trHeight w:val="402"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="4105" w:type="dxa"/><w:tcBorders><w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/></w:tcBorders></w:tcPr><w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6"><w:pPr><w:spacing w:line="240" w:lineRule="atLeast"/><w:jc w:val="both"/><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr></w:pPr></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="900" w:type="dxa"/><w:vAlign w:val="bottom"/></w:tcPr><w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6"><w:pPr><w:spacing w:line="240" w:lineRule="atLeast"/><w:jc w:val="both"/><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:t>(SEAL)</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="630" w:type="dxa"/></w:tcPr><w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6"><w:pPr><w:spacing w:line="240" w:lineRule="atLeast"/><w:jc w:val="both"/><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr></w:pPr></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="3690" w:type="dxa"/><w:tcBorders><w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/></w:tcBorders></w:tcPr><w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6"><w:pPr><w:spacing w:line="240" w:lineRule="atLeast"/><w:jc w:val="both"/><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr></w:pPr></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="990" w:type="dxa"/><w:vAlign w:val="bottom"/></w:tcPr><w:p w:rsidR="00CA06F6" w:rsidRDefault="00CA06F6"><w:pPr><w:spacing w:line="240" w:lineRule="atLeast"/><w:jc w:val="both"/><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:t>(SEAL)</w:t></w:r></w:p></w:tc></w:tr>
+</w:tbl>
+</w:r>
+</w:p>
+<w:p w:rsidR="003C374F" w:rsidRDefault="003C374F">
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:pict>
+<v:group id="_x0000_s1040" editas="canvas" style="width:523pt;height:219.35pt;mso-position-horizontal-relative:char;mso-position-vertical-relative:line" coordorigin="931,7933" coordsize="10460,4387">
+<o:lock v:ext="edit" aspectratio="t"/>
+<v:shape id="_x0000_s1039" type="#_x0000_t75" style="position:absolute;left:931;top:7533;width:10460;height:4387" o:preferrelative="f">
+<v:fill o:detectmouseclick="t"/>
+<v:path o:extrusionok="t" o:connecttype="none"/>
+<o:lock v:ext="edit" text="t"/>
+</v:shape>
+<v:shape id="_x0000_s1029" type="#_x0000_t202" style="position:absolute;left:1723;top:6758;width:9449;height:4520" filled="f" fillcolor="#0c9" stroked="f">
+<v:textbox style="mso-next-textbox:#_x0000_s1029" inset="2.74517mm,1.3726mm,2.74517mm,1.3726mm">
+<w:txbxContent>
+<w:tbl>
+<w:tblPr>
+<w:tblW w:w="10908" w:type="dxa"/>
+<w:tblLayout w:type="fixed"/>
+<w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="3978"/>
+<w:gridCol w:w="360"/>
+<w:gridCol w:w="360"/>
+<w:gridCol w:w="6210"/>
+</w:tblGrid>
+<w:tr w:rsidR="00474C3E" w:rsidTr="00110FBC">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3978" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="360" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>)</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="360" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="6210" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00474C3E" w:rsidTr="00110FBC">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3978" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t xml:space="preserve">STATE OF </w:t>
+</w:r>
+<w:smartTag w:uri="urn:schemas-microsoft-com:office:smarttags" w:element="State">
+<w:smartTag w:uri="urn:schemas-microsoft-com:office:smarttags" w:element="place">
+<w:r>
+<w:t>ILLINOIS</w:t>
+</w:r>
+</w:smartTag>
+</w:smartTag>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="360" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>)</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="360" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="6210" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00474C3E" w:rsidTr="00110FBC">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3978" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="360" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>)</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="860" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="580" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="550" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">s s</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="6210" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00474C3E" w:rsidTr="00110FBC">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3978" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t xml:space="preserve">COUNTY OF </w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="360" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>)</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="360" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="6210" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="00474C3E" w:rsidRDefault="00474C3E" w:rsidP="00474C3E">
+<w:pPr>
+<w:framePr w:hSpace="180" w:wrap="around" w:vAnchor="page" w:hAnchor="margin" w:x="150" w:y="785"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="000E3D32" w:rsidRDefault="000E3D32">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000E3D32" w:rsidRDefault="000E3D32">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000E3D32" w:rsidRDefault="000E3D32">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000E3D32" w:rsidRDefault="000E3D32">
+<w:pPr>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t xml:space="preserve">The undersigned, a notary public in and for the above County and State, certifies that </w:t>
+</w:r>
+<w:r w:rsidR="00CC614C">
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type grantors' names]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> known to me to be the same person whose name is subscribed as principal to the foregoing power of attorney, appeared before me in person and acknowledged signed and delivering the instrument as the free and voluntary act of the principal, for the uses and purpo</w:t>
+</w:r>
+<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+<w:bookmarkEnd w:id="0"/>
+<w:r>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>ses therein set forth (and certified to the correctness of the signature(s) of the agent(s)).</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="0090334F" w:rsidRDefault="0090334F"/>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>Given under my hand and official seal, this _______________________ day of _______________ 20 _______.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="00FB365D" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>Commission expires ________________________20 ______</w:t>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+</v:shape>
+<v:shape id="_x0000_s1030" type="#_x0000_t202" style="position:absolute;left:931;top:10739;width:10412;height:1746" filled="f" fillcolor="#0c9" stroked="f">
+<v:textbox style="mso-next-textbox:#_x0000_s1030" inset="2.46381mm,1.2319mm,2.46381mm,1.2319mm">
+<w:txbxContent>
+<w:p w:rsidR="000E3D32" w:rsidRDefault="000E3D32">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000E3D32" w:rsidRDefault="000E3D32">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="00F65AB1" w:rsidRDefault="00F65AB1" w:rsidP="00F65AB1">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:i/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:i/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t>Place Seal Here</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:ind w:left="4320" w:firstLine="720"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face" w:cs="Arial"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face" w:cs="Arial"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>_________________________________________________</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:ind w:left="4320" w:firstLine="720"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face" w:cs="Arial"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face" w:cs="Arial"/>
+<w:color w:val="000000"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">NOTARY PUBLIC</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:ind w:left="4320" w:firstLine="720"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face" w:cs="Arial"/>
+<w:color w:val="000000"/>
+<w:sz w:val="14"/>
+<w:szCs w:val="14"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:ind w:left="4320" w:firstLine="720"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face" w:cs="Arial"/>
+<w:color w:val="000000"/>
+<w:sz w:val="14"/>
+<w:szCs w:val="14"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:ind w:left="4320" w:firstLine="720"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face" w:cs="Arial"/>
+<w:color w:val="000000"/>
+<w:sz w:val="14"/>
+<w:szCs w:val="14"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:ind w:left="4320" w:firstLine="720"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face" w:cs="Arial"/>
+<w:color w:val="000000"/>
+<w:sz w:val="14"/>
+<w:szCs w:val="14"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:ind w:left="4320" w:firstLine="720"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face" w:cs="Arial"/>
+<w:color w:val="000000"/>
+<w:sz w:val="14"/>
+<w:szCs w:val="14"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:ind w:left="4320" w:firstLine="720"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+</v:shape>
+<w10:wrap type="none"/>
+<w10:anchorlock/>
+</v:group>
+</w:pict>
+</w:r>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p><w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p><w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p><w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">This instrument was prepared by: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type Attorney's Name]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:b/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">[APPLICANTATTORNEYNAME], [SELLERSATTORNEYADDRESS]</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type Attorney's Address]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:noProof/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1032" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:24.1pt;margin-top:20.8pt;width:218.15pt;height:92.75pt;z-index:3" filled="f" fillcolor="#0c9" stroked="f">
+<v:textbox style="mso-next-textbox:#_x0000_s1032" inset="2.46381mm,1.2319mm,2.46381mm,1.2319mm">
+<w:txbxContent>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:ind w:firstLine="450"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:noProof/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="007103C7">
+<w:tblPrEx>
+<w:tblCellMar>
+<w:top w:w="0" w:type="dxa"/>
+<w:bottom w:w="0" w:type="dxa"/>
+</w:tblCellMar>
+</w:tblPrEx>
+<w:trPr>
+<w:trHeight w:val="13719"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="10652" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:left w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:bottom w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+<w:right w:val="double" w:sz="7" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="center" w:pos="5280"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Goudy Old Style" w:hAnsi="Goudy Old Style"/>
+<w:b/>
+<w:bCs/>
+<w:spacing w:val="-4"/>
+<w:sz w:val="32"/>
+<w:szCs w:val="32"/>
+</w:rPr>
+<w:lastRenderedPageBreak/>
+<w:t>Legal Description</w:t>
+</w:r>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblW w:w="0" w:type="auto"/>
+<w:tblInd w:w="1245" w:type="dxa"/>
+<w:tblLayout w:type="fixed"/>
+<w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="3148"/>
+<w:gridCol w:w="4772"/>
+</w:tblGrid>
+<w:tr w:rsidR="008A6392" w:rsidRPr="008A6392" w:rsidTr="008A6392">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3148" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="008864E7" w:rsidRPr="008A6392" w:rsidRDefault="008864E7" w:rsidP="008A6392">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="center" w:pos="5280"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="008A6392">
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve">of premises commonly known as    </w:t>
+</w:r>
+<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+<w:bookmarkEnd w:id="0"/>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4772" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="008864E7" w:rsidRPr="008A6392" w:rsidRDefault="008864E7" w:rsidP="008A6392">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="008A6392">
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type property address]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="008A6392" w:rsidRPr="008A6392" w:rsidTr="008A6392">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3148" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="008864E7" w:rsidRPr="008A6392" w:rsidRDefault="008864E7" w:rsidP="008A6392">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="center" w:pos="5280"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4772" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="008864E7" w:rsidRPr="008A6392" w:rsidRDefault="008864E7" w:rsidP="008A6392">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="008A6392">
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>PIN:</w:t>
+</w:r>
+<w:r w:rsidRPr="008A6392">
+<w:rPr>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type PIN]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblpPr w:leftFromText="180" w:rightFromText="180" w:vertAnchor="text" w:horzAnchor="margin" w:tblpXSpec="center" w:tblpY="15"/>
+<w:tblW w:w="0" w:type="auto"/>
+<w:tblLayout w:type="fixed"/>
+<w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="9630"/>
+</w:tblGrid>
+<w:tr w:rsidR="007103C7">
+<w:trPr>
+<w:trHeight w:val="4112"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="9630" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type Legal Description of Property]" </w:instrText>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p><w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="007103C7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="007103C7" w:rsidRDefault="007103C7" w:rsidP="00DD5D7E">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:noProof/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1033" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:270.6pt;margin-top:18.85pt;width:218.15pt;height:86.95pt;z-index:3" filled="f" fillcolor="#0c9" stroked="f">
+<v:textbox style="mso-next-textbox:#_x0000_s1033" inset="2.46381mm,1.2319mm,2.46381mm,1.2319mm">
+<w:txbxContent>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7" w:rsidP="006E0DD7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>SEND SUBSEQUENT TAX BILLS TO:</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="8"/>
+<w:szCs w:val="8"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:i/>
+<w:iCs/>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:i/><w:iCs/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type tax bill name]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:i/><w:iCs/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7">
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type tax bill mail address line 1]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7"><w:pPr><w:spacing w:line="240" w:lineRule="atLeast"/><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:color w:val="000000"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type tax bill mail address line 2]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/></w:r></w:p>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type tax bill mail city, state zip]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+</v:shape>
+</w:pict>
+</w:r>
+<w:r w:rsidR="006E0DD7">
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:noProof/>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:pict>
+<v:shape id="_x0000_s1032" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:24.1pt;margin-top:20.8pt;width:218.15pt;height:92.75pt;z-index:3" filled="f" fillcolor="#0c9" stroked="f">
+<v:textbox style="mso-next-textbox:#_x0000_s1032" inset="2.46381mm,1.2319mm,2.46381mm,1.2319mm">
+<w:txbxContent>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7" w:rsidP="006E0DD7">
+<w:pPr>
+<w:ind w:firstLine="450"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t>MAIL TO:</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006E0DD7" w:rsidRPr="003675F9" w:rsidRDefault="006E0DD7" w:rsidP="006E0DD7">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="8"/>
+<w:szCs w:val="8"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblW w:w="0" w:type="auto"/>
+<w:tblInd w:w="325" w:type="dxa"/>
+<w:tblLayout w:type="fixed"/>
+<w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="3646"/>
+</w:tblGrid>
+<w:tr w:rsidR="006E0DD7">
+<w:trPr>
+<w:trHeight w:val="230"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4646" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-1230"/>
+<w:tab w:val="left" w:pos="-720"/>
+<w:tab w:val="left" w:pos="0"/>
+<w:tab w:val="left" w:pos="336"/>
+<w:tab w:val="left" w:pos="643"/>
+<w:tab w:val="left" w:pos="1367"/>
+<w:tab w:val="left" w:pos="1689"/>
+<w:tab w:val="left" w:pos="3779"/>
+<w:tab w:val="left" w:pos="3859"/>
+<w:tab w:val="left" w:pos="4744"/>
+<w:tab w:val="left" w:pos="6030"/>
+<w:tab w:val="left" w:pos="7200"/>
+<w:tab w:val="left" w:pos="7920"/>
+<w:tab w:val="left" w:pos="8640"/>
+<w:tab w:val="left" w:pos="9682"/>
+<w:tab w:val="left" w:pos="10248"/>
+<w:tab w:val="left" w:pos="10800"/>
+<w:tab w:val="left" w:pos="11520"/>
+<w:tab w:val="left" w:pos="12240"/>
+<w:tab w:val="left" w:pos="12960"/>
+<w:tab w:val="left" w:pos="13680"/>
+<w:tab w:val="left" w:pos="14400"/>
+<w:tab w:val="left" w:pos="15120"/>
+<w:tab w:val="left" w:pos="15840"/>
+<w:tab w:val="left" w:pos="16560"/>
+<w:tab w:val="left" w:pos="17280"/>
+<w:tab w:val="left" w:pos="18000"/>
+<w:tab w:val="left" w:pos="18720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:i/>
+<w:iCs/>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:i/><w:iCs/><w:spacing w:val="-2"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type mail to name]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:i/><w:iCs/><w:spacing w:val="-2"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="006E0DD7">
+<w:trPr>
+<w:trHeight w:val="278"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3646" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-1230"/>
+<w:tab w:val="left" w:pos="-720"/>
+<w:tab w:val="left" w:pos="0"/>
+<w:tab w:val="left" w:pos="336"/>
+<w:tab w:val="left" w:pos="643"/>
+<w:tab w:val="left" w:pos="1367"/>
+<w:tab w:val="left" w:pos="1689"/>
+<w:tab w:val="left" w:pos="3779"/>
+<w:tab w:val="left" w:pos="3859"/>
+<w:tab w:val="left" w:pos="4744"/>
+<w:tab w:val="left" w:pos="6030"/>
+<w:tab w:val="left" w:pos="7200"/>
+<w:tab w:val="left" w:pos="7920"/>
+<w:tab w:val="left" w:pos="8640"/>
+<w:tab w:val="left" w:pos="9682"/>
+<w:tab w:val="left" w:pos="10248"/>
+<w:tab w:val="left" w:pos="10800"/>
+<w:tab w:val="left" w:pos="11520"/>
+<w:tab w:val="left" w:pos="12240"/>
+<w:tab w:val="left" w:pos="12960"/>
+<w:tab w:val="left" w:pos="13680"/>
+<w:tab w:val="left" w:pos="14400"/>
+<w:tab w:val="left" w:pos="15120"/>
+<w:tab w:val="left" w:pos="15840"/>
+<w:tab w:val="left" w:pos="16560"/>
+<w:tab w:val="left" w:pos="17280"/>
+<w:tab w:val="left" w:pos="18000"/>
+<w:tab w:val="left" w:pos="18720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type mail to address line 1]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="006E0DD7"><w:trPr><w:trHeight w:val="260"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="3646" w:type="dxa"/><w:vAlign w:val="center"/></w:tcPr><w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7"><w:pPr><w:tabs><w:tab w:val="left" w:pos="-1230"/><w:tab w:val="left" w:pos="-720"/><w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="336"/><w:tab w:val="left" w:pos="643"/><w:tab w:val="left" w:pos="1367"/><w:tab w:val="left" w:pos="1689"/><w:tab w:val="left" w:pos="3779"/><w:tab w:val="left" w:pos="3859"/><w:tab w:val="left" w:pos="4744"/><w:tab w:val="left" w:pos="6030"/><w:tab w:val="left" w:pos="7200"/><w:tab w:val="left" w:pos="7920"/><w:tab w:val="left" w:pos="8640"/><w:tab w:val="left" w:pos="9682"/><w:tab w:val="left" w:pos="10248"/><w:tab w:val="left" w:pos="10800"/><w:tab w:val="left" w:pos="11520"/><w:tab w:val="left" w:pos="12240"/><w:tab w:val="left" w:pos="12960"/><w:tab w:val="left" w:pos="13680"/><w:tab w:val="left" w:pos="14400"/><w:tab w:val="left" w:pos="15120"/><w:tab w:val="left" w:pos="15840"/><w:tab w:val="left" w:pos="16560"/><w:tab w:val="left" w:pos="17280"/><w:tab w:val="left" w:pos="18000"/><w:tab w:val="left" w:pos="18720"/></w:tabs><w:suppressAutoHyphens/><w:spacing w:line="240" w:lineRule="atLeast"/><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:szCs w:val="20"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:szCs w:val="20"/></w:rPr><w:t xml:space="preserve"> </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:spacing w:val="-2"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type mail to address line 2]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/></w:r></w:p></w:tc></w:tr>
+<w:tr w:rsidR="006E0DD7">
+<w:trPr>
+<w:trHeight w:val="260"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3646" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="-1230"/>
+<w:tab w:val="left" w:pos="-720"/>
+<w:tab w:val="left" w:pos="0"/>
+<w:tab w:val="left" w:pos="336"/>
+<w:tab w:val="left" w:pos="643"/>
+<w:tab w:val="left" w:pos="1367"/>
+<w:tab w:val="left" w:pos="1689"/>
+<w:tab w:val="left" w:pos="3779"/>
+<w:tab w:val="left" w:pos="3859"/>
+<w:tab w:val="left" w:pos="4744"/>
+<w:tab w:val="left" w:pos="6030"/>
+<w:tab w:val="left" w:pos="7200"/>
+<w:tab w:val="left" w:pos="7920"/>
+<w:tab w:val="left" w:pos="8640"/>
+<w:tab w:val="left" w:pos="9682"/>
+<w:tab w:val="left" w:pos="10248"/>
+<w:tab w:val="left" w:pos="10800"/>
+<w:tab w:val="left" w:pos="11520"/>
+<w:tab w:val="left" w:pos="12240"/>
+<w:tab w:val="left" w:pos="12960"/>
+<w:tab w:val="left" w:pos="13680"/>
+<w:tab w:val="left" w:pos="14400"/>
+<w:tab w:val="left" w:pos="15120"/>
+<w:tab w:val="left" w:pos="15840"/>
+<w:tab w:val="left" w:pos="16560"/>
+<w:tab w:val="left" w:pos="17280"/>
+<w:tab w:val="left" w:pos="18000"/>
+<w:tab w:val="left" w:pos="18720"/>
+</w:tabs>
+<w:suppressAutoHyphens/>
+<w:spacing w:line="240" w:lineRule="atLeast"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:spacing w:val="-2"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+<w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:instrText xml:space="preserve"> MACROBUTTON  AcceptAllChangesShown "[Click here and type mail to city, state zip]" </w:instrText></w:r><w:r><w:rPr><w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:fldChar w:fldCharType="end"/>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7" w:rsidP="006E0DD7">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Baskerville Old Face" w:hAnsi="Baskerville Old Face"/>
+<w:color w:val="000000"/>
+<w:sz w:val="20"/>
+<w:szCs w:val="20"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:txbxContent>
+</v:textbox>
+</v:shape>
+</w:pict>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="006E0DD7" w:rsidRDefault="006E0DD7" w:rsidP="003675F9"/>
+<w:sectPr w:rsidR="006E0DD7" w:rsidSect="006E0DD7">
+<w:pgSz w:w="12240" w:h="15840"/>
+<w:pgMar w:top="720" w:right="720" w:bottom="720" w:left="720" w:header="720" w:footer="720" w:gutter="0"/>
+<w:cols w:space="720"/>
+<w:docGrid w:linePitch="360"/>
+</w:sectPr>

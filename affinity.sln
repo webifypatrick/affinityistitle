@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "affinity", ".", "{E8FD3021-2904-47E1-869D-3C68888B013D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "2.0"
+		Debug.AspNetCompiler.VirtualPath = "/affinity"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Inetpub\wwwroot\affinity\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\affinity\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/affinity"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Inetpub\wwwroot\affinity\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\affinity\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3512"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffinityClient", "AffinityClient\AffinityClient.csproj", "{DF471F74-48F6-4D7F-9240-AF787018EDCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8FD3021-2904-47E1-869D-3C68888B013D}.Debug|.NET.ActiveCfg = Debug|.NET
+		{E8FD3021-2904-47E1-869D-3C68888B013D}.Debug|.NET.Build.0 = Debug|.NET
+		{E8FD3021-2904-47E1-869D-3C68888B013D}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{E8FD3021-2904-47E1-869D-3C68888B013D}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{E8FD3021-2904-47E1-869D-3C68888B013D}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{E8FD3021-2904-47E1-869D-3C68888B013D}.Release|.NET.ActiveCfg = Debug|.NET
+		{E8FD3021-2904-47E1-869D-3C68888B013D}.Release|.NET.Build.0 = Debug|.NET
+		{E8FD3021-2904-47E1-869D-3C68888B013D}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{E8FD3021-2904-47E1-869D-3C68888B013D}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{E8FD3021-2904-47E1-869D-3C68888B013D}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{DF471F74-48F6-4D7F-9240-AF787018EDCF}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{DF471F74-48F6-4D7F-9240-AF787018EDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF471F74-48F6-4D7F-9240-AF787018EDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF471F74-48F6-4D7F-9240-AF787018EDCF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DF471F74-48F6-4D7F-9240-AF787018EDCF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DF471F74-48F6-4D7F-9240-AF787018EDCF}.Release|.NET.ActiveCfg = Release|Any CPU
+		{DF471F74-48F6-4D7F-9240-AF787018EDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF471F74-48F6-4D7F-9240-AF787018EDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF471F74-48F6-4D7F-9240-AF787018EDCF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DF471F74-48F6-4D7F-9240-AF787018EDCF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

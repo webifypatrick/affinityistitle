@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<request>
+  <group name="general" legend="Property Information">
+    <line>
+      <field hidden="true" ts_id="AffinityOrderId" sp_id="" rei_id="" name="InternalId" />
+      <field ts_id="" sp_id="" rei_id="" name="ClientName" label="Client Name:" input="text" class="horizontal" labelclass="label width_175" />
+      <field ts_id="TrackingCode" sp_id="SETREFTC" rei_id="" name="CustomerId" label="Tracking Code:" input="text" class="horizontal" width="150" />
+    </line>
+    <line>
+      <field ts_id="PIN" sp_id="TAXMAPID" rei_id="" name="PIN" label="Tax ID (PIN)" input="text" class="horizontal" labelclass="label width_175" >
+        <attribute name="onchange">verifyPIN(this)</attribute>
+      </field>
+      <field ts_id="PropertyCounty" sp_id="COUNTY" rei_id="" name="PropertyCounty" label="County"  input="autocomplete" servicemethod="GetCounties" prefixlength="1" class="horizontal" />
+    </line>
+    <line>
+      <field ts_id="AdditionalPINs" sp_id="HOUSHOLD" rei_id="" name="AdditionalPins" label="Additional PINs" input="text" width="450" class="horizontal" labelclass="label width_175" >
+        <attribute name="onchange">verifyAdditionalPINs(this)</attribute>
+      </field>
+    </line>
+    <line>
+      <field ts_id="PropertyAddress" sp_id="PROPSTRE" rei_id="" name="PropertyAddress" label="Property Address" input="text" width="450" class="horizontal" labelclass="label width_175" />
+    </line>
+    <line>
+      <field ts_id="PropertyAddress2" sp_id="PROPSTRE" rei_id="" name="PropertyAddress2" label="Property Address 2" input="text" width="450" class="horizontal" labelclass="label width_175" />
+    </line>
+    <line>
+      <field ts_id="PropertyCity" sp_id="PROPCITY" rei_id="" name="PropertyCity" label="City" input="autocomplete" servicemethod="GetCities" prefixlength="1" class="horizontal" labelclass="label width_175" />
+      <field ts_id="PropertyState" sp_id="STATELET" rei_id="" name="PropertyState" label="State" width="30"  input="text" class="horizontal" />
+      <field ts_id="PropertyZip" sp_id="PROPZIP" rei_id="" name="PropertyZip" label="Zip" width="75"   input="autocomplete" servicemethod="GetZips" class="horizontal" />
+    </line>
+    <line>
+      <field ts_id="EstimatedClosingDate" sp_id="TX01DUDT" rei_id="" name="ClosingDate" label="Estimated Closing Date:" input="date" class="horizontal" labelclass="label width_175" />
+    </line>
+  </group>
+</request>

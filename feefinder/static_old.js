@@ -1,0 +1,297 @@
+﻿
+var TT_PURCHASE = 'purchase';
+var TT_REFI = 'refi';
+var TT_AGENT_REFI = 'agent_refi'
+
+/**
+ *
+ */
+var REFI_RATE = 175;
+
+var SECOND_MORTGAGE_RATE = 225;
+var SECOND_REFI_RATE = 125;
+
+var ABSTRACT_FEE = 175;
+
+var EMAIL_HANDLING_FEE = 50;
+
+var STATE_POLICY_FEE = 3;
+
+
+/**
+ * first loan 
+ */
+var FIRST_LOAN_POLICY_RATE = new Array();
+FIRST_LOAN_POLICY_RATE['purchase'] = 350;
+FIRST_LOAN_POLICY_RATE['refi'] = 220;
+FIRST_LOAN_POLICY_RATE['agent_refi'] = 220;
+
+// used for calculating first loan policy rate
+var POLICY_PURCHASE_CONFORM = 2;
+var POLICY_REFI_CONFORM = 1.50;
+var CONFORMING_LOAN_AMOUNT = 417000;
+
+/**
+ * Rate sheet
+ */
+var RESIDENTIAL_RATES = new Array();
+RESIDENTIAL_RATES[0] = {min: 0, max: 100000, rate: 600};
+RESIDENTIAL_RATES[1] = {min: 100001, max: 150000, rate: 650};
+RESIDENTIAL_RATES[2] = {min: 150001, max: 200000, rate: 700};
+RESIDENTIAL_RATES[3] = {min: 200001, max: 250000, rate: 750};
+RESIDENTIAL_RATES[4] = {min: 250001, max: 300000, rate: 800};
+RESIDENTIAL_RATES[5] = {min: 300001, max: 500000, rate: 850};
+
+/**
+ *
+ */
+var SERVICE_RATES = new Array();
+SERVICE_RATES['overnight_handling'] = {purchase: 25, refi: 25, agent_refi: 25, multiplier: 'number_payoffs_overnight'};
+SERVICE_RATES['wire_transfer'] = {purchase: 50, refi: 50, agent_refi: 50, multiplier: 'number_payoffs_wire'};
+SERVICE_RATES['certified_checks'] = {purchase: 100, refi: 100, agent_refi: 100, multiplier: ''};
+SERVICE_RATES['after_hours_closing'] = {purchase: 100, refi: 100, agent_refi: 100, multiplier: ''};
+SERVICE_RATES['chain_of_title'] = {purchase: 100, refi: 0, agent_refi: 0, multiplier: ''};
+SERVICE_RATES['commitment_later'] = {purchase: 115, refi: 115, agent_refi: 115, multiplier: ''};
+SERVICE_RATES['dry_closing'] = {purchase: 125, refi: 125, agent_refi: 125, multiplier: ''};
+SERVICE_RATES['email_handling'] = {purchase: 50, refi: 50, agent_refi: 50, multiplier: ''};
+SERVICE_RATES['joint_order_escrows'] = {purchase: 300, refi: 300, agent_refi: 300, multiplier: ''};
+SERVICE_RATES['plpd'] = {purchase: 100, refi: 50, agent_refi: 50, multiplier: ''};
+SERVICE_RATES['policy_update_date'] = {purchase:75, refi: 75, agent_refi: 75, multiplier: ''};
+SERVICE_RATES['in_home_closing'] = {purchase: 150, refi: 150, agent_refi: 150, multiplier: ''};
+SERVICE_RATES['title_indemnities_processing'] = {purchase: 175, refi: 175, agent_refi: 175, multiplier: ''};
+SERVICE_RATES['tax_payment_handling'] = {purchase: 55, refi: 55, agent_refi: 55, multiplier: ''};
+SERVICE_RATES['chicago_water'] = {purchase: 100, refi: 0, agent_refi: 0, multiplier: ''};
+
+var SECOND_MORTGAGE_CLOSING_COST = 225;
+var SECOND_MORTGAGE_ENDORSEMENT_RATE = 125;
+
+/**
+ * Endorsements
+ */
+var ENDORSEMENT_BASE_RATE = new Array();
+ENDORSEMENT_BASE_RATE['purchase'] = 0;
+ENDORSEMENT_BASE_RATE['refi'] = 100;
+ENDORSEMENT_BASE_RATE['agent_refi'] = 100;
+
+/*
+ * village stamps
+ */
+var VILLAGE_STAMPS = new Array();
+VILLAGE_STAMPS['Not Applicable'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Addison'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:2.5};
+VILLAGE_STAMPS['Alsip'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3.5};
+VILLAGE_STAMPS['Aurora'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Bartlet'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3.5};
+VILLAGE_STAMPS['Bedford Park'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Bellwood'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Berkley'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3.75};
+VILLAGE_STAMPS['Berwyn'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:10};
+VILLAGE_STAMPS['Bolingbrook'] = {buyerStep: 500, buyerMultiplier: 1.875, sellerStep: 500, sellerMultiplier:1.875};
+VILLAGE_STAMPS['Buffalo Grove'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Burbank'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Burnham'] = {buyerStep: 1000, buyerMultiplier: 5, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Calumet City'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3.75};
+VILLAGE_STAMPS['Calumet Park'] = {buyerStep: 1000, buyerMultiplier: 5, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Carol Stream'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Channahon'] = {buyerStep: 1000, buyerMultiplier: 3, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Chicago'] = {buyerStep: 500, buyerMultiplier: 3.75, sellerStep: 500, sellerMultiplier:1.5};
+VILLAGE_STAMPS['Chicago Heights'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:4};
+VILLAGE_STAMPS['Cicero'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:10};
+VILLAGE_STAMPS['Country Club Hills'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Countryside'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Des Plaines'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:2};
+VILLAGE_STAMPS['Dolton'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['East Hazel Crest'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Elk Grove Village'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Elmhurst'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:1.5};
+VILLAGE_STAMPS['Elmwood Park'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Evanston'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Evergreen Park'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Franklin Park'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3.75};
+VILLAGE_STAMPS['Glen Ellyn'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Glendale Heights'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Glenwood'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Hanover Park'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 500, sellerMultiplier:1.5};
+VILLAGE_STAMPS['Harvey'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3.75};
+VILLAGE_STAMPS['Harwood Heights'] = {buyerStep: 1000, buyerMultiplier: 10, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Highland Park'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Highwood'] = {buyerStep: 1000, buyerMultiplier: 5, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Hillside'] = {buyerStep: 500, buyerMultiplier: 3.75, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Hoffman'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3.75};
+VILLAGE_STAMPS['Joliet'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Joliet'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Lake Forest'] = {buyerStep: 1000, buyerMultiplier: 4, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Lincolnshire'] = {buyerStep: 1000, buyerMultiplier: 3, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Maywood'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:4};
+VILLAGE_STAMPS['McCook'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Mettawa'] = {buyerStep: 1000, buyerMultiplier: 5, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Morton Grove'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Mount Prospect'] = {buyerStep: 1000, buyerMultiplier: 3, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Naperville'] = {buyerStep: 500, buyerMultiplier: 1.5, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Niles'] = {buyerStep: 1000, buyerMultiplier: 3, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['North Chicago'] = {buyerStep: 1000, buyerMultiplier: 5, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Oak Lawn'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Oak Park'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:8};
+VILLAGE_STAMPS['Park Forest'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Park Ridge'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:2};
+VILLAGE_STAMPS['Peoria'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['River Forest'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:1};
+VILLAGE_STAMPS['River Grove'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3.75};
+VILLAGE_STAMPS['Rolling Meadows'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Romeoville'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Schaumburg'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:1};
+VILLAGE_STAMPS['Skokie'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Stickney'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:5};
+VILLAGE_STAMPS['Stone Park'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:2};
+VILLAGE_STAMPS['Streamwood'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:3};
+VILLAGE_STAMPS['Sycamore'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['University Park'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:1};
+VILLAGE_STAMPS['West Chicago'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 500, sellerMultiplier:3.75};
+VILLAGE_STAMPS['Westchester'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Wheaton'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:2.5};
+VILLAGE_STAMPS['Wilmette'] = {buyerStep: 1000, buyerMultiplier: 3, sellerStep: 0, sellerMultiplier:0};
+VILLAGE_STAMPS['Woodridge'] = {buyerStep: 0, buyerMultiplier: 0, sellerStep: 1000, sellerMultiplier:2.5};
+
+/**
+ * Endorsements
+ */
+var ENDORSEMENT_RATES = new Array();
+ENDORSEMENT_RATES['simultaneously_issued_mortgage_policy'] = {purchase: 350, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['condominium'] = {purchase: 150, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['planned_unit'] = {purchase: 150, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['variable_rate'] = {purchase: 150, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['negative_amortization'] = {purchase: 150, refi: 0, agent_refi: 1, multiplier: ''};
+ENDORSEMENT_RATES['manufacturing_housing'] = {purchase: 150, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['epa'] = {purchase: 150, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['restrinctions_encroachments_minerals'] = {purchase: 150, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['location'] = {purchase: 150, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['balloon'] = {purchase: 150, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['pud'] = {purchase: 150, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['revolving_credit'] = {purchase: 150, refi: 0, agent_refi: 0, multiplier: ''};
+ENDORSEMENT_RATES['other'] = {purchase: 0, refi: 0, agent_refi: 0, multiplier: '', contact_us: true};
+
+
+/**
+ * Used if loan is going towards contruction
+ * formula to apply:
+ * rate + (loan_amount * multiplier) OR floor -- whichever is greater
+ */
+var CONSTRUCTION_ESCROW_RATES = new Array();
+CONSTRUCTION_ESCROW_RATES[0] = {min: 0, max: 100000, rate: 0, floor: 450, multiplier: 0.006};
+CONSTRUCTION_ESCROW_RATES[1] = {min: 100001, max: 200000, rate: 600, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[2] = {min: 200001, max: 300000, rate: 825, floor: 0, multiplier: 0}; 
+CONSTRUCTION_ESCROW_RATES[3] = {min: 300001, max: 400000, rate: 1050, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[4] = {min: 400001, max: 500000, rate: 1275, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[5] = {min: 500001, max: 600000, rate: 1500, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[6] = {min: 600001, max: 700000, rate: 1600, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[7] = {min: 700001, max: 800000, rate: 1700, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[8] = {min: 800001, max: 900000, rate: 1800, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[9] = {min: 900001, max: 1000000, rate: 1900, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[10] = {min: 1000001, max: 3000000, rate: 2000, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[11] = {min: 3000001, max: 5000000, rate: 2500, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[12] = {min: 5000001, max: 7000000, rate: 3000, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[13] = {min: 7000001, max: 10000000, rate: 3400, floor: 0, multiplier: 0};
+CONSTRUCTION_ESCROW_RATES[14] = {min: 10000001, max: 15000000, rate: 4000, floor: 0, multiplier: 0}; 
+ 
+/**
+ * Rate sheet
+ */
+var INSURANCE_RATES = new Array();
+INSURANCE_RATES[0] = {min: 0, max: 100000, rate: 770};
+INSURANCE_RATES[1] = {min: 1000001, max: 110000, rate: 790};
+INSURANCE_RATES[2] = {min: 110001, max: 120000, rate: 810};
+INSURANCE_RATES[3] = {min: 120001, max: 130000, rate: 830};
+INSURANCE_RATES[4] = {min: 130001, max: 140000, rate: 850};
+INSURANCE_RATES[5] = {min: 140001, max: 150000, rate: 870};
+INSURANCE_RATES[6] = {min: 150001, max: 160000, rate: 890};
+INSURANCE_RATES[7] = {min: 160001, max: 170000, rate: 910};
+INSURANCE_RATES[8] = {min: 170001, max: 180000, rate: 930};
+INSURANCE_RATES[9] = {min: 180001, max: 190000, rate: 950};
+INSURANCE_RATES[10] = {min: 190001, max: 200000, rate: 970};
+INSURANCE_RATES[11] = {min: 200001, max: 210000, rate: 990};
+INSURANCE_RATES[12] = {min: 210001, max: 220000, rate: 1010};
+INSURANCE_RATES[13] = {min: 220001, max: 230000, rate: 1030};
+INSURANCE_RATES[14] = {min: 230001, max: 240000, rate: 1050};
+INSURANCE_RATES[15] = {min: 240001, max: 250000, rate: 1070};
+INSURANCE_RATES[16] = {min: 250001, max: 260000, rate: 1090};
+INSURANCE_RATES[17] = {min: 260001, max: 270000, rate: 1110};
+INSURANCE_RATES[18] = {min: 270001, max: 280000, rate: 1130};
+INSURANCE_RATES[19] = {min: 280001, max: 290000, rate: 1150};
+INSURANCE_RATES[20] = {min: 290001, max: 300000, rate: 1170};
+INSURANCE_RATES[21] = {min: 300001, max: 310000, rate: 1190};
+INSURANCE_RATES[22] = {min: 310001, max: 320000, rate: 1210};
+INSURANCE_RATES[23] = {min: 320001, max: 330000, rate: 1230};
+INSURANCE_RATES[24] = {min: 330001, max: 340000, rate: 1250};
+INSURANCE_RATES[25] = {min: 340001, max: 350000, rate: 1270};
+INSURANCE_RATES[26] = {min: 350001, max: 360000, rate: 1290};
+INSURANCE_RATES[27] = {min: 360001, max: 370000, rate: 1310};
+INSURANCE_RATES[28] = {min: 370001, max: 380000, rate: 1330};
+INSURANCE_RATES[29] = {min: 380001, max: 390000, rate: 1350};
+INSURANCE_RATES[30] = {min: 390001, max: 400000, rate: 1370};
+INSURANCE_RATES[31] = {min: 400001, max: 410000, rate: 1390};
+INSURANCE_RATES[32] = {min: 410001, max: 420000, rate: 1410};
+INSURANCE_RATES[33] = {min: 420001, max: 430000, rate: 1430};
+INSURANCE_RATES[34] = {min: 430001, max: 440000, rate: 1450};
+INSURANCE_RATES[35] = {min: 440001, max: 450000, rate: 1470};
+INSURANCE_RATES[36] = {min: 450001, max: 460000, rate: 1490};
+INSURANCE_RATES[37] = {min: 460001, max: 470000, rate: 1510};
+INSURANCE_RATES[38] = {min: 470001, max: 480000, rate: 1530};
+INSURANCE_RATES[39] = {min: 480001, max: 490000, rate: 1550};
+INSURANCE_RATES[40] = {min: 490001, max: 500000, rate: 1570};
+INSURANCE_RATES[41] = {min: 500001, max: 510000, rate: 1590};
+INSURANCE_RATES[42] = {min: 510001, max: 520000, rate: 1610};
+INSURANCE_RATES[43] = {min: 520001, max: 530000, rate: 1630};
+INSURANCE_RATES[44] = {min: 530001, max: 540000, rate: 1650};
+INSURANCE_RATES[45] = {min: 540001, max: 550000, rate: 1670};
+INSURANCE_RATES[46] = {min: 550001, max: 560000, rate: 1690};
+INSURANCE_RATES[47] = {min: 560001, max: 570000, rate: 1710};
+INSURANCE_RATES[48] = {min: 570001, max: 580000, rate: 1730};
+INSURANCE_RATES[49] = {min: 580001, max: 590000, rate: 1750};
+INSURANCE_RATES[50] = {min: 590001, max: 600000, rate: 1770};
+INSURANCE_RATES[51] = {min: 600001, max: 610000, rate: 1790};
+INSURANCE_RATES[52] = {min: 610001, max: 620000, rate: 1810};
+INSURANCE_RATES[53] = {min: 620001, max: 630000, rate: 1830};
+INSURANCE_RATES[54] = {min: 630001, max: 640000, rate: 1850};
+INSURANCE_RATES[55] = {min: 640001, max: 650000, rate: 1870};
+INSURANCE_RATES[56] = {min: 650001, max: 660000, rate: 1890};
+INSURANCE_RATES[57] = {min: 660001, max: 670000, rate: 1910};
+INSURANCE_RATES[58] = {min: 670001, max: 680000, rate: 1930};
+INSURANCE_RATES[59] = {min: 680001, max: 690000, rate: 1950};
+INSURANCE_RATES[60] = {min: 690001, max: 700000, rate: 1970};
+INSURANCE_RATES[61] = {min: 700001, max: 710000, rate: 1990};
+INSURANCE_RATES[62] = {min: 710001, max: 720000, rate: 2010};
+INSURANCE_RATES[63] = {min: 720001, max: 730000, rate: 2030};
+INSURANCE_RATES[64] = {min: 730001, max: 740000, rate: 2050};
+INSURANCE_RATES[65] = {min: 740001, max: 750000, rate: 2070};
+INSURANCE_RATES[66] = {min: 750001, max: 760000, rate: 2090};
+INSURANCE_RATES[67] = {min: 760001, max: 770000, rate: 2110};
+INSURANCE_RATES[68] = {min: 770001, max: 780000, rate: 2130};
+INSURANCE_RATES[69] = {min: 780001, max: 790000, rate: 2150};
+INSURANCE_RATES[70] = {min: 790001, max: 800000, rate: 2170};
+INSURANCE_RATES[71] = {min: 800001, max: 810000, rate: 2190};
+INSURANCE_RATES[72] = {min: 810001, max: 820000, rate: 2210};
+INSURANCE_RATES[73] = {min: 820001, max: 830000, rate: 2230};
+INSURANCE_RATES[74] = {min: 830.001, max: 840000, rate: 2250};
+INSURANCE_RATES[75] = {min: 840001, max: 850000, rate: 2270};
+INSURANCE_RATES[76] = {min: 850001, max: 860000, rate: 2290};
+INSURANCE_RATES[77] = {min: 860001, max: 870000, rate: 2310};
+INSURANCE_RATES[78] = {min: 870001, max: 880000, rate: 2330};
+INSURANCE_RATES[79] = {min: 880001, max: 890000, rate: 2350};
+INSURANCE_RATES[80] = {min: 890001, max: 900000, rate: 2370};
+INSURANCE_RATES[81] = {min: 900001, max: 910000, rate: 2390};
+
+var SECOND_MORTGATE_INSURANCE_RATES = new Array();
+SECOND_MORTGATE_INSURANCE_RATES[0] = {min: 0, max: 100000, rate: 235};
+SECOND_MORTGATE_INSURANCE_RATES[1] = {min: 1000001, max: 110000, rate: 245};
+SECOND_MORTGATE_INSURANCE_RATES[2] = {min: 110001, max: 120000, rate: 255};
+SECOND_MORTGATE_INSURANCE_RATES[3] = {min: 120001, max: 130000, rate: 256};
+SECOND_MORTGATE_INSURANCE_RATES[4] = {min: 130001, max: 140000, rate: 275};
+SECOND_MORTGATE_INSURANCE_RATES[5] = {min: 140001, max: 150000, rate: 285};
+SECOND_MORTGATE_INSURANCE_RATES[6] = {min: 150001, max: 160000, rate: 295};
+SECOND_MORTGATE_INSURANCE_RATES[7] = {min: 160001, max: 170000, rate: 305};
+SECOND_MORTGATE_INSURANCE_RATES[8] = {min: 170001, max: 180000, rate: 315};
+SECOND_MORTGATE_INSURANCE_RATES[9] = {min: 180001, max: 190000, rate: 325};
+SECOND_MORTGATE_INSURANCE_RATES[9] = {min: 190001, max: 200000, rate: 335};
+
+// refi is a flat rate
+var SECOND_MORTGATE_INSURANCE_REFI_RATE = 125;

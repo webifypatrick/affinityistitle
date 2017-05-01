@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<request>
+	<group name="general1" legend="CITY OF CHICAGO SERVICES">
+		<line>
+			<field ts_id="ClerkingServicesChicago" sp_id="TX03CMT" rei_id="" name="ClerkingServicesChicago" label="" input="checkbox" class="horizontal" labelclass="label">
+				<option value="Water Certification" label="Water Certification (Release of Lien / Payoff Letter / Bill Reduction/Judicial Sales)" />
+				<option value="Zoning Certification" label="Zoning Certification" />
+				<option value="Zoning Research" label="Zoning Research" />
+				<option value="Building Registration" label="Building Registration" />
+				<option value="Freedom of Information Request" label="Freedom of Information Request (Violations / Verify Number of Dwelling Units)" />
+				<option value="Rebuild Letter" label="Rebuild Letter" />
+			</field>
+		</line>
+	</group>
+	<group name="general2" legend="COOK COUNTY SERVICES">
+		<line>
+			<field ts_id="ClerkingServicesCookCounty" sp_id="TX03CMT" rei_id="" name="ClerkingServicesCookCounty" label="" input="checkbox" class="horizontal" labelclass="label">
+				<option value="Certified/Non-Certified Letters" label="Certified/Non-Certified Letters" />
+				<option value="Cook County Recording" label="Cook County Recording" />
+				<option value="Cook County Recorder Research" label="Cook County Recorder Research" />
+				<option value="Purchase City/County/State Stamps And Record Package" label="Purchase City/County/State Stamps And Record Package" />
+				<option value="Birth/Death Certificates" label="Birth/Death Certificates" />
+				<option value="Estimates of Redemption" label="Estimates of Redemption" />
+				<option value="Order Tax Bills" label="Order Tax Bills" />
+				<option value="Pay Tax Bills" label="Pay Tax Bills" />
+				<option value="Assumed Business Name" label="Assumed Business Name" />
+				<option value="PIN Number Research" label="PIN Number Research" />
+				<option value="Rolling Meadows Filing" label="Rolling Meadows Filing" />
+				<option value="Zoning For Unincorporated Cook County" label="Zoning For Unincorporated Cook County" />
+			</field>
+		</line>
+	</group>
+	<group name="general3" legend="COURT RELATED AFFAIRS">
+		<line>
+			<field ts_id="ClerkingServicesCourtRelatedAffairs" sp_id="TX03CMT" rei_id="" name="ClerkingServicesCourtRelatedAffairs" label="" input="checkbox" class="horizontal" labelclass="label">
+				<option value="Court Date Requests" label="Court Date Requests" />
+				<option value="Daley Center Filing And Court Date Request" label="Daley Center Filing And Court Date Request" />
+				<option value="DPS Call" label="DPS Call" />
+				<option value="Estate Searches" label="Estate Searches" />
+				<option value="Federal Filing" label="Federal Filing" />
+				<option value="File Will And Obtain Certified Copy" label="File Will And Obtain Certified Copy" />
+				<option value="Filing With Summons" label="Filing With Summons" />
+				<option value="General Daley Center Filing" label="General Daley Center Filing" />
+				<option value="Letters of Office - Probate Division" label="Letters of Office - Probate Division" />
+				<option value="Request for File Status" label="Request for File Status" />
+				<option value="Status Call" label="Status Call" />
+			</field>
+		</line>
+	</group>
+	<group name="general4" legend="MISCELLANEOUS SERVICES">
+		<line>
+			<field ts_id="ClerkingServicesMiscellaneousServices" sp_id="TX03CMT" rei_id="" name="ClerkingServicesMiscellaneousServices" label="" input="checkbox" class="horizontal" labelclass="label">
+				<option value="Background Checks" label="Background Checks" />
+				<option value="Criminal Searches" label="Criminal Searches" />
+				<option value="Special Process Serving" label="Special Process Serving" />
+				<option value="UCC Searches" label="UCC Searches" />
+			</field>
+		</line>
+	</group>
+	<group name="general5" legend="SUBURBAN TRANSFER STAMPS">
+		<line>
+			<field ts_id="ClerkingServicesSuburbanTransferStamps" sp_id="TX03CMT" rei_id="" name="ClerkingServicesSuburbanTransferStamps" label="" input="checkbox" class="horizontal" labelclass="label">
+				<option value="Addison" label="Addison" />
+				<option value="Alsip" label="Alsip" />
+				<option value="Aurora" label="Aurora" />
+				<option value="Bartlett" label="Bartlett" />
+				<option value="Bellwood" label="Bellwood" />
+				<option value="Bedford Park" label="Bedford Park" />
+				<option value="Berkeley" label="Berkeley" />
+				<option value="Berwyn" label="Berwyn" />
+				<option value="BolingBrook" label="BolingBrook" />
+				<option value="Buffalo Grove" label="Buffalo Grove" />
+				<option value="Burbank" label="Burbank" />
+				<option value="Burnham" label="Burnham" />
+				<option value="Calumet City" label="Calumet City" />
+				<option value="Carol Stream" label="Carol Stream" />
+				<option value="Chicago Heights" label="Chicago Heights" />
+				<option value="Country Club Hills" label="Country Club Hills" />
+				<option value="Countryside" label="Countryside" />
+				<option value="DesPlaines" label="DesPlaines" />
+				<option value="Dolton" label="Dolton" />
+				<option value="East Hazel Crest" label="East Hazel Crest" />
+				<option value="Elgin" label="Elgin" />
+				<option value="Elk Grove Village" label="Elk Grove Village" />
+				<option value="Elmhurst" label="Elmhurst" />
+				<option value="Elmwood Park" label="Elmwood Park" />
+				<option value="Evanston" label="Evanston" />
+				<option value="Evergreen Park" label="Evergreen Park" />
+				<option value="Forest Park" label="Forest Park" />
+				<option value="Franklin Park" label="Franklin Park" />
+				<option value="Glen Ellyn" label="Glen Ellyn" />
+				<option value="Hanover Park" label="Hanover Park" />
+				<option value="Harwood Heights" label="Harwood Heights" />
+				<option value="Highland Park" label="Highland Park" />
+				<option value="Hillside" label="Hillside" />
+				<option value="Hoffman Estates" label="Hoffman Estates" />
+				<option value="Lincolnshire" label="Lincolnshire" />
+				<option value="Markham" label="Markham" />
+				<option value="Maywood" label="Maywood" />
+				<option value="McCook" label="McCook" />
+				<option value="Melrose Park" label="Melrose Park" />
+				<option value="Morton Grove" label="Morton Grove" />
+				<option value="Mt. Prospect" label="Mt. Prospect" />
+				<option value="Naperville" label="Naperville" />
+				<option value="Niles" label="Niles" />
+				<option value="Norridge" label="Norridge" />
+				<option value="North Lake" label="North Lake" />
+				<option value="Oak Lawn" label="Oak Lawn" />
+				<option value="Oak Park" label="Oak Park" />
+				<option value="Park Ridge" label="Park Ridge" />
+				<option value="Robbins" label="Robbins" />
+				<option value="River Forest" label="River Forest" />
+				<option value="River Grove" label="River Grove" />
+				<option value="Rolling Meadows" label="Rolling Meadows" />
+				<option value="Schaumburg" label="Schaumburg" />
+				<option value="Skokie" label="Skokie" />
+				<option value="Stickney" label="Stickney" />
+				<option value="Stone Park" label="Stone Park" />
+				<option value="Streamwood" label="Streamwood" />
+				<option value="University Park" label="University Park" />
+				<option value="Westchester" label="Westchester" />
+				<option value="Wheaton" label="Wheaton" />
+				<option value="Wheeling" label="Wheeling" />
+				<option value="Wilmette" label="Wilmette" />
+				<option value="Woodridge" label="Woodridge" />
+			</field>
+		</line>
+	</group>
+	<group name="general6" legend="Contact Information">
+		<line>
+			<field ts_id="ContactName" sp_id="" rei_id="" name="ContactName" label="Contact: Name" input="text" width="200" class="horizontal" labelclass="label width_175" validator="required" />
+		</line>
+		<line>
+			<field ts_id="ContactPhone" sp_id="" rei_id="" name="ContactPhone" label="Contact: Phone" width="175" input="text" class="horizontal" labelclass="label width_175" validator="required" >
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+		</line>
+	</group>
+	<group name="general7" legend="Buyer Information">
+		<line>
+			<field ts_id="Buyer1Name1" sp_id="" rei_id="" name="Buyer" label="Buyer: Name" input="text" width="200" class="horizontal" labelclass="label width_175" validator="required" />
+		</line>
+		<line>
+			<field ts_id="BuyersPhone" sp_id="" rei_id="" name="BuyerPhone" label="Buyer: Phone" width="175" input="text" class="horizontal" labelclass="label width_175" validator="required">
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+		</line>
+		<line>
+			<field ts_id="BuyersAttorneyName" sp_id="" rei_id="" name="BuyersAttorneyName" label="Buyer: Attorney/Officer" input="text" width="390" labelclass="label width_175" class="horizontal" validator="required" />
+		</line>
+		<line>
+			<field ts_id="BuyersAttorneyPhone" sp_id="" rei_id="" name="BuyersAttorneyPhone" label="Phone" width="175" input="text" class="horizontal" labelclass="label width_175" validator="required" >
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+		</line>
+		<line>
+			<field ts_id="BuyersAttorneyFax" sp_id="" rei_id="" name="BuyersAttorneyFax" label="Fax" width="175" input="text" labelclass="label width_175" class="horizontal">
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+		</line>
+	</group>
+	<group name="general8" legend="Seller Information">
+		<line>
+			<field ts_id="Seller1Name1" sp_id="" rei_id="" name="Seller" label="Seller: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" validator="required" />
+		</line>
+		<line>
+			<field ts_id="SellersPhone" sp_id="" rei_id="" name="SellerPhone" label="Seller: Phone" width="175" input="text" class="horizontal" labelclass="label width_175" validator="required">
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+		</line>
+		<line>
+			<field ts_id="SellersAttorneyName" sp_id="" rei_id="" name="SellersAttorneyName" label="Seller 1: Attorney/Officer" input="text" width="390" labelclass="label width_175" class="horizontal" validator="required" />
+		</line>
+		<line>
+			<field ts_id="SellersAttorneyPhone" sp_id="" rei_id="" name="SellersAttorneyPhone" label="Phone" width="175" input="text" class="horizontal" labelclass="label width_175" validator="required" >
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+		</line>
+		<line>
+			<field ts_id="SellersAttorneyFax" sp_id="" rei_id="" name="SellersAttorneyFax" label="Fax" width="175" input="text" labelclass="label width_175" class="horizontal">
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+		</line>
+		<line>
+			<field ts_id="OriginatorName" sp_id="" rei_id="" name="ApplicantName" label="Firm Name" input="text" width="390" labelclass="label width_175" class="horizontal" validator="required" />
+		</line>
+	</group>
+	<group name="general9" legend="Property Information">
+
+		<line>
+			<field ts_id="NumberOfDwellingUnits" sp_id="" rei_id="" name="NumberOfDwellingUnits" label="&lt;b&gt;Number Of Dwelling Units:&lt;/b&gt; &lt;br /&gt;&lt;div class=&quot;multiUnitBuilding&quot;&gt;(This is required for multi-unit buildings)&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;" input="text" width="75" labelclass="label width_175" class="horizontal" validator="required" />
+		</line>
+		<line>
+			<field ts_id="DwellingUnitNotes" sp_id="" rei_id="" name="DwellingUnitNotes" label="Dwelling Unit Notes:  &lt;br /&gt;&lt;div class=&quot;multiUnitBuilding&quot;&gt;(This is required for multi-unit buildings.  Please provide location of units, i.e. 1 on 1st floor, 2 on 2nd floor and 1 on 3rd floor)&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;" input="text" width="390" labelclass="label width_175" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="PropertyAddress" sp_id="" rei_id="" name="PropertyAddress" label="Address Line 1" width="390" input="text" labelclass="label width_175" class="horizontal" validator="required" />
+		</line>
+		<line>
+			<field ts_id="PropertyAddress2" sp_id="" rei_id="" name="PropertyAddress2" label="Address Line 2" width="390" input="text" labelclass="label width_175" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="PropertyCity" sp_id="" rei_id="" name="PropertyCity" label="City" input="text" class="horizontal" labelclass="label width_175" validator="required" />
+		</line>
+		<line>
+			<field ts_id="PropertyState" sp_id="" rei_id="" name="PropertyState" label="State" width="30" input="text" class="horizontal" labelclass="label width_175" validator="required" />
+		</line>
+		<line>
+			<field ts_id="PropertyZip" sp_id="" rei_id="" name="PropertyZip" label="Zip" width="75" input="text" class="horizontal" labelclass="label width_175" validator="required" />
+		</line>
+
+		<line>
+			<field ts_id="PIN" sp_id="" rei_id="" name="PIN" label="Tax ID (PIN)" width="175" input="text" labelclass="label width_175" class="horizontal" validator="required" />
+		</line>
+
+		<line>
+			<field ts_id="AdditionalPINs" sp_id="" rei_id="" name="AdditionalPins" label="Additional PINs" width="450" input="text" labelclass="label width_175" class="horizontal" />
+		</line>
+
+		<line>
+			<field ts_id="EstimatedClosingDate" sp_id="TX03DUDT" rei_id="" name="ClosingDate" label="Estimated Closing Date:" width="450" input="date" labelclass="label width_175" class="horizontal" validator="required" />
+		</line>
+
+		<line>
+			<field ts_id="" sp_id="" rei_id="" name="DisclaimerAgreement" label="Disclaimer Agreement: " input="checkbox" class="horizontal" labelclass="label width_175">
+				<option value="DisclaimerAgreementUnderstood" label="I have read the &lt;a href='Content.aspx?page=clerkingprices' target='_blank'&gt;Advocate Title Service Price Sheet&lt;/a&gt; and I understand that Clerking Services will be invoiced separately from Title Services." validator="required" />
+			</field>
+		</line>
+
+	</group>
+
+	<group name="hiddeninfo" legend="Hidden Information" hidden="true">
+		<line>
+			<field ts_id="" sp_id="TX03STAT" rei_id="" name="ClerkingRequestStatus" input="text" default="Required" />
+		</line>
+	</group>
+
+</request>

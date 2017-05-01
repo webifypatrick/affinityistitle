@@ -1,0 +1,46 @@
+
+
+
+
+Examination of SearchAgent's Name:	   txtAgentsName
+
+Commitment Number: txtCommitmentNumberProperty Vesting:  txtPropertyVestingProperty Address:  txtPropertyAddressCity, State, Zip:  txtPropertyCityStateZipProperty County:   txtPropertyCounty
+
+PIN:               txtPINPrior Year:        txtPriorYear
+
+general taxes are paid thru
+
+1st Installment:  txt1stInstallment
+
+2nd Installment:  txt2ndInstallmentCurrent Year:     txtCurrentYear
+
+tax amount: 1st   txtTaxAmount1st
+
+tax amount: 2nd   txtTaxAmount2nd
+
+Due Date:         txtDueDate1st
+
+Due Date:         txtDueDate2ndTax Year of Sold taxes: txtTaxYearofSoldtaxes
+
+Mortgage(s) of Record: txtMortgagesofRecord
+
+Other Lien(s) of Record: txtOtherLiensofRecord
+
+Building Lines: txtBuildingLines
+
+Easements:        txtEasements
+
+Covenants, Conditions, Restrictions Document Numbers: txtDocumentNumbers
+
+Homeowners/Condo Associations:     radioCondoAssociation
+chkSearchPackageReviewed
+
+chkSearchPackageReviewedAmendments
+
+txtAmendments
+
+
+
+
+
+Copyright 2007, Affinity Title Services, LLC

@@ -1,0 +1,255 @@
+﻿
+/* affinity title services */
+
+@import "clearfix.css";
+@import "nav.css";
+@import "forms.css";
+@import "tables.css";
+
+body
+{
+	margin: 0px;
+	color: #333333;
+	background-image: url("../images/body_bg.jpg");
+	background-repeat: repeat-y;
+}
+
+p, h3
+{
+	margin: 12px 0px 12px 0px;
+}
+
+.vspacer
+{
+	height: 200px;
+}
+
+
+p,div,input,textarea,select,h1,h2,h3 
+{
+	font-family: Times New Roman, Serif;
+	font-size: 12pt;
+}
+
+a
+{
+	color: #0033cc;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+.information {color: Blue; border: solid 1px #336699; background-color: #99ccff; padding: 5px; margin: 10px 0px 10px 0px;}
+.warning {color: #FF6600; border: solid 1px #FF9933; background-color: #FFCC99; padding: 5px; margin: 10px 0px 10px 0px;}
+.error {color: Red; border: solid 1px #FF9999; background-color: #FFCCCC; padding: 5px; margin: 10px 0px 10px 0px;}
+.notice, .actions .notice {font-size: 12pt; color: #000000; border: solid 1px #FF9933; background-color: #FFCC99; padding: 5px; margin: 10px 0px 10px 0px;}
+
+.debug_debug {}
+.debug_info {color: Blue;}
+.debug_warn {color: #FF6600; border: solid 1px #FF9933; background-color: #FFCC99;}
+.debug_error {color: Red; border: solid 1px #FF9999; background-color: #FFCCCC;}
+.source {display: inline; font-family: Courier New; font-size: 8pt;}
+.sql {display: inline; color: Green; font-family: Courier New; font-size: 8pt;}
+.message {display: inline; font-family: Courier New; font-size: 8pt;}
+
+
+.actions
+{
+}
+
+.actions div
+{
+	padding-top: 6px;
+}
+
+a.export, a.back, a.process_order, a.process_request, a.home, a.order, a.add, a.request, a.account, a.attachment, a.server, a.config, a.content, a.download, a.company, a.page
+{
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+	padding: 2px 4px 2px 22px;
+}
+
+a.add
+{
+	border: solid 1px #c1c1c1;
+	background-color: #e5e5e5;
+}
+
+a.home    {background-image: url("../images/ico_home.gif");}
+a.order   {background-image: url("../images/ico_order.gif");}
+a.add     {background-image: url("../images/ico_add.gif");}
+a.request {background-image: url("../images/ico_request.gif");}
+a.account {background-image: url("../images/ico_account.gif");}
+a.attachment {background-image: url("../images/ico_attachment.gif");}
+a.server {background-image: url("../images/ico_server.gif");}
+a.config {background-image: url("../images/ico_config.gif");}
+a.content {background-image: url("../images/ico_content.gif");}
+a.download {background-image: url("../images/ico_download.gif");}
+a.company {background-image: url("../images/ico_company.gif");}
+a.back {background-image: url("../images/ico_back.gif");}
+a.page {background-image: url("../images/ico_page.gif");}
+
+/* these appear in the datagrid */
+a.export {margin: 0px; display:block; white-space: nowrap; background-image: url("../images/ico_export.gif");}
+a.process_order {margin: 0px; display:block; white-space: nowrap; background-image: url("../images/ico_process.gif");}
+a.process_request {margin: 0px; display:block; white-space: nowrap; background-image: url("../images/ico_process.gif");}
+
+
+#header
+{
+	background-image: url("../images/header_bg.jpg");
+	background-repeat: repeat-x;
+	height: 88px;
+}
+
+#header h1
+{
+	display: none;
+}
+
+#header a
+{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../images/header.jpg");
+	background-repeat: no-repeat;
+	height: 88px;
+	width: 600px;
+	text-indent: -5000px;
+}
+
+h2
+{
+	font-size: 14pt;
+	margin: 14px 0px 12px 0px;
+}
+
+#pane_one
+{
+	padding: 0px 20px 0px 20px;
+}
+
+#content
+{
+	padding: 0px 20px 0px 20px;
+}
+
+#pane_two
+{
+	padding: 0px 20px 0px 20px;
+}
+
+#footer
+{
+	border-top: solid 1px #c1c1c1;
+	font-size: 10pt;
+	padding: 10px 20px 20px 20px;
+	color: #666666;
+}
+
+.stage
+{
+	padding: 5px 0px 10px 0px;
+}
+
+.photo_01
+{
+	background-image: url("../images/photo_01.jpg");
+	background-repeat: no-repeat;
+	/* background-position: right 0px; */
+	background-position: 430px 0px;
+}
+
+.photo_01 #pane_one
+{
+	width: 490px;
+}
+
+.photo_01 #content
+{
+	width: 370px;
+}
+
+.photo_01 #pane_two
+{
+
+}
+
+#active_users_container
+{
+	width: 400px;
+	float: right;
+	border: solid 1px #bbbbbb;
+	padding: 0px 15px 15px 15px;
+	margin: 0px 15px 15px 15px;
+}
+
+.active
+{
+
+}
+
+.active_user, .active_date, .active_time
+{
+	background-color: #e5e5e5;
+	border-bottom: solid 1px #bbbbbb;
+	float: left;
+	width: 100px;
+	padding: 2px 2px 2px 2px;
+	margin-bottom: 2px;
+}
+
+.active_user
+{
+	width: 150px;
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+	padding: 2px 2px 2px 25px;
+	background-image: url("../images/ico_account.gif");
+}
+
+.active_date
+{
+	width: 70px;
+}
+
+.highlight
+{
+	background-color: #e5e5e5;
+	padding: 4px;
+}
+
+.export_panel
+{
+	margin-top: 15px;
+	margin-left: 20px;
+	border: solid 1px #aaaaaa;
+	background-color: #ffffff;
+	padding: 3px;
+	visibility: hidden;
+}
+
+.export_panel *
+{
+	font-size: 10pt;
+}
+
+.notice
+{
+	font-size: 14pt;
+	font-style: italic;
+	color:#ff0000;
+}
+
+.notice a
+{
+	color:#ff0000;
+	text-decoration: underline;
+}
+
+.datepicker {cursor:pointer;}
+

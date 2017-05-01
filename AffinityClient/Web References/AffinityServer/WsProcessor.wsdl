@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.affinityistitle.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.affinityistitle.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.affinityistitle.com/">
+      <s:element name="Authenticate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AuthenticateResult" type="tns:WsToken" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WsToken">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SessionId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetNewRequests">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:WsToken" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNewRequestsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNewRequestsResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Loadable" abstract="true" />
+      <s:complexType name="Role">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Loadable">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="PermissionBit" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Company">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Loadable">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Created" type="s:dateTime" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Account">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Loadable">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Created" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="Modified" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="PasswordHint" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PreferencesXml" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="RoleCode" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CompanyId" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="InternalId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="UnderwriterCodes" type="s:string" />
+							<s:element minOccurs="0" maxOccurs="1" name="UnderwriterEndorsements" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Company" type="tns:Company" />
+              <s:element minOccurs="0" maxOccurs="1" name="Role" type="tns:Role" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Order">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Loadable">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="InternalId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CustomerId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Pin" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AdditionalPins" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PropertyAddress" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PropertyAddress2" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PropertyCity" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PropertyState" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PropertyZip" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PropertyCounty" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="InternalStatusCode" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CustomerStatusCode" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="OriginatorId" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="Created" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="Modified" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="ClosingDate" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="ClientName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Account" type="tns:Account" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Request">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Loadable">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="RequestTypeCode" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="OrderId" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="OriginatorId" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="Created" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Xml" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsCurrent" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="Note" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Order" type="tns:Order" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="SyncRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:WsToken" />
+            <s:element minOccurs="0" maxOccurs="1" name="doc">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WsResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IsSuccess" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="ActionWasTaken" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="NotificationSent" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="NotificationMessage" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SyncRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncRequestResult" type="tns:WsResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AuthenticateSoapIn">
+    <wsdl:part name="parameters" element="tns:Authenticate" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateSoapOut">
+    <wsdl:part name="parameters" element="tns:AuthenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNewRequestsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNewRequests" />
+  </wsdl:message>
+  <wsdl:message name="GetNewRequestsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNewRequestsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SyncRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:SyncRequest" />
+  </wsdl:message>
+  <wsdl:message name="SyncRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:SyncRequestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WsProcessorSoap">
+    <wsdl:operation name="Authenticate">
+      <wsdl:input message="tns:AuthenticateSoapIn" />
+      <wsdl:output message="tns:AuthenticateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewRequests">
+      <wsdl:input message="tns:GetNewRequestsSoapIn" />
+      <wsdl:output message="tns:GetNewRequestsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncRequest">
+      <wsdl:input message="tns:SyncRequestSoapIn" />
+      <wsdl:output message="tns:SyncRequestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WsProcessorSoap" type="tns:WsProcessorSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Authenticate">
+      <soap:operation soapAction="http://www.affinityistitle.com/Authenticate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewRequests">
+      <soap:operation soapAction="http://www.affinityistitle.com/GetNewRequests" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncRequest">
+      <soap:operation soapAction="http://www.affinityistitle.com/SyncRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WsProcessorSoap12" type="tns:WsProcessorSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Authenticate">
+      <soap12:operation soapAction="http://www.affinityistitle.com/Authenticate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewRequests">
+      <soap12:operation soapAction="http://www.affinityistitle.com/GetNewRequests" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncRequest">
+      <soap12:operation soapAction="http://www.affinityistitle.com/SyncRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WsProcessor">
+    <wsdl:port name="WsProcessorSoap" binding="tns:WsProcessorSoap">
+      <soap:address location="http://localhost:3512/affinity/WsProcessor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WsProcessorSoap12" binding="tns:WsProcessorSoap12">
+      <soap12:address location="http://localhost:3512/affinity/WsProcessor.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

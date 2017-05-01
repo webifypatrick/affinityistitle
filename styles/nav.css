@@ -1,0 +1,27 @@
+.nav
+{
+	background-image: url("../images/nav_bg.jpg");
+	background-repeat: repeat-x;
+	height: 28px;
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
+}
+
+.nav a
+{
+	float: left;
+	margin: 3px 18px 0px 0px;
+	padding: 2px 4px 3px 4px;
+	color: #dddddd;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.nav a:hover
+{
+	background-image: url("../images/nav_button_bg.jpg");
+	background-repeat: repeat-x;
+	text-decoration: none;
+}
+
+

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<request>
+	<group name="general" legend="General Information">
+		<line>
+			<field ts_id="" sp_id="TX06DUDT" rei_id="" name="CommittmentDeadline" label="Commitment Needed By: (Used Primarily for Rush Orders) " input="date" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="PriorPolicyAttached" sp_id="PRIORNO" rei_id="" name="PreviousTitleEvidence" label="Does Previous Title Evidence Exist?" tip="If Yes, please fax documentation to Affinity" default="No" input="radio" class="horizontal" repeat="horizontal">
+				<attribute name="onclick">setVisibility('line_PriorAffinityOrderNumber', !document.getElementById('ctl00_content_cph_field_PreviousTitleEvidence_0').checked)</attribute>
+				<option label="Yes" value="Yes" />
+				<option label="No" value="" />
+			</field>
+		</line>
+		<line name="line_PriorAffinityOrderNumber" hidden="PreviousTitleEvidence=Yes">
+			<field ts_id="" sp_id="NOTES" rei_id="" name="Prior" label="If the title was previously ordered through Affinity, please enter the Affinity Order ID:" input="text" class="horizontal" repeat="horizontal">
+			</field>
+		</line>
+		<line>
+			<field ts_id="PropertyType" sp_id="PROPTYPE" rei_id="" validator="required" name="TypeOfProperty" label="Type of Property:" input="radio" labelclass="label width_125" class="horizontal" repeat="horizontal">
+				<option value="Single Family" />
+				<option value="Condo" />
+				<option value="1-4 Family" />
+				<option value="Cooperative" />
+				<option value="PUD" />
+				<option value="Other" />
+			</field>
+		</line>
+		<line>
+			<field ts_id="" sp_id="PROPUSE" rei_id="" name="PropertyUse" label="Property Use:" input="checkbox" class="horizontal" repeat="horizontal">
+				<option label="Vacant Land" value="Other" />
+				<option label="Commercial Property" value="Commercial" />
+				<option label="Agricultural" value="Agricultural" />
+				<option label="5+Multi-Family" value="MultiFamily" />
+			</field>
+		</line>
+		<line>
+			<field ts_id="TransactionType" sp_id="PURCREFI" rei_id="" validator="required" name="TransactionType" label="Transaction Type:" input="radio" labelclass="label width_125"  class="horizontal" repeat="horizontal">
+				<option value="Purchase">
+					<attribute name="onclick">setCheckboxValue(this.form,'TractSearch',false);</attribute>
+				</option>
+				<option value="Refinance">
+					<attribute name="onclick">setCheckboxValue(this.form,'TractSearch',false);</attribute>
+				</option>
+				<option value="Equity" />
+			</field>
+			<field ts_id="FullTractSearch" sp_id="NOTES" rei_id="" name="TractSearch" label="" default="No"  input="checkbox" labelclass="label" class="horizontal" repeat="horizontal">
+				<option label="Tract Search" value="Yes">
+					<attribute name="onclick">if (this.checked) {setRadioValue(this.form,'TransactionType','Equity');}</attribute>
+				</option>
+			</field>
+		</line>
+		<line>
+			<field ts_id="" sp_id="" rei_id="" name="ShortSale" label="" input="checkbox" labelclass="label width_125" class="horizontal" repeat="horizontal">
+				<option value="ShortSale"  label="Short Sale" />
+			</field>
+			<field ts_id="" sp_id="" rei_id="" name="Foreclosure" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option value="Foreclosure"  label="Foreclosure" />
+			</field>
+			<field ts_id="" sp_id="CASHSALE" rei_id="" name="CashSale" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option value="X" label="Cash Sale" />
+			</field>
+			<field ts_id="" sp_id="CONSTN" rei_id="" name="ConstructionEscrow" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option value="X" label="Construction Escrow" />
+			</field>
+			<field ts_id="" sp_id="REVMRTG" rei_id="" name="ReverseMortgage" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option value="X" label="Reverse Mortgage" />
+			</field>
+		</line>
+		<line>
+			<field ts_id="" sp_id="END3" rei_id="" name="EndorsementEPA" label="Endorsements:" input="checkbox" labelclass="label width_125" class="horizontal" repeat="horizontal">
+				<option value="X"  label="EPA" />
+			</field>
+			<field ts_id="" sp_id="END31" rei_id="" name="EndorsementLocation" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option value="X" label="Location" />
+			</field>
+			<field ts_id="" sp_id="END1" rei_id="" name="EndorsementCondo" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option value="X" label="Condo" />
+			</field>
+			<field ts_id="" sp_id="END2" rei_id="" name="EndorsementComp" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option value="X" label="Comp" />
+			</field>
+			<field ts_id="" sp_id="END5" rei_id="" name="EndorsementARM" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option value="X" label="ARM" />
+			</field>
+			<field ts_id="" sp_id="END41" rei_id="" name="EndorsementPUD" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option value="X" label="PUD" />
+			</field>
+			<field ts_id="" sp_id="END6" rei_id="" name="EndorsementBalloon" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option value="X" label="Balloon" />
+			</field>
+			<field ts_id="" sp_id="ENDOTHER" rei_id="" name="EndorsementOther" label="Other:"  input="textarea" width="700" height="50" class="vertical" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="LOANAMT" rei_id="" name="MortgageAmount" label="Mortgage Amount $" input="text" width="150" class="horizontal" default="1.00">
+				<attribute name="onclick">if (this.value=='1.00') {this.value='';}</attribute>
+				<attribute name="onblur">if (this.value=='') {this.value='1.00';}</attribute>
+				<attribute name="onchange">verifyCurrency(this)</attribute>
+			</field>
+			<field ts_id="SalesPrice" sp_id="SALEPRIC" rei_id="" name="PurchasePrice" label="Purchase Price $" input="text" width="150" class="horizontal" labelclass="label width_125">
+				<attribute name="onchange">verifyCurrency(this)</attribute>
+			</field>
+		</line>
+		<line>
+			<field ts_id="" sp_id="TRID" rei_id="" name="TRID" label="Is this a TILA/RESPA Integrated Disclosure (TRID) Closing" input="radio" class="horizontal" labelclass="label" repeat="horizontal" default="No">
+				<option label="Yes" value="Yes"></option>
+				<option label="No" value="No"></option>
+			</field>
+		</line>
+		<line>
+			<field ts_id="LoanNumber" sp_id="LOANNUMB" rei_id="" name="LoanNumber" label="Loan Number" input="text" width="200" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="" rei_id="" name="SecondMortgage" label="Is There a 2nd Mortgage?" input="radio" class="horizontal" labelclass="label" repeat="horizontal" default="No">
+				<option label="Yes" value="Yes">
+					<attribute name="onclick">setVisibility('outer_SecondMortgageAmount',false);setVisibility('outer_LoanNumber2nd',false);</attribute>
+				</option>
+				<option label="No" value="No">
+					<attribute name="onclick">setVisibility('outer_SecondMortgageAmount',true);setVisibility('outer_LoanNumber2nd',true);</attribute>
+				</option>
+			</field>
+			<field ts_id="" sp_id="LOANAMT_2" rei_id="" name="SecondMortgageAmount" label="2nd Mortgage Amount $" hidden="SecondMortgage=Yes"  input="text" width="150" class="horizontal" >
+				<attribute name="onchange">verifyCurrency(this)</attribute>
+			</field>
+		</line>
+		<line>
+			<field ts_id="LoanNumber2nd" sp_id="LOANNUMB_2" rei_id="" name="LoanNumber2nd" label="2nd Loan Number" hidden="SecondMortgage=Yes" input="text" width="200" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="ChainOfTitle" sp_id="NOTES" rei_id="" name="ChainOfTitle" label="Chain of Title?" default="No"  input="radio" labelclass="label width_125" class="horizontal" repeat="horizontal">
+				<option label="Yes (12 Months)" value="Yes-12" />
+				<option label="Yes (24 Months)" value="Yes-24" />
+				<option label="No" value="No" />
+			</field>
+		</line>
+		<line>
+			<field ts_id="Buyer1Name1" sp_id="BYR1NAM1" rei_id="" name="Buyer" label="Borrower 1: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" />
+			<field ts_id="Buyer1Name2" sp_id="BYR1NAM2" rei_id="" name="Buyer1Name2" label="Name 2" input="text" width="200" class="horizontal" labelclass="label" />
+			<field ts_id="" sp_id="" rei_id="" name="AddBuyer2" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option label="Add Another Borrower" value="Yes">
+					<attribute name="onclick">setVisibility('line_buyer2',!this.checked)</attribute>
+				</option>
+			</field>
+		</line>
+
+		<line name="line_buyer2"  hidden="AddBuyer2=Yes">
+			<field ts_id="Buyer2Name1" sp_id="BYR2NAM1" rei_id="" name="Buyer2Name1" label="Borrower 2: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" />
+			<field ts_id="Buyer2Name2" sp_id="BYR2NAM2" rei_id="" name="Buyer2Name2" label="Name 2" input="text" width="200" class="horizontal" labelclass="label" />
+			<field ts_id="" sp_id="" rei_id="" name="AddBuyer3" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option label="Add Another Borrower" value="Yes">
+					<attribute name="onclick">setVisibility('line_buyer3',!this.checked)</attribute>
+				</option>
+			</field>
+		</line>
+
+		<line name="line_buyer3"  hidden="AddBuyer3=Yes">
+			<field ts_id="Buyer3Name1" sp_id="BYR3NAM1" rei_id="" name="Buyer3Name1" label="Borrower 3: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" />
+			<field ts_id="Buyer3Name2" sp_id="BYR3NAM2" rei_id="" name="Buyer3Name2" label="Name 2" input="text" width="200" class="horizontal" labelclass="label" />
+			<field ts_id="" sp_id="" rei_id="" name="AddBuyer4" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option label="Add Another Borrower" value="Yes">
+					<attribute name="onclick">setVisibility('line_buyer4',!this.checked)</attribute>
+				</option>
+			</field>
+		</line>
+
+		<line name="line_buyer4"  hidden="AddBuyer4=Yes">
+			<field ts_id="Buyer4Name1" sp_id="BYR4NAM1" rei_id="" name="Buyer4Name1" label="Borrower 4: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" />
+			<field ts_id="Buyer4Name2" sp_id="BYR4NAM2" rei_id="" name="Buyer4Name2" label="Name 2" input="text" width="200" class="horizontal" labelclass="label" />
+			<field ts_id="" sp_id="" rei_id="" name="AddBuyer5" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option label="Add Another Borrower" value="Yes">
+					<attribute name="onclick">setVisibility('line_buyer5',!this.checked)</attribute>
+				</option>
+			</field>
+		</line>
+
+		<line name="line_buyer5"  hidden="AddBuyer5=Yes">
+			<field ts_id="Buyer5Name1" sp_id="BYR5NAM1" rei_id="" name="Buyer5Name1" label="Borrower 5: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" />
+			<field ts_id="Buyer5Name2" sp_id="BYR5NAM2" rei_id="" name="Buyer5Name2" label="Name 2" input="text" width="200" class="horizontal" labelclass="label" />
+		</line>
+
+		<line>
+			<field ts_id="Seller1Name1" sp_id="SLR1NAM1" rei_id="" name="Seller" label="Seller 1: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" />
+			<field ts_id="Seller1Name2" sp_id="SLR1NAM2" rei_id="" name="Seller1Name2" label="Name 2" input="text" width="200" class="horizontal" labelclass="label" />
+			<field ts_id="" sp_id="" rei_id="" name="AddSeller2" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option label="Add Another Seller" value="Yes">
+					<attribute name="onclick">setVisibility('line_seller2',!this.checked)</attribute>
+				</option>
+			</field>
+		</line>
+
+		<line name="line_seller2"  hidden="AddSeller2=Yes">
+			<field ts_id="Seller2Name1" sp_id="SLR2NAM1" rei_id="" name="Seller2Name1" label="Seller 2: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" />
+			<field ts_id="Seller2Name2" sp_id="SLR2NAM2" rei_id="" name="Seller2Name2" label="Name 2" input="text" width="200" class="horizontal" labelclass="label" />
+			<field ts_id="" sp_id="" rei_id="" name="AddSeller3" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option label="Add Another Seller" value="Yes">
+					<attribute name="onclick">setVisibility('line_seller3',!this.checked)</attribute>
+				</option>
+			</field>
+		</line>
+
+		<line name="line_seller3"  hidden="AddSeller3=Yes">
+			<field ts_id="Seller3Name1" sp_id="SLR3NAM1" rei_id="" name="Seller3Name1" label="Seller 3: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" />
+			<field ts_id="Seller3Name2" sp_id="SLR3NAM2" rei_id="" name="Seller3Name2" label="Name 2" input="text" width="200" class="horizontal" labelclass="label" />
+			<field ts_id="" sp_id="" rei_id="" name="AddSeller4" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option label="Add Another Seller" value="Yes">
+					<attribute name="onclick">setVisibility('line_seller4',!this.checked)</attribute>
+				</option>
+			</field>
+		</line>
+
+		<line name="line_seller4"  hidden="AddSeller4=Yes">
+			<field ts_id="Seller4Name1" sp_id="SLR4NAM1" rei_id="" name="Seller4Name1" label="Seller 4: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" />
+			<field ts_id="Seller4Name2" sp_id="SLR4NAM2" rei_id="" name="Seller4Name2" label="Name 2" input="text" width="200" class="horizontal" labelclass="label" />
+			<field ts_id="" sp_id="" rei_id="" name="AddSeller5" label="" input="checkbox" class="horizontal" repeat="horizontal">
+				<option label="Add Another Seller" value="Yes">
+					<attribute name="onclick">setVisibility('line_seller5',!this.checked)</attribute>
+				</option>
+			</field>
+		</line>
+
+		<line name="line_seller5"  hidden="AddSeller5=Yes">
+			<field ts_id="Seller5Name1" sp_id="SLR5NAM1" rei_id="" name="Seller5Name1" label="Seller 5: Name 1" input="text" width="200" class="horizontal" labelclass="label width_175" />
+			<field ts_id="Seller5Name2" sp_id="SLR5NAM2" rei_id="" name="Seller5Name2" label="Name 2" input="text" width="200" class="horizontal" labelclass="label" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="UNDCODE" rei_id="" name="Underwriter" label="Underwriter" input="select" optioncallback="UNDERWRITER"  class="horizontal" labelclass="label width_125" default="NLTIC" />
+		</line>
+	</group>
+	<group name="applicant" legend="Originator (Party Responsible for Submitting This Order)">
+		<line>
+			<field ts_id="" sp_id="FIRMNAME" rei_id="" name="ApplicantName" label="Firm Name"  input="text" width="390" labelclass="label width_125" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="" rei_id="" name="ApplicantAttorneyName" label="Attorney/Officer"  input="text" width="390" labelclass="label width_125" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="FIRMADR1" rei_id="" name="ApplicantAddress" label="Address Line 1" width="390"  input="text" labelclass="label width_125" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="FIRMADR1" rei_id="" name="ApplicantAddress2" label="Address Line 2" width="390"  input="text" labelclass="label width_125" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="FIRMADR2" rei_id="" name="ApplicantCity" label="City" input="text" class="horizontal" labelclass="label width_125" />
+			<field ts_id="" sp_id="FIRMADR2" rei_id="" name="ApplicantState" label="State" width="30"  input="text" class="horizontal" />
+			<field ts_id="" sp_id="FIRMADR2" rei_id="" name="ApplicantZip" label="Zip" width="75"  input="text" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="SETPHONE" rei_id="" name="ApplicantPhone" label="Phone" width="175"  input="text" class="horizontal" labelclass="label width_125">
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+			<field ts_id="" sp_id="SETFAX" rei_id="" name="ApplicantFax" label="Fax" width="175"  input="text" class="horizontal" >
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+		</line>
+		<line>
+			<field ts_id="" sp_id="SETTEMAIL" rei_id="" name="ApplicantEmail" label="Email" width="390"  input="text" labelclass="label width_125" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="FIRMCONT" rei_id="" name="ApplicantAttentionTo" label="Contact Name"  input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+
+		<line>
+			<field ts_id="" sp_id="" rei_id="" name="CopyApplicationTo" trigger="triggerCopyApplicationTo();"  label="Use this same address for"  input="checkbox" class="horizontal" labelclass="label" repeat="horizontal">
+				<option value="Borrowers Attorney">
+					<attribute name="onclick">copyAddress(this, 'Applicant','BuyersAttorney')</attribute>
+				</option>
+				<option value="Sellers Attorney">
+					<attribute name="onclick">copyAddress(this, 'Applicant','SellersAttorney')</attribute>
+				</option>
+				<option value="Mortage Broker">
+					<attribute name="onclick">copyAddress(this, 'Applicant','Broker')</attribute>
+				</option>
+			</field>
+		</line>
+	</group>
+	<group name="lender" legend="Lender">
+		<line>
+			<field ts_id="" sp_id="LENNAM1" rei_id="" name="LenderName" label="Lender" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="LENCONT" rei_id="" name="LenderContact" label="Lender Contact" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="LENADR1" rei_id="" name="LenderAddress" label="Address Line 1" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="LENADR1" rei_id="" name="LenderAddress2" label="Address Line 2" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="LENADR2" rei_id="" name="LenderCity" label="City" input="text" class="horizontal" labelclass="label width_125" />
+			<field ts_id="" sp_id="LENADR2" rei_id="" name="LenderState" label="State" width="30"  input="text" class="horizontal" />
+			<field ts_id="" sp_id="LENADR2" rei_id="" name="LenderZip" label="Zip" width="75"  input="text" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="LENPH" rei_id="" name="LenderPhone" label="Phone" width="175"  input="text" class="horizontal" labelclass="label width_125" >
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+			<field ts_id="" sp_id="LENFX" rei_id="" name="LenderFax" label="Fax" width="175" input="text" class="horizontal" >
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+		</line>
+		<line>
+			<field ts_id="" sp_id="LENEMAIL" rei_id="" name="LenderEmail" label="Email" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+	</group>
+	<group name="broker" legend="Mortgage Broker">
+		<line>
+			<field ts_id="" sp_id="MTBNAME" rei_id="" name="BrokerName" label="Mrtg. Broker" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="MTBCONT" rei_id="" name="BrokerLoanOfficer" label="Loan Officer" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="MTBADR1" rei_id="" name="BrokerAddress" label="Address Line 1" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="MTBADR1" rei_id="" name="BrokerAddress2" label="Address Line 2" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="MTBADR2" rei_id="" name="BrokerCity" label="City" input="text" class="horizontal" labelclass="label width_125" />
+			<field ts_id="" sp_id="MTBADR2" rei_id="" name="BrokerState" label="State" width="30"  input="text" class="horizontal" />
+			<field ts_id="" sp_id="MTBADR2" rei_id="" name="BrokerZip" label="Zip" width="75"  input="text" class="horizontal" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="MTBPH" rei_id="" name="BrokerPhone" label="Phone" width="175" input="text" class="horizontal" labelclass="label width_125" >
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+			<field ts_id="" sp_id="MTBFX" rei_id="" name="BrokerFax" label="Fax" width="175" input="text" class="horizontal" >
+				<attribute name="onchange">verifyPhone(this);</attribute>
+			</field>
+		</line>
+		<line>
+			<field ts_id="" sp_id="MTBEMAIL" rei_id="" name="BrokerEmail" label="Email" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+	</group>
+	<group name="notes" legend="Comments/Notes">
+		<line>
+			<field ts_id="" sp_id="" rei_id="" name="Notes" label="Comments/Notes"  input="textarea" width="500" class="vertical" />
+		</line>
+	</group>
+	<group name="hiddeninfo" legend="Hidden Information" hidden="true">
+		<line>
+			<field ts_id="" sp_id="USR40DES" rei_id="" name="Source" input="text" default="Web Order ID" />
+			<field ts_id="" sp_id="TX01RQDT" rei_id="" name="SubmittedDate" input="text" defaultcallback="NOW" />
+			<field ts_id="" sp_id="TX01STAT" rei_id="" name="OrderRequestStatus" input="text" default="Requested" />
+		</line>
+	</group>
+</request>

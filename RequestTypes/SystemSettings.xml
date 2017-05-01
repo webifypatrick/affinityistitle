@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<system>
+
+  <group name="path" legend="File Path and URL Settings">
+    <line>
+      <field name="RootUrl" input="textbox" class="horizontal" labelclass="label width_175"></field>
+    </line>
+    <line>
+      <field name="RootUrlSSL" input="textbox" class="horizontal" labelclass="label width_175"></field>
+    </line>
+  </group>
+  
+  <group name="email" legend="Email Settings">
+    <line>
+      <field name="SmtpHost" input="textbox" class="horizontal" labelclass="label width_175"></field>
+    </line>
+    <line>
+      <field name="SendFromEmail" input="textbox" class="horizontal" labelclass="label width_175"></field>
+    </line>
+    <line>
+      <field name="SendFromRealName" input="textbox" class="horizontal" labelclass="label width_175"></field>
+    </line>
+    <line>
+      <field name="EmailFooter" input="textarea" class="horizontal" width="450"  labelclass="label width_175"></field>
+    </line>
+  </group>
+
+  <group name="path" legend="Notifications">
+    <line>
+      <field name="NewOrderEmail" input="textbox" class="horizontal" labelclass="label width_175"></field>
+    </line>
+    <line>
+      <field name="ClosingRequestEmail" input="textbox" class="horizontal" labelclass="label width_175"></field>
+    </line>
+    <line>
+      <field name="ClerkingRequestEmail" input="textbox" class="horizontal" labelclass="label width_175"></field>
+    </line>
+    <line>
+      <field name="SurveyServicesEmail" input="textbox" class="horizontal" labelclass="label width_175"></field>
+    </line>
+  </group>
+
+  <group name="path" legend="SoftPro Customizations">
+    <line>
+      <field name="CHICAGO-X05PER" input="textbox" class="horizontal" labelclass="label width_150"></field>
+    </line>
+    <line>
+      <field name="CHICAGO-X05ATX" input="textbox" class="horizontal" labelclass="label width_150"></field>
+    </line>
+  </group>
+
+</system>

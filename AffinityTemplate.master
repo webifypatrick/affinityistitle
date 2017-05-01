@@ -1,0 +1,232 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AffinityTemplate.master.cs" Inherits="MasterPage" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" >
+ 
+    <title>Affinity Title Services</title>
+    <link rel="stylesheet" type="text/css" href="styles/affinity.css?v=1.04" />
+    <link rel="home" href="http://www.affinitytitleservices.com/" />
+    <meta name="Description" content="Affinity Title Services" />
+    <meta name="Keywords" content="Affinity Title Services, Chicago,Title, Mortgage, Title Search, Search Package,Title Commitment" />
+    <meta name="robots" content="index, follow" />
+    <meta name="GOOGLEBOT" content="index, follow" />
+		<script type="text/javascript" id="JQ" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="scripts/form.js" type="text/javascript"></script>
+    <script src="scripts/order.js?v=1.1.1" type="text/javascript"></script>
+    <!--[if IE]>
+		<style>
+		.td {float:left;}
+		</style>
+		<![endif]-->
+		<script>
+				function showPopup(msg) {
+					popped = 1;
+					jQuery("#MessagePopup").css("top", (window.pageYOffset + 100) + "px");
+					jQuery("#MessagePopup").css("left", parseInt((document.body.clientWidth - 520)/2) + "px");
+					jQuery("#MessagePopup .body").html(msg);
+					jQuery("#MessagePopup").show();
+				}
+				
+				var popped = 0;
+				function hidePopup(t) {
+					if(t) popped = 2;
+					if(popped == 1) {
+						popped = 0;
+						return;
+					}
+          jQuery("#MessagePopup, #MessagePopup .body").width("auto");
+					jQuery("#MessagePopup .body").html("");
+					jQuery("#MessagePopup").hide();
+					popped = 0;
+				}
+	
+				var sessionTimerIdx = 0;
+        var sessionTimeout = "30";
+        var sessionTimer = 60;
+        function DisplaySessionTimeout() {
+            //assigning minutes left to session timeout to Label
+            sessionTimeout = sessionTimeout - 1;
+            //if session is not less than 0
+
+            if (sessionTimeout <= 3 && sessionTimeout > 1) {
+                //show message box
+                showPopup('Your session will end in about 3 minutes.  Click Continue to maintain your session.<br /><br /><center><button onclick="ResetSessionTimeout(); return false;">Continue</button></center>');
+            }
+            else if (sessionTimeout <= 1) {
+                hidePopup();
+                sessionTimer--;
+                
+                if(sessionTimer < 1) {
+ 	                showPopup('<h2>Please login to continue your session.</h2><center><iframe scrolling="no" frameborder="no" src="/default.aspx?iframe=1" style="border:none;height:350px;width:500px;"></iframe></center>');
+ 	                jQuery("#MessagePopup").width(620);
+ 	                jQuery("#MessagePopup .body").width(500);
+               }
+                else {
+	                showPopup('Your session will end in about ' + sessionTimer + ' seconds.  Click Continue to maintain your session.<br /><br /><center><button onclick="ResetSessionTimeout(); return false;">Continue</button>');
+	                sessionTimerIdx = window.setTimeout("DisplaySessionTimeout()", 1000);
+	              }
+                return;
+            }
+            sessionTimerIdx = window.setTimeout("DisplaySessionTimeout()", 60000);
+        }
+        
+        function ResetSessionTimeout() {
+        	hidePopup();
+        	window.open("/", "maintainsessionframe");
+        }
+		</script>
+		<style>
+			#MessagePopup {position:absolute;margin:0px auto;display:none;border:1px solid 5a9fe2;width:450px;background:#CCCCCC;border-radius:10px; z-index:99999999999;}
+			#MessagePopup .close {float:right;color:blue;margin-right:10px;margin-top:2px;cursor:pointer;}
+			#MessagePopup .body {padding:40px;margin:20px;border-radius:10px;border:1px solid #5a9fe2;background:#FFFFFF; /*color:#162C53;*/}
+		</style>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div id="checkFrame" runat="server">
+			<script>
+	        if(top != window)
+	        {
+	        	top.sessionTimer = 0;
+	        	top.sessionTimeout = 0;
+	        	top.DisplaySessionTimeout();
+	        }
+	    </script>
+    </div>
+    <div id="timeoutdiv" runat="server">
+    	<iframe id="maintainsessionframe" name="maintainsessionframe" style="display:none;"></iframe>
+	 		<div id="MessagePopup">
+				<div class="close">x</div>
+				<div class="body"></div>
+			</div>
+			<script>
+	        top.clearTimeout(top.sessionTimerIdx);
+	        top.sessionTimerIdx = top.setTimeout("DisplaySessionTimeout()", 60000);
+        	top.sessionTimer = 60;
+        	top.sessionTimeout = "<%= Session.Timeout %>";
+					top.popped = 0;
+					setTimeout(top.hidePopup, 100);
+	    </script>
+	 </div>
+   <div id="headerDIV" runat="server"><div id="header"><h1>Affinity Title Services</h1><a href="Default.aspx">Home</a></div></div>
+
+    <asp:Panel ID="pnlNav" runat="server" CssClass="nav">
+			<div class="hamburger"></div>
+			<div class="navDiv">
+        <a href="Default.aspx" id="lnkHome" runat="server">Home</a>
+        <a href="Content.aspx?page=about" id="lnkAbout" runat="server">About Affinity</a>
+        <a href="Content.aspx?page=news" id="lnkNews" runat="server">News</a>
+        <a href="MyAccount.aspx" id="lnkMyAccount" runat="server" visible="false">My Account</a>
+        <a href="AccountingServices.aspx" id="lnkAttorneyServices" runat="server" visible="false">Attorney Services</a>
+        <a href="FeeFinder.aspx" id="lnkFeeFinder" runat="server" visible="false">GFE Calculator</a>
+        <a href="HUDCalculator.aspx" id="lnkHUDCalculator" runat="server" visible="false">HUD Calculator</a>
+        <a href="Forms.aspx" id="lnkForms" runat="server" visible="false">Forms</a>
+        <a href="MyPreferences.aspx" id="lnkPreferences" runat="server" visible="false">My Preferences</a>
+        <a href="Admin.aspx" id="lnkAdmin" runat="server" visible="false">Administration</a>
+        <a href="Content.aspx?page=contact" id="lnkContact" runat="server">Contact</a>
+        <a href="Logout.aspx" id="lnkLogout" runat="server" visible="false">Logout</a>
+      </div>
+    </asp:Panel>
+    
+    <div id="stage" class="stage clearfix" runat="server">
+    
+ 			<div id="leftside" runat="server">
+	       <div id="pane_one" class="left">
+	       		<div class="padding">
+	            <asp:ContentPlaceHolder ID="pain_one_cph" runat="server">
+	            </asp:ContentPlaceHolder>
+	             <asp:Panel ID="pnlFeedback" runat="server" CssClass="information" Visible="false" EnableViewState="false">
+	                <asp:Label ID="lblFeedback" runat="server" Text="" EnableViewState="false"></asp:Label>
+	            </asp:Panel>
+	          </div>
+	       </div>
+	        
+	        <div id="content" class="middle" runat="server">
+	
+	            
+	            <asp:contentplaceholder id="content_cph" runat="server">
+	            </asp:contentplaceholder>
+	        </div>
+	        
+	        <div id="pane_two" class="right">
+	            <asp:ContentPlaceHolder ID="pane_two_cph" runat="server">
+	            </asp:ContentPlaceHolder>
+	        </div>
+    	</div>
+ 			<div id="rightside" runat="server">
+    	</div>
+    </div>
+    
+    <div id="footer">
+    <asp:ContentPlaceHolder ID="lblcontent_footer" runat="server">&copy; Copyright <%=DateTime.Now.Year.ToString() %>, Affinity Title Services, LLC</asp:ContentPlaceHolder>
+    </div>
+    
+    </form>
+		<script>
+			function resizeFormFields() {
+				jQuery("input[type='text'], select, textarea").each(function() {
+					var ob = jQuery(this);
+					if(ob[0].id != "ctl00_content_cph_txtUsername") {
+						var docWidth = jQuery(document.body).width();
+						var obWidth = ob.width();
+						if(docWidth < 400 || obWidth > docWidth) {
+							if(typeof ob.attr("oldWidth") == "undefined") {
+								ob.attr("oldWidth", obWidth);
+								ob.width(260);
+							}
+						}
+						else if(typeof ob.attr("oldWidth") != "undefined" && ob.attr("oldWidth") < docWidth) {
+							ob.width(ob.attr("oldWidth"));
+							ob.removeAttr("oldWidth");
+						}
+					}
+				});
+			}
+			
+			jQuery(function() {
+				jQuery(".hamburger").click(function(event) {
+					var o = jQuery("#ctl00_pnlNav .navDiv");
+		
+					if(o.is(":hidden")) {
+						jQuery("#ctl00_pnlNav .navDiv").show();
+					}
+					else {
+						jQuery("#ctl00_pnlNav .navDiv").hide();
+					}
+				});
+				
+				jQuery("body, html, form").click(function(event) {
+					var o = jQuery(".hamburger");
+					if(o.length > 0 && event.target != o[0] && !o.is(":hidden") && !jQuery("#ctl00_pnlNav .navDiv").is(":hidden")) {
+						jQuery("#ctl00_pnlNav .navDiv").hide();
+					}
+					event.stopPropagation();
+				});
+
+				jQuery("#underwritersDIV").width(jQuery(document.body).width()-20);
+				resizeFormFields();
+				
+				jQuery("#MessagePopup .close").click(hidePopup);
+			});
+			
+			jQuery(window).resize(function() {
+				var docWidth = jQuery(document.body).width();
+				if(docWidth > 800 && jQuery("#ctl00_pnlNav .navDiv").is(":hidden")) {
+					jQuery("#ctl00_pnlNav .navDiv").show();
+				}
+				
+				jQuery("#underwritersDIV").width(docWidth-20);
+				resizeFormFields();
+			});
+		</script>
+</body>
+</html>

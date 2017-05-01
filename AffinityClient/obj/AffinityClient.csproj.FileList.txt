@@ -1,0 +1,9 @@
+bin\Debug\AffinityClient.exe.config
+bin\Debug\AffinityClient.exe
+bin\Debug\AffinityClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AffinityClient.Form1.resources
+obj\Debug\AffinityClient.Properties.Resources.resources
+obj\Debug\AffinityClient.csproj.GenerateResource.Cache
+obj\Debug\AffinityClient.exe
+obj\Debug\AffinityClient.pdb

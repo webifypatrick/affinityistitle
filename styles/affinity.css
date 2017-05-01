@@ -1,0 +1,974 @@
+﻿
+/* affinity title services */
+
+@import "clearfix.css";
+@import "nav.css";
+@import "forms.css";
+@import "tables.css";
+
+body
+{
+	margin: 0px;
+	color: #333333;
+	background-image: url("../images/body_bg.jpg");
+	background-repeat: repeat-y;
+}
+
+p, h3
+{
+	margin: 12px 0px 12px 0px;
+}
+
+.vspacer
+{
+	height: 200px;
+}
+
+
+p,div,input,textarea,select,h1,h2,h3 
+{
+	font-family: Times New Roman, Serif;
+	font-size: 12pt;
+}
+
+a
+{
+	color: #0033cc;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+.information {color: Blue; border: solid 1px #336699; background-color: #99ccff; padding: 5px; margin: 10px 0px 10px 0px;}
+.warning {color: #FF6600; border: solid 1px #FF9933; background-color: #FFCC99; padding: 5px; margin: 10px 0px 10px 0px;}
+.error {color: Red; border: solid 1px #FF9999; background-color: #FFCCCC; padding: 5px; margin: 10px 0px 10px 0px;}
+.notice, .actions .notice {font-size: 12pt; color: #000000; border: solid 1px #FF9933; background-color: #FFCC99; padding: 5px; margin: 10px 0px 10px 0px;}
+
+.debug_debug {}
+.debug_info {color: Blue;}
+.debug_warn {color: #FF6600; border: solid 1px #FF9933; background-color: #FFCC99;}
+.debug_error {color: Red; border: solid 1px #FF9999; background-color: #FFCCCC;}
+.source {display: inline; font-family: Courier New; font-size: 8pt;}
+.sql {display: inline; color: Green; font-family: Courier New; font-size: 8pt;}
+.message {display: inline; font-family: Courier New; font-size: 8pt;}
+
+
+.actions
+{
+}
+
+.actions div
+{
+	padding-top: 6px;
+}
+
+a.export, a.back, a.process_order, a.process_request, a.home, a.order, a.add, a.request, a.account, a.attachment, a.server, a.config, a.content, a.download, a.company, a.page
+{
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+	padding: 2px 4px 2px 22px;
+}
+
+a.add
+{
+	border: solid 1px #c1c1c1;
+	background-color: #e5e5e5;
+}
+
+a.home    {background-image: url("../images/ico_home.gif");}
+a.order   {background-image: url("../images/ico_order.gif");}
+a.add     {background-image: url("../images/ico_add.gif");}
+a.request {background-image: url("../images/ico_request.gif");}
+a.account {background-image: url("../images/ico_account.gif");}
+a.attachment {background-image: url("../images/ico_attachment.gif");}
+a.server {background-image: url("../images/ico_server.gif");}
+a.config {background-image: url("../images/ico_config.gif");}
+a.content {background-image: url("../images/ico_content.gif");}
+a.download {background-image: url("../images/ico_download.gif");}
+a.company {background-image: url("../images/ico_company.gif");}
+a.back {background-image: url("../images/ico_back.gif");}
+a.page {background-image: url("../images/ico_page.gif");}
+
+/* these appear in the datagrid */
+a.export {margin: 0px; display:block; white-space: nowrap; background-image: url("../images/ico_export.gif");}
+a.process_order {margin: 0px; display:block; white-space: nowrap; background-image: url("../images/ico_process.gif");}
+a.process_request {margin: 0px; display:block; white-space: nowrap; background-image: url("../images/ico_process.gif");}
+
+
+#header
+{
+	background-image: url("../images/header_bg.jpg");
+	background-repeat: repeat-x;
+	height: 88px;
+}
+
+#header h1
+{
+	display: none;
+}
+
+#header a
+{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../images/header.jpg");
+	background-repeat: no-repeat;
+	height: 88px;
+	width: 600px;
+	text-indent: -5000px;
+}
+
+h2
+{
+	font-size: 14pt;
+	margin: 14px 0px 12px 0px;
+}
+
+#pane_one .padding
+{
+	padding: 0px 20px 0px 20px;
+}
+
+#ctl00_content, #ctl00_content_cph_pnlBody {
+	padding-left:10px;
+}
+
+#content
+{
+	padding: 0px 20px 0px 20px;
+}
+
+#pane_two
+{
+	padding: 0px 20px 0px 20px;
+}
+
+#footer
+{
+	border-top: solid 1px #c1c1c1;
+	font-size: 10pt;
+	padding: 10px 20px 20px 20px;
+	color: #666666;
+}
+
+.stage
+{
+	padding: 5px 0px 10px 0px;
+}
+
+.photo_01
+{
+	background-image: url("../images/photo_01.jpg");
+	background-repeat: no-repeat;
+	/* background-position: right 0px; */
+	background-position: 430px 0px;
+}
+
+.photo_01 #pane_one
+{
+	width: 490px;
+}
+
+.photo_01 #content
+{
+	width: 370px;
+}
+
+.photo_01 #pane_two
+{
+
+}
+
+#active_users_container
+{
+	width: 400px;
+	float: right;
+	border: solid 1px #bbbbbb;
+	padding: 0px 15px 15px 15px;
+	margin: 0px 15px 15px 15px;
+}
+
+.active
+{
+
+}
+
+.active_user, .active_date, .active_time
+{
+	background-color: #e5e5e5;
+	border-bottom: solid 1px #bbbbbb;
+	float: left;
+	width: 100px;
+	padding: 2px 2px 2px 2px;
+	margin-bottom: 2px;
+}
+
+.active_user
+{
+	width: 150px;
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+	padding: 2px 2px 2px 25px;
+	background-image: url("../images/ico_account.gif");
+}
+
+.active_date
+{
+	width: 70px;
+}
+
+.highlight
+{
+	background-color: #e5e5e5;
+	padding: 4px;
+}
+
+.export_panel
+{
+	margin-top: 15px;
+	margin-left: 20px;
+	border: solid 1px #aaaaaa;
+	background-color: #ffffff;
+	padding: 3px;
+	visibility: hidden;
+	position:absolute;
+}
+
+.export_panel *
+{
+	font-size: 10pt;
+}
+
+.notice
+{
+	font-size: 14pt;
+	font-style: italic;
+	color:#ff0000;
+}
+
+.notice a
+{
+	color:#ff0000;
+	text-decoration: underline;
+}
+
+.datepicker {cursor:pointer;}
+
+
+
+
+/*****************************************************************************************
+NEW STYLES FOR FORMATTING FOR MOBILE
+*****************************************************************************************/
+
+#header a
+{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../images/header.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 88px;
+	max-width: 600px;
+	width:100%;
+	text-indent: -5000px;
+}
+
+.home {
+	width:100%;
+	max-width:1100px;
+	padding:0px;
+}
+
+.photo_01
+{
+	background-image: url("../images/photo_01.jpg");
+	background-repeat: no-repeat;
+	/* background-position: right 0px; */
+	background-position: right 0px;
+	background-size: 100%;
+	width:52.5%;
+	height:411px;
+	vertical-align:top;
+}
+
+.logincontent {
+	width:400px;
+	padding-right:30px;
+	min-width:280px;
+}
+
+.login {
+  max-width: 370px;
+  width:100%;
+}
+
+#ctl00_pain_one_cph_header {
+	white-space:nowrap;
+}
+
+#pane_one
+{
+	width: 100%;
+	max-width: 490px;
+}
+
+.home #pane_two
+{
+	display:none;
+}
+
+#active_users_container
+{
+	width:100%;
+	max-width: 400px;
+	float: right;
+	border: solid 1px #bbbbbb;
+	padding: 0px 15px 15px 15px;
+	margin: 0px 15px 15px 15px;
+}
+
+.hamburger {
+	float:left;
+	width:20px;
+	height:20px;
+  background: url(../images/hamburger.png) no-repeat center center;
+  background-size:100%;
+  cursor:pointer;
+  display:none;
+  margin-top:4px;
+}
+
+.search_filter
+{
+	border: solid 1px #c1c1c1;
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: #ffffff;
+	width: 100%;
+	max-width: 600px;
+	color: #666666;
+	font-size: 10pt;
+}
+
+#group_originator
+{
+	clear: left;
+	float:left;
+	width: 100%;
+	max-width: 575px;
+	margin-right: 10px;
+}
+
+#group_lender
+{
+	clear: left;
+	float:left;
+	width: 100%;
+	max-width: 575px;
+	margin-right: 10px;
+}
+
+#group_lenders
+{
+	float:left;
+	width: 100%;
+	max-width: 575px;
+	margin-left: 10px;
+}
+
+#group_broker
+{
+	float:left;
+	width: 100%;
+	max-width: 575px;
+}
+
+#group_applicant
+{
+	clear: left;
+	float:left;
+	width: 100%;
+	max-width: 575px;
+}
+
+#group_buyersattorney
+{
+	clear: left;
+	float:left;
+	width: 100%;
+	max-width: 575px;
+	margin-right: 10px;
+}
+
+#group_sellersattorney
+{
+	float:left;
+	width: 100%;
+	max-width: 575px;
+}
+
+#group_listingrealtor
+{
+	clear: left;
+	float:left;
+	width: 100%;
+	max-width: 575px;
+	margin-right: 10px;
+}
+
+#group_sellingrealtor
+{
+	float:left;
+	width: 100%;
+	max-width: 575px;
+}
+
+#ctl00_content_cph_oGrid.subtle {
+	width:100%;
+}
+
+.table {
+	display:table;
+	padding:0px;
+	margin:0px;
+}
+
+.tr {
+	display:table-row;
+	padding:0px;
+	margin:0px;
+}
+
+.td {
+	display:table-cell;
+	vertical-align:top;
+}
+	
+h3.paddingTop {
+	margin-top:30px;
+}
+
+.multiUnitBuilding {
+	position:absolute;
+	margin-left:180px;
+	margin-top:-5px;
+}
+
+#outer_DwellingUnitNotes .multiUnitBuilding {
+	margin-top:15px;
+}
+
+#UnderwritersTable {
+	width: 800px;
+}
+
+#UnderwritersTable td {
+	white-space:nowrap;
+}
+
+#underwritersDIV {
+	overflow-x:auto;
+	display:block;
+}
+
+/******************************
+MOBILE STYLES
+*******************************/
+@media (max-width: 920px) {
+	#ctl00_pnlNav .navDiv a {
+		margin:2px;
+	}
+
+	#ctl00_content_cph_oGrid {
+		overflow:auto;
+		height:auto !important;
+	}
+	
+	#ctl00_content_cph_oGrid, #ctl00_content_cph_oGrid tr > td {
+		width:auto !important;
+		display:block !important;
+	}
+	
+	#ctl00_content_cph_oGrid table tr > td {
+		display:inline-block !important;
+	}
+	
+	#ctl00_content_cph_oGrid th {
+		display:none;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(1n) {
+		margin-top:20px;
+	}
+	
+	#ctl00_content_cph_oGrid table td:nth-child(1n),#ctl00_content_cph_oGrid tr > td:nth-child(2n), #ctl00_content_cph_oGrid tr > td:nth-child(3n), #ctl00_content_cph_oGrid tr > td:nth-child(4n), #ctl00_content_cph_oGrid tr > td:nth-child(5n), #ctl00_content_cph_oGrid tr > td:nth-child(6n), #ctl00_content_cph_oGrid tr > td:nth-child(7n), #ctl00_content_cph_oGrid tr > td:nth-child(8n), #ctl00_content_cph_oGrid tr > td:nth-child(9n), #ctl00_content_cph_oGrid tr > td:nth-child(10n), #ctl00_content_cph_oGrid tr > td:nth-child(11n) {
+		margin-top:0px;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(2n):before {
+		content: "Working ID: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(3n):before {
+		content: "Tracking Code: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(4n):before {
+		content: "Name: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(5n):before {
+		content: "PIN: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(6n):before {
+		content: "Address: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(7n):before {
+		content: "City: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(8n):before {
+		content: "Status: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(9n):before {
+		content: "Closing Date: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(10n):before {
+		content: "Submitted: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_oGrid tr > td:nth-child(11n):before {
+		content: "Modified: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_oGrid table tr > td:before {
+		content: "" !important;
+	}
+}
+
+@media (max-width: 810px) {
+	.photo_01
+	{
+		background-position: right 50px;
+	}
+	
+	.search_filter
+	{
+		width:95%;
+	}
+
+	/*
+	#ctl00_content, #footer, #header, #pane_one {
+		display:none;
+	}
+*/
+	#ctl00_pain_one_cph_header, #pane_one h2 {
+		font-size:16px;
+		font-weight:bold;
+		max-width:320px;
+		margin:0px;
+		margin-top:10px;
+		padding:0px;
+		overflow:hidden;
+		position:absolute;
+	}
+	
+	.login {
+		margin-top:-20px;
+	}
+
+	#pane_one {
+		padding-bottom:50px;
+	}
+
+	#pane_one p {
+		padding-top:50px;
+	}
+	
+	#ctl00_pain_one_cph_welcome, #ctl00_content_cph_pnlBody {
+		padding:0px;
+		margin:0px;
+	}
+	
+	#ctl00_pain_one_cph_welcome br {
+		display:none;
+	}
+
+	#ctl00_pnlNav .navDiv {
+		display:none;
+	}
+
+	#ctl00_pnlNav .hamburger {
+		display:block;
+	}
+	#ctl00_pnlNav .navDiv {
+		border-top:1px solid #CCCCCC;
+		background:#FFFFFF;
+		padding:0px;
+		position:absolute;
+		z-index:9999999999;
+		width:100%;
+		margin-top:28px;
+		margin-left:-20px;
+	}
+	#ctl00_pnlNav .navDiv a {
+		display:block;
+		width:100%;
+		padding:20px 0px;
+		border-bottom:1px solid #CCCCCC;
+		text-align:center;
+		color:#888888;
+		margin:0px;
+	}
+	#ctl00_pnlNav .navDiv a:hover {
+		background:none;
+		background-color:#EEEEEE;
+	}
+	
+	.oldschool, #ctl00_content_cph_aGrid.ManageAccounts, #ctl00_content_cph_rGrid {
+		overflow:auto;
+		height:auto !important;
+	}
+	
+	.oldschool th, #ctl00_content_cph_aGrid.ManageAccounts th, #ctl00_content_cph_rGrid th {
+		display:none;
+	}
+	
+	.oldschool td:nth-child(1n), #ctl00_content_cph_aGrid.ManageAccounts td:nth-child(1n), #ctl00_content_cph_rGrid td:nth-child(1n) {
+		margin-top:20px;
+	}
+	
+	.oldschool td:nth-child(2n), .oldschool td:nth-child(3n), .oldschool td:nth-child(4n), #ctl00_content_cph_aGrid.ManageAccounts td:nth-child(2n), #ctl00_content_cph_aGrid.ManageAccounts td:nth-child(3n), #ctl00_content_cph_aGrid.ManageAccounts td:nth-child(4n), #ctl00_content_cph_aGrid.ManageAccounts td:nth-child(5n), #ctl00_content_cph_aGrid.ManageAccounts td:nth-child(6n), #ctl00_content_cph_aGrid.ManageAccounts td:nth-child(7n), #ctl00_content_cph_aGrid.ManageAccounts td:nth-child(8n), #ctl00_content_cph_rGrid td:nth-child(2n), #ctl00_content_cph_rGrid td:nth-child(3n), #ctl00_content_cph_rGrid td:nth-child(4n), #ctl00_content_cph_rGrid td:nth-child(5n), #ctl00_content_cph_rGrid td:nth-child(6n), #ctl00_content_cph_rGrid td:nth-child(7n) {
+		margin-top:0px;
+	}
+	
+	#ctl00_content_cph_aGrid.ManageAccounts td, #ctl00_content_cph_rGrid td {
+		width:92% !important;
+		display:block !important;
+	}
+	
+	#ctl00_content_cph_rGrid td:nth-child(1n):before, #ctl00_content_cph_rGrid td:nth-child(2n):before {
+		content: "";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_rGrid td:nth-child(3n):before {
+		content: "Request Type";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_rGrid td:nth-child(4n):before {
+		content: "Status";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_rGrid td:nth-child(5n):before {
+		content: "Submitted";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_rGrid td:nth-child(6n):before {
+		content: "Export History";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_rGrid td:nth-child(7n):before {
+		content: "Upload History";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_aGrid.ManageAccounts td:nth-child(1n):before {
+		content: "";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_aGrid.ManageAccounts td:nth-child(2n):before {
+		content: "Username: ";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_aGrid.ManageAccounts td:nth-child(3n):before {
+		content: "Email: ";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_aGrid.ManageAccounts td:nth-child(4n):before {
+		content: "First Name: ";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_aGrid.ManageAccounts td:nth-child(5n):before {
+		content: "Last Name: ";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_aGrid.ManageAccounts td:nth-child(6n):before {
+		content: "Company: ";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_aGrid.ManageAccounts td:nth-child(7n):before {
+		content: "Role: ";
+		font-weight:bold;
+	}
+
+	#ctl00_content_cph_aGrid.ManageAccounts td:nth-child(8n):before {
+		content: "Modified: ";
+		font-weight:bold;
+	}
+
+	.oldschool td:nth-child(1n):before {
+		content: "Date: ";
+		font-weight:bold;
+	}
+	
+	.oldschool td:nth-child(2n):before {
+		content: "Type: ";
+		font-weight:bold;
+	}
+	
+	.oldschool td:nth-child(3n):before {
+		content: "Class: ";
+		font-weight:bold;
+	}
+	
+	.oldschool td:nth-child(4n):before {
+		content: "Message: ";
+		font-weight:bold;
+	}
+	
+	.oldschool td, #ctl00_content_cph_rGrid td {
+		width:92% !important;
+		display:block !important;
+		word-break: break-all;
+	}
+	
+	#ctl00_content_cph_RolesCheckboxes {
+		width:auto !important;
+	}
+}
+
+@media (max-width: 550px) {
+	
+	#ctl00_content_cph_txtClientName, #ctl00_content_cph_txtAdditionalPins, #ctl00_content_cph_txtPropertyAddress, #ctl00_content_cph_txtPropertyAddress2 {
+		width:250px !important;
+	}
+	
+	.search_filter span {
+		display:block;
+	}
+	
+	/*** CONTACT PAGE MOBILE STYLES ***/
+	#ctl00_content_cph_pnlBody table:first-of-type {
+		overflow:auto;
+		height:auto !important;
+	}
+	
+	#ctl00_content_cph_pnlBody table:first-of-type th {
+		display:none;
+	}
+	
+	#ctl00_content_cph_pnlBody table:first-of-type td:nth-child(1n) {
+		margin-top:20px;
+	}
+	#ctl00_content_cph_pnlBody table:first-of-type td:nth-child(2n), #ctl00_content_cph_pnlBody table:first-of-type td:nth-child(3n), #ctl00_content_cph_pnlBody table:first-of-type td:nth-child(4n) {
+		margin-top:0px;
+	}
+	
+	#ctl00_content_cph_pnlBody table:first-of-type td:nth-child(1n):before {
+		content: "Department: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_pnlBody table:first-of-type td:nth-child(2n):before {
+		content: "Phone: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_pnlBody table:first-of-type td:nth-child(3n):before {
+		content: "Fax: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_pnlBody table:first-of-type td:nth-child(4n):before {
+		content: "Email: ";
+		font-weight:bold;
+	}
+	
+	#ctl00_content_cph_pnlBody table, #ctl00_content_cph_pnlBody table td {
+		width:auto !important;
+		display:block !important;
+	}
+	
+	#ctl00_content_cph_pnlBody table td img {
+		width:300px !important;
+	}
+	
+	.label {
+		display:block;
+		width:100%;
+	}
+	
+	#group_general, .groupshell, #group_general_header {
+		width:100%;
+	}
+	
+	#outer_NumberOfDwellingUnits br, #outer_DwellingUnitNotes br {
+		display:none;
+	}
+	
+	.multiUnitBuilding {
+		margin-top:30px;
+		margin-left:0px;
+	}
+	
+	#outer_DwellingUnitNotes {
+		margin-top:30px;
+	}
+
+	#outer_DwellingUnitNotes .multiUnitBuilding {
+		margin-top:30px;
+	}
+	
+	#outer_PropertyAddress {
+		margin-top:70px;
+	}
+	
+	#group_general_header {
+		width:auto;
+	}
+}
+
+@media (max-width: 450px) {
+
+	/*** ADMIN PAGE MOBILE STYLES ***/
+	#active_users_container {
+		width:auto;
+		height:auto !important;
+	}
+
+	#active_users_container div.active:first-of-type {
+		display:none;
+	}
+	
+	.active_user, .account {
+		width:90% !important;
+	}
+	
+	#active_users_container div div {
+		display:block;
+		width:100%;
+	}
+	
+	#active_users_container div div.active_user:before {
+		content: "User: ";
+		font-weight:bold;
+		margin-top:20px;
+	}
+	
+	#active_users_container div div.active_date:before {
+		content: "Date: ";
+		font-weight:bold;
+	}
+	
+	#active_users_container div div.active_time:before {
+		content: "Last Click: ";
+		font-weight:bold;
+	}
+	
+	#group_general table td {
+		float:left;
+	}
+	
+	#Account_fields .field.horizontal {
+		margin-left:0px !important;
+	}
+	
+	.field .horizontal, .field.horizontal {
+		width:auto !important;
+	}
+	
+	#ctl00_content_cph_aGrid.ManageAttachmentTypes {
+		margin-left:-10px;
+	}
+	
+	#ctl00_content_cph_aGrid.ManageAttachmentTypes td {
+		padding:3px;
+	}
+}
+
+@media (max-width: 400px) {
+	
+	/*** CONTENT PAGES ***/
+	.photo_01 {
+		background-image:none;
+	}
+}
+
+
+@media print {
+	/*body {
+		color: #000;
+    background: #fff;
+	}
+   
+   
+	#header, #ctl00_pnlNav, #footer, input[type="button"], input[type="submit"], input[type="file"], button, .back  {
+		display: none;
+	}
+	*/
+	#ctl00_pnlNav {
+		display: none;
+	}
+	
+	h2, h3, fieldset {
+   page-break-after: avoid;
+	}
+	 
+	/*textarea, input, select, fieldset { border:1px solid #FFFFFF !important; color:#000000 !important; display:inline-block; }*/
+	
+	#ctl00_content_cph_field_ClerkingServicesSuburbanTransferStamps {
+		width:100%;
+	}
+	
+	.groupshell {
+		display:block;
+		width:100%;
+		float:none !important;
+	}
+	
+
+	#ctl00_content_cph_field_ClerkingServicesSuburbanTransferStamps td, #ctl00_content_cph_field_ClerkingServicesSuburbanTransferStamps tr {
+		float:left !important;
+		width:auto !important;
+		display:inline !important;
+	}
+	
+	#ctl00_content_cph_pnlDetails, #group_general4, #group_general8 {
+		page-break-before: always;
+	}
+	
+	.input em {
+		float:left;
+	}
+}

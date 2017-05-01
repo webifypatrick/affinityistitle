@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<request>
+  <group name="email" legend="Email Notification Preferences">
+    <line>
+      <field name="EmailOnFilePost" label="Send email notification when a new file is posted to my order"  input="checkbox" class="horizontal" labelclass="label" default="Yes">
+        <option value="Yes">
+        </option>
+      </field>
+      <field name="EmailOnFilePostAddress" label="To Email:" input="text" labelclass="label" class="horizontal" />
+    </line>
+    <line>
+      <field name="EmailOnStatusChange" label="Send email notification when an order status is changed"  input="checkbox" class="horizontal" labelclass="label" default="No">
+        <option value="Yes">
+        </option>
+      </field>
+      <field name="EmailOnStatusChangeAddress" label="To Email:" input="text" labelclass="label" class="horizontal" />
+    </line>
+    <line>
+      <field name="EmailOnConfirmation" label="Send email notification when my order is confirmed and assigned an AFF ID"  input="checkbox" class="horizontal" labelclass="label" default="Yes">
+        <option value="Yes">
+        </option>
+      </field>
+      <field name="EmailOnConfirmationAddress" label="To Email:" input="text" labelclass="label" class="horizontal" />
+    </line>
+    <line>
+      <field name="EmailOnScheduleRequest" label="Send email notification when a schedule request is updated"  input="checkbox" class="horizontal" labelclass="label" default="Yes">
+        <option value="Yes">
+        </option>
+      </field>
+      <field name="EmailOnScheduleRequestAddress"  label="To Email:" input="text" labelclass="label" class="horizontal" />
+    </line>
+  </group>
+
+  <group name="applicant" legend="Default Originator Information">
+    <line>
+      <field sp_id="" rei_id="" name="Underwriter" label="Default Underwriter" input="select" optioncallback="UNDERWRITER"  class="horizontal" labelclass="label width_125" default="NLTIC" />
+    </line>
+    <line>
+      <field name="ApplicantName" label="Firm Name"  input="text" width="390" labelclass="label width_125" class="horizontal" />
+    </line>
+    <line>
+      <field name="ApplicantAttorneyName" label="Attorney/Officer"  input="text" width="390" labelclass="label width_125" class="horizontal" />
+    </line>
+    <line>
+      <field ts_id="" sp_id="" rei_id="" name="ApplicantAddress" label="Address 1" width="390"  input="text" labelclass="label width_125" class="horizontal" />
+    </line>
+    <line>
+      <field ts_id="" sp_id="" rei_id="" name="ApplicantAddress2" label="Address 2" width="390"  input="text" labelclass="label width_125" class="horizontal" />
+    </line>
+    <line>
+      <field name="ApplicantCity" label="City" input="text" class="horizontal" labelclass="label width_125" />
+      <field name="ApplicantState" label="State" width="30"  input="text" class="horizontal" />
+      <field name="ApplicantZip" label="Zip" width="75"  input="text" class="horizontal" />
+    </line>
+    <line>
+      <field name="ApplicantPhone" label="Phone"  input="text" class="horizontal" width="175" labelclass="label width_125" >
+        <attribute name="onchange">verifyPhone(this);</attribute>
+      </field>
+      <field name="ApplicantFax" label="Fax"  input="text" class="horizontal" width="175" >
+        <attribute name="onchange">verifyPhone(this);</attribute>
+      </field>
+    </line>
+    <line>
+      <field ts_id="" sp_id="" rei_id="" name="ApplicantEmail" label="Email" width="390"  input="text" labelclass="label width_125" class="horizontal" />
+    </line>
+    <line>
+      <field name="ApplicantAttentionTo" label="Contact Name"  input="text" width="390" class="horizontal" labelclass="label width_125" />
+    </line>
+
+    <line>
+      <field ts_id="" sp_id="" rei_id="" name="CopyApplicationTo" label="Use this same address for"  input="checkbox" class="horizontal" labelclass="label" repeat="horizontal">
+        <option value="(B) Attorney"></option>
+        <option value="(S) Attorney"></option>
+        <option value="Mortage Broker"></option>
+        <option value="Listing Agent"></option>
+        <option value="Buyers Agent"></option>
+      </field>
+    </line>
+  
+  </group>
+  <group name="applicant" legend="Advanced Settings">
+    <line>
+      <field sp_id="" rei_id="" name="AttachmentBehavior" label="File/Attachment download preference" input="radio" class="vertical" labelclass="label" default="attachment">
+        <option value="inline" label="Inline/Inside my browser window" />
+        <option value="attachment" label="Prompt me to download" />
+      </field>
+    </line>
+  </group>
+</request>

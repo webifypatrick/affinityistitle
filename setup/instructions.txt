@@ -1,0 +1,15 @@
+1. Run both installers in Required Compents folder.  User all 
+defaults except for MySQL check the box to register in the
+Global Assembly Cache
+
+2. Copy the entire structure to your web root
+
+3. go to IIS manager and go to the properties for this folder.
+and make sure to "create" an application for this folder
+
+4. go to the IIS .NET tab and make sure .NET 2.0 is specified
+
+5. copy web.config.DEFAULT to web.config and verify the
+MySQL database is correct
+
+6. Create the database from the SQL files in this directory

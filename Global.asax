@@ -1,0 +1,1 @@
+<%@ Application Inherits="Affinity.Global" Language="C#" %>

@@ -1,4 +1,4 @@
-<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AffinityTemplate.master.cs" Inherits="MasterPage" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AffinityTemplate.master.cs" Inherits="Affinity.MasterPage" %>
 <%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
     Namespace="System.Web.UI" TagPrefix="asp" %>
 <!DOCTYPE html>
@@ -20,7 +20,7 @@
     <meta name="GOOGLEBOT" content="index, follow" />
 		<script type="text/javascript" id="JQ" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="scripts/form.js" type="text/javascript"></script>
-    <script src="scripts/order.js?v=1.1.1" type="text/javascript"></script>
+    <script src="scripts/order.js?v=1.1.2" type="text/javascript"></script>
     <!--[if IE]>
 		<style>
 		.td {float:left;}
@@ -83,6 +83,7 @@
         	window.open("/", "maintainsessionframe");
         }
 		</script>
+        <p id="Popup" runat="server" visible="false"></p>
 		<style>
 			#MessagePopup {position:absolute;margin:0px auto;display:none;border:1px solid 5a9fe2;width:450px;background:#CCCCCC;border-radius:10px; z-index:99999999999;}
 			#MessagePopup .close {float:right;color:blue;margin-right:10px;margin-top:2px;cursor:pointer;}
@@ -120,20 +121,24 @@
    <div id="headerDIV" runat="server"><div id="header"><h1>Affinity Title Services</h1><a href="Default.aspx">Home</a></div></div>
 
     <asp:Panel ID="pnlNav" runat="server" CssClass="nav">
-			<div class="hamburger"></div>
-			<div class="navDiv">
+	  <div class="hamburger"></div>
+	  <div class="navDiv">
         <a href="Default.aspx" id="lnkHome" runat="server">Home</a>
         <a href="Content.aspx?page=about" id="lnkAbout" runat="server">About Affinity</a>
         <a href="Content.aspx?page=news" id="lnkNews" runat="server">News</a>
         <a href="MyAccount.aspx" id="lnkMyAccount" runat="server" visible="false">My Account</a>
         <a href="AccountingServices.aspx" id="lnkAttorneyServices" runat="server" visible="false">Attorney Services</a>
-        <a href="FeeFinder.aspx" id="lnkFeeFinder" runat="server" visible="false">GFE Calculator</a>
+        <a href="FeeFinder.aspx" id="lnkFeeFinder" runat="server" Visible="false">GFE Calculator</a>
         <a href="HUDCalculator.aspx" id="lnkHUDCalculator" runat="server" visible="false">HUD Calculator</a>
         <a href="Forms.aspx" id="lnkForms" runat="server" visible="false">Forms</a>
         <a href="MyPreferences.aspx" id="lnkPreferences" runat="server" visible="false">My Preferences</a>
         <a href="Admin.aspx" id="lnkAdmin" runat="server" visible="false">Administration</a>
         <a href="Content.aspx?page=contact" id="lnkContact" runat="server">Contact</a>
+        <a href="#" onclick="showPopup('Please select the Demo you would like:<br /><br /><a href=\'MyAccount.aspx?Demo=Realtor\'>Realtor</a><br/><br/><a href=\'MyAccount.aspx?Demo=Attorney\'>Attorney</a><br/><br/><a href=\'MyAccount.aspx?Demo=Off\'>Turn Demo Off</a>'); return false;" id="lnkDemo" runat="server" visible="false">Demo</a>
         <a href="Logout.aspx" id="lnkLogout" runat="server" visible="false">Logout</a>
+		<div id="NotificationsDIV" runat="server" Visible="false" style="margin-top:3px;float:right; padding-left: 5px; width: 40px; padding-right: 3px; text-align: left; visibility: visible; display: block;" onclick="showNotifications();">
+			<img alt="" id="notificationBell" style="margin-top:2px;" src="/images/bellalert.png">&nbsp;&nbsp;<span runat="server" id="unreadRecordCount"></span>
+		</div>
       </div>
     </asp:Panel>
     
@@ -144,6 +149,9 @@
 	       		<div class="padding">
 	            <asp:ContentPlaceHolder ID="pain_one_cph" runat="server">
 	            </asp:ContentPlaceHolder>
+	             <asp:Panel ID="pnlDemo" runat="server" CssClass="information" Visible="false" EnableViewState="false">
+	                <asp:Label ID="lblDemo" runat="server" Text="" EnableViewState="false"></asp:Label>
+	            </asp:Panel>
 	             <asp:Panel ID="pnlFeedback" runat="server" CssClass="information" Visible="false" EnableViewState="false">
 	                <asp:Label ID="lblFeedback" runat="server" Text="" EnableViewState="false"></asp:Label>
 	            </asp:Panel>

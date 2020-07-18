@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="AdminOrder.aspx.cs" Inherits="AdminOrder" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="AdminOrder.aspx.cs" Inherits="Affinity.AdminOrder" Title="Untitled Page" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="pain_one" ContentPlaceHolderID="pain_one_cph" runat="server">
@@ -319,6 +319,6 @@
         </p>
             
     </asp:Panel>
-
+		<asp:Panel ID="pnlContentScript" runat="server"></asp:Panel>
 </asp:Content>
 

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="FeeFinder.aspx.cs" Inherits="FeeFinder" Title="GFE Calculator" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="FeeFinder.aspx.cs" Inherits="FeeFinder" Title="GFE Calculator" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="pain_one_cph" runat="server">

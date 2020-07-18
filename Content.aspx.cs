@@ -1,37 +1,32 @@
 using System;
-using System.Data;
-using System.Configuration;
-using System.Collections;
-using System.Web;
-using System.Web.Security;
 using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
-using System.Web.UI.HtmlControls;
 
-public partial class Content : PageBase
+namespace Affinity
 {
-    protected void Page_Load(object sender, EventArgs e)
+    public partial class _Content : PageBase
     {
-    Affinity.Account account = this.GetAccount();
-		string code = Request["page"] != null ? Request["page"] : "";
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            Affinity.Account account = this.GetAccount();
+            string code = Request["page"] != null ? Request["page"] : "";
 
-		Affinity.Content c = new Affinity.Content(this.phreezer);
+            Affinity.Content c = new Affinity.Content(this.phreezer);
 
-		try
-		{
-			c.Load(code);
+            try
+            {
+                c.Load(code);
 
-			this.Master.SetLayout(c.MetaTitle, MasterPage.LayoutStyle.Photo_01);
-			
-			header.InnerHtml = c.Header;
-			pnlBody.Controls.Clear();
-			pnlBody.Controls.Add(new LiteralControl(c.Body));
-		}
-		catch (Exception ex)
-		{
-			// we don't really care - just show the default not-found message
-		}
+                ((Affinity.MasterPage) this.Master).SetLayout(c.MetaTitle, MasterPage.LayoutStyle.Photo_01);
 
+                header.InnerHtml = c.Header;
+                pnlBody.Controls.Clear();
+                pnlBody.Controls.Add(new LiteralControl(c.Body));
+            }
+            catch (Exception)
+            {
+                // we don't really care - just show the default not-found message
+            }
+
+        }
     }
 }

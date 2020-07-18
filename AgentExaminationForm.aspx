@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="AgentExaminationForm.aspx.cs" Inherits="AgentExaminationForm" Title="Agent Examination Form" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="AgentExaminationForm.aspx.cs" Inherits="Affinity.AgentExaminationForm" Title="Agent Examination Form" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="pain_one" ContentPlaceHolderID="pain_one_cph" Runat="Server">

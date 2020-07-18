@@ -9,23 +9,26 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 
-public partial class AdminContents : PageBase
+namespace Affinity
 {
-    protected void Page_Load(object sender, EventArgs e)
+    public partial class AdminContents : PageBase
     {
-		this.RequirePermission(Affinity.RolePermission.AdminSystem);
-		this.RequirePermission(Affinity.RolePermission.AffinityManager);
-		this.Master.SetLayout("Manage Content Pages", MasterPage.LayoutStyle.ContentOnly);
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            this.RequirePermission(Affinity.RolePermission.AdminSystem);
+            this.RequirePermission(Affinity.RolePermission.AffinityManager);
+            ((Affinity.MasterPage) this.Master).SetLayout("Manage Content Pages", MasterPage.LayoutStyle.ContentOnly);
 
-		Affinity.Contents cs = new Affinity.Contents(this.phreezer);
-		cs.Query(new Affinity.ContentCriteria());
+            Affinity.Contents cs = new Affinity.Contents(this.phreezer);
+            cs.Query(new Affinity.ContentCriteria());
 
-		cGrid.DataSource = cs;
-		cGrid.DataBind();
+            cGrid.DataSource = cs;
+            cGrid.DataBind();
 
+        }
+        protected void btnNew_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AdminContent.aspx");
+        }
     }
-	protected void btnNew_Click(object sender, EventArgs e)
-	{
-		Response.Redirect("AdminContent.aspx");
-	}
 }

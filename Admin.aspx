@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="Admin.aspx.cs" Inherits="Admin" MasterPageFile="~/AffinityTemplate.master"%>
+<%@ Page Language="C#" AutoEventWireup="true"  CodeBehind="Admin.aspx.cs" Inherits="Affinity.Admin" MasterPageFile="~/AffinityTemplate.master"%>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="pane_one" ContentPlaceHolderID="pain_one_cph" runat="server">
@@ -29,8 +29,11 @@
 
     <p><a class="order" href="AdminOrders.aspx" id="lnkManageOrders" runat="server" visible="true">Manage Orders</a></p>
     <p><a class="order" href="UploadOrderSubmit.aspx" id="lnkImportOrders" runat="server" visible="true">Import Orders</a></p>
+    <p><a class="report" href="AdminReports.aspx" id="lnkReports" runat="server" visible="false">Reports</a></p>
     <p><a class="company" href="AdminCompanies.aspx" id="lnkManageCompanies" runat="server" visible="false">Manage Companies</a></p>
+    <p><a class="company" href="AdminNotifications.aspx" id="lnkManageNotifications" runat="server" visible="false">Manage Notifications</a></p>
     <p><a class="account" href="AdminAccounts.aspx" id="lnkManageAccounts" runat="server" visible="false">Manage Accounts</a></p>
+    <p><a class="account" href="AdminSiteContentByRoles.aspx" id="lnkSiteContentByRole" runat="server" visible="false">Manage Site Content By Role</a></p>
     <p><a class="content" href="AdminContents.aspx" id="lnkManageWebContent" runat="server" visible="false">Manage Web Content</a></p>
 </div>
 
@@ -46,7 +49,7 @@
 
     <!-- refresh the page automatically after 2 minutes -->
     <script type="text/javascript">
-        setTimeout("window.location.reload()",(2 * 60000))
+        setTimeout("window.location.reload()", (2 * 60000))
     </script>
 
 

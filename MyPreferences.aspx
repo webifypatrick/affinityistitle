@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="MyPreferences.aspx.cs" Inherits="MyPreferences" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="MyPreferences.aspx.cs" Inherits="Affinity.MyPreferences" Title="Untitled Page" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="pain_one" ContentPlaceHolderID="pain_one_cph" Runat="Server">
@@ -38,6 +38,20 @@
 				        <div class="label horizontal width_125">Primary Email:</div>
 				        <div class="input horizontal">
                             <asp:TextBox ID="txtEmail" runat="server" Width="234px"></asp:TextBox></div>
+			        </div>
+		        </div>
+		        <div class="line">
+			        <div class="field horizontal">
+				        <div class="label horizontal width_125">Business ID:</div>
+				        <div class="input horizontal">
+                            <asp:TextBox ID="txtBusinessID" runat="server" Width="234px"></asp:TextBox></div>
+			        </div>
+		        </div>
+		        <div class="line">
+			        <div class="field horizontal">
+				        <div class="label horizontal width_125">Individual ID:</div>
+				        <div class="input horizontal">
+                            <asp:TextBox ID="txtIndividualID" runat="server" Width="234px"></asp:TextBox></div>
 			        </div>
 		        </div>
 		    </fieldset>

@@ -1,3 +1,3 @@
-<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="MyAttachment.aspx.cs" Inherits="MyAttachment" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="MyAttachment.aspx.cs" Inherits="Affinity.MyAttachment" Title="Untitled Page" %>
 
 

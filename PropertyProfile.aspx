@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="PropertyProfile.aspx.cs" Inherits="PropertyProfile" %>
+<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="PropertyProfile.aspx.cs" Inherits="Affinity.PropertyProfile" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="pane_one" ContentPlaceHolderID="pain_one_cph" runat="server">

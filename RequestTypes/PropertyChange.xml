@@ -4,7 +4,7 @@
     <line>
       <field hidden="true" ts_id="AffinityOrderId" sp_id="" rei_id="" name="InternalId" />
       <field ts_id="" sp_id="" rei_id="" name="ClientName" label="Client Name:" input="text" class="horizontal" labelclass="label width_175" />
-      <field ts_id="TrackingCode" sp_id="SETREFTC" rei_id="" name="CustomerId" label="Tracking Code:" input="text" class="horizontal" width="150" />
+      <field ts_id="" sp_id="" rei_id="" name="CustomerId" label="Tracking Code:" input="text" class="horizontal" width="150" />
     </line>
     <line>
       <field ts_id="PIN" sp_id="TAXMAPID" rei_id="" name="PIN" label="Tax ID (PIN)" input="text" class="horizontal" labelclass="label width_175" >

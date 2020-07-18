@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="Default.aspx.cs" Inherits="_Default" MasterPageFile="~/AffinityTemplate.master"%>
+﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeBehind="Default.aspx.cs" Inherits="Affinity._Default" MasterPageFile="~/AffinityTemplate.master"%>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="pain_one_cph" runat="server">

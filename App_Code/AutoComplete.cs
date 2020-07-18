@@ -1,13 +1,8 @@
-using System;
-using System.Web;
-using System.Collections;
 using System.Web.Services;
-using System.Web.Services.Protocols;
 
 using System.Configuration;
 
 using Com.VerySimple.Phreeze;
-using Com.VerySimple.Util;
 
 /// <summary>
 /// Summary description for AutoComplete
@@ -29,24 +24,34 @@ public class AutoComplete : System.Web.Services.WebService
 	public string[] GetCompanies(string prefixText, int count)
 	{
 		Phreezer phreezer = new Phreezer(ConfigurationManager.ConnectionStrings["DBConn"].ConnectionString);
-		Affinity.Companys cs = new Affinity.Companys(phreezer);
-		Affinity.CompanyCriteria cc = new Affinity.CompanyCriteria();
-		cc.NameBeginsWith = prefixText;
-		cc.AppendToOrderBy("Name");
-		cc.MaxResults = count;
+        string[] returnval = new string[1];
 
-		cs.Query(cc);
-		string[] returnval = new string[cs.Count];
+        try { 
+		    Affinity.Companys cs = new Affinity.Companys(phreezer);
+		    Affinity.CompanyCriteria cc = new Affinity.CompanyCriteria();
+		    cc.NameBeginsWith = prefixText;
+		    cc.AppendToOrderBy("Name");
+		    cc.MaxResults = count;
 
-		int i = 0;
-		foreach (Affinity.Company c in cs)
-		{
-			returnval[i++] = c.Name;
-		}
+		    cs.Query(cc);
+		    returnval = new string[cs.Count];
 
-		phreezer.Close();
+		    int i = 0;
+		    foreach (Affinity.Company c in cs)
+		    {
+			    returnval[i++] = c.Name;
+		    }
+        }
+        catch (System.Exception ex)
+        {
+            log4net.LogManager.GetLogger("Application_Error").Error("AutoComplete.cs:GetCompanies: " + ex.Message);
+        }
+        finally
+        {
+            phreezer.Close();
+        }
 
-		return returnval;
+        return returnval;
 	}
 
 	[System.Web.Services.WebMethod]

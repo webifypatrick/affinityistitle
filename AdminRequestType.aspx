@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/AffinityTemplate.master" CodeFile="AdminRequestType.aspx.cs" Inherits="AdminRequestType" %>
+<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/AffinityTemplate.master" CodeBehind="AdminRequestType.aspx.cs" Inherits="Affinity.AdminRequestType" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="reload_content_title" ContentPlaceHolderID="pain_one_cph" runat="server">

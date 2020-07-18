@@ -62,7 +62,7 @@ public class WsProcessor : System.Web.Services.WebService
 		{
 			rs.Query(new Affinity.RequestCriteria());
 		}
-		catch (Exception ex)
+		catch (Exception)
 		{
 		}
 		finally

@@ -1,5 +1,7 @@
 ﻿// these are included and used by survey forms for copying and clearing address records
 
+var isIndiana = false;
+
 // formats the field as currency
 // shows an alert if format is not valid
 function verifyCurrency(field)
@@ -45,30 +47,49 @@ function formatPIN(val, showAlert)
     val = val.replace(/-/g, "");
     var result = val;
     
-    if (val.length == 14)
+    if(!isIndiana)
     {
-        result = val.substr(0,2) + '-'
-        + val.substr(2,2) + '-'
-        + val.substr(4,3) + '-'
-        + val.substr(7,3) + '-'
-        + val.substr(10,4);
-    }
-    else if (val.length == 16)
-    {
-        result = val.substr(0,2) + '-'
-        + val.substr(2,2) + '-'
-        + val.substr(4,2) + '-'
-        + val.substr(6,3) + '-'
-        + val.substr(9,3) + '-'
-        + val.substr(12,4);
-    }
-    else
-    {
-        if (showAlert)
-        {
-            alert('Please verify that this PIN is correct.  (It should be 14 or 16 digits)');
-        }
-    }
+	    if (val.length == 14)
+	    {
+	        result = val.substr(0,2) + '-'
+	        + val.substr(2,2) + '-'
+	        + val.substr(4,3) + '-'
+	        + val.substr(7,3) + '-'
+	        + val.substr(10,4);
+	    }
+	    else if (val.length == 16)
+	    {
+	        result = val.substr(0,2) + '-'
+	        + val.substr(2,2) + '-'
+	        + val.substr(4,2) + '-'
+	        + val.substr(6,3) + '-'
+	        + val.substr(9,3) + '-'
+	        + val.substr(12,4);
+	    }
+	    else
+	    {
+	        if (showAlert)
+	        {
+	            alert('Please verify that this PIN is correct.  (It should be 14 or 16 digits)');
+	        }
+	    }
+	  }
+	  else {
+	    if (val.length == 18)
+	    {
+	        result = val.substr(0,2) + '-'
+	        + val.substr(2,4) + '-'
+	        + val.substr(6,4) + '-'
+	        + val.substr(10,4) + '-'
+	        + val.substr(14,4);
+	    }
+	    else {
+	        if (showAlert)
+	        {
+	            alert('Please verify that this PIN is correct.  (It should be 18 digits)');
+	        }
+	    }
+	  }
     
     return result;
 }
@@ -151,14 +172,14 @@ function doTriggerCopyApplicationTo()
             if (frm.elements[i].checked)
             {
                 var label = frm.elements[i].nextSibling.firstChild.nodeValue;
-                if (label == '(B) Attorney')
+                if (label == '(B) Attorney' || label == 'Buyers Attorney')
                 {
                     if (findTag(frm,'BuyersAttorneyName').value == '')
                     {
                         copyAddress(frm.elements[i],'Applicant','BuyersAttorney');
                     }
                 }
-                else if (label == '(S) Attorney')
+                else if (label == '(S) Attorney' || label == 'Sellers Attorney')
                 {
                     if (findTag(frm,'SellersAttorneyName').value == '')
                     {
@@ -288,6 +309,7 @@ function setRadioValue(frm,name,val)
 // sets the radio group to the specified value
 function setCheckboxValue(frm,name,val)
 {
+	/*
     var field = findTag(frm,name);
     
     for (var i = 0; i < frm.elements.length; i++)
@@ -297,6 +319,9 @@ function setCheckboxValue(frm,name,val)
             frm.elements[i].checked = val;
         }
     }
+  */
+  
+  $(frm).find("#_ctl0_content_cph_field_" + name + "_0").prop("checked", val);
 }
 
 

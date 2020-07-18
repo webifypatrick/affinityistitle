@@ -457,11 +457,11 @@ h3.paddingTop {
 .multiUnitBuilding {
 	position:absolute;
 	margin-left:180px;
-	margin-top:-5px;
+	margin-top:-15px;
 }
 
 #outer_DwellingUnitNotes .multiUnitBuilding {
-	margin-top:15px;
+	margin-top:5px;
 }
 
 #UnderwritersTable {

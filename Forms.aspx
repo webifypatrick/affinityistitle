@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="Forms.aspx.cs" Inherits="Forms" %>
+<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="Forms.aspx.cs" Inherits="Affinity.Forms" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="pane_one" ContentPlaceHolderID="pain_one_cph" runat="server">
@@ -166,10 +166,11 @@
 
     <div>
     <h3 class="paddingTop">Miscellaneous Documents</h3>
-	<p><a href="downloads/ATS_Rates_for_Title_Insurance_and_Related_Services.pdf" class="download">ATS Rates for Insurance and Related Services</a></p>
-	<p><a href="downloads/ATS_Real_Estate_Transfer_Ordinances_3-2014.pdf" class="download">Transfer Stamp Requirements</a></p>
+	<p><a href="downloads/ATS_Rates_for_Title_Insurance_and_Related_Services-4-2017.pdf" class="download">ATS Rates for Insurance and Related Services</a></p>
+	<p><a href="downloads/ATS_Real_Estate_Transfer_Ordinances_7-2017.pdf" class="download">Transfer Stamp Requirements</a></p>
 	<p><a href="downloads/GFE_QUESTIONNAIRE-001.pdf" class="download">Residential Estimated HUD-1 Questionnaire</a></p>
 	<p><a href="downloads/Certification_of_Trust.pdf" class="download">Certification of Trust</a></p>
+	<p><a href="downloads/Statement of Acceptance into Trust.pdf" class="download">Trustee Statement of Acceptance</a></p>
     </div>
 
 	</div> <!-- /float -->

@@ -69,11 +69,9 @@
 
     <line>
       <field ts_id="" sp_id="" rei_id="" name="CopyApplicationTo" label="Use this same address for"  input="checkbox" class="horizontal" labelclass="label" repeat="horizontal">
-        <option value="(B) Attorney"></option>
-        <option value="(S) Attorney"></option>
+        <option value="Buyers Attorney"></option>
+        <option value="Sellers Attorney"></option>
         <option value="Mortage Broker"></option>
-        <option value="Listing Agent"></option>
-        <option value="Buyers Agent"></option>
       </field>
     </line>
   

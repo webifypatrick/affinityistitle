@@ -258,6 +258,11 @@
 			<field ts_id="" sp_id="FIRMCONT" rei_id="" name="ApplicantAttentionTo" label="Contact Name"  input="text" width="390" class="horizontal" labelclass="label width_125" />
 		</line>
 
+		<line name="line_business_license_id"  hidden="BusinessLicenseID=Yes">
+			<field ts_id="" sp_id="" rei_id="" name="BusinessLicenseID" label="BusinessLicenseID" input="text" width="200" class="horizontal" labelclass="label width_125" />
+			<field ts_id="" sp_id="" rei_id="" name="IndividualLicenseID" label="IndividualLicenseID" input="text" width="200" class="horizontal" labelclass="label" />
+		</line>
+
 		<line>
 			<field ts_id="" sp_id="" rei_id="" name="CopyApplicationTo" trigger="triggerCopyApplicationTo();"  label="Use this same address for"  input="checkbox" class="horizontal" labelclass="label" repeat="horizontal">
 				<option value="Borrowers Attorney">
@@ -301,6 +306,10 @@
 		<line>
 			<field ts_id="" sp_id="LENEMAIL" rei_id="" name="LenderEmail" label="Email" input="text" width="390" class="horizontal" labelclass="label width_125" />
 		</line>
+		<line>
+			<field ts_id="" sp_id="LENID" rei_id="" name="LenderBusinessLicenseID" label="Business ID" input="text" width="150" class="horizontal" labelclass="label width_125" />
+			<field ts_id="" sp_id="LENCONTID" rei_id="" name="LenderIndividualLicenseID" label="Individual ID" input="text" width="150" class="horizontal" />
+		</line>
 	</group>
 	<group name="broker" legend="Mortgage Broker">
 		<line>
@@ -330,6 +339,10 @@
 		</line>
 		<line>
 			<field ts_id="" sp_id="MTBEMAIL" rei_id="" name="BrokerEmail" label="Email" input="text" width="390" class="horizontal" labelclass="label width_125" />
+		</line>
+		<line>
+			<field ts_id="" sp_id="MTBID" rei_id="" name="BrokerBusinessLicenseID" label="Business ID" input="text" width="150" class="horizontal" labelclass="label width_125" />
+			<field ts_id="" sp_id="MTBCONTID" rei_id="" name="BrokerIndividualLicenseID" label="Individual ID" input="text" width="150" class="horizontal" />
 		</line>
 	</group>
 	<group name="notes" legend="Comments/Notes">

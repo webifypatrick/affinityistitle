@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="AdminAccount.aspx.cs" Inherits="AdminAccount" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="AdminAccount.aspx.cs" Inherits="Affinity.AdminAccount" Title="Untitled Page" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="pain_one" ContentPlaceHolderID="pain_one_cph" runat="server">
@@ -172,6 +172,21 @@
                             <asp:TextBox ID="txtIndividualLicenseId" runat="server"></asp:TextBox></div>
 			        </div>
 		        </div>
+		        <div class="line">
+			        <div class="field vertical">
+				        <div class="label vertical"></div>
+				        <div class="input vertical">
+                            If this account is a sub account subordinate to another account, please select the Master Account that this account is subordinate to.</div>
+			        </div>
+		        </div>
+		        <div class="line">
+			        <div class="field horizontal">
+				        <div class="label horizontal width_125">Master Account</div>
+				        <div class="input horizontal">
+                    <asp:DropDownList ID="ddParentAccount" runat="server"></asp:DropDownList>
+                </div>
+			        </div>
+		        </div>
 
 		        <div class="line">
 			        <div class="field vertical">
@@ -223,7 +238,7 @@
 								<div class="input vertical"><asp:CheckBoxList ID="Endorse100" runat="server"></asp:CheckBoxList></div>
 							</td>
 	        		<td style="vertical-align:top;">
-								<div class="input vertical"><asp:CheckBoxList ID="Endorse70" runat="server"></asp:CheckBoxList></div>
+								<div class="input vertical"><asp:CheckBoxList ID="Endorse50" runat="server"></asp:CheckBoxList></div>
 	        		</td>
 	        		<td style="vertical-align:top;">
 								<div class="input vertical"><asp:CheckBoxList ID="Endorse75" runat="server"></asp:CheckBoxList></div>

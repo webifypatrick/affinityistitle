@@ -1,9 +1,0 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AffinityClient.Properties" GeneratedClassName="Settings">
-  <Profiles />
-  <Settings>
-    <Setting Name="AffinityClient_localhost_WsProcessor" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://localhost:3512/affinity/WsProcessor.asmx</Value>
-    </Setting>
-  </Settings>
-</SettingsFile>

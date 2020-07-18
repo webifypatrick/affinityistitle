@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="Logout.aspx.cs" Inherits="Logout" MasterPageFile="~/AffinityTemplate.master"%>
+<%@ Page Language="C#" AutoEventWireup="true"  CodeBehind="Logout.aspx.cs" Inherits="Affinity.Logout" MasterPageFile="~/AffinityTemplate.master"%>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="pain_one_cph" runat="server">

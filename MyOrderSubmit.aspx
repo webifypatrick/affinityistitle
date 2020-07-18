@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="MyOrderSubmit.aspx.cs" Inherits="MyOrderSubmit" MasterPageFile="~/AffinityTemplate.master"%>
+<%@ Page Language="C#" AutoEventWireup="true"  CodeBehind="MyOrderSubmit.aspx.cs" Inherits="Affinity.MyOrderSubmit" MasterPageFile="~/AffinityTemplate.master"%>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="pain_one_cph" runat="server">
@@ -31,7 +31,18 @@
 				        <em>If have a Tracking Code that you use internally, you may enter it here to syncronize your records.</em>
 				        </div>
 				        <div class="input vertical">
-                            <asp:TextBox ID="txtCustomerId" runat="server" CssClass="textbox"></asp:TextBox></div>
+                  <asp:TextBox ID="txtCustomerId" runat="server" CssClass="textbox"></asp:TextBox>
+               	</div>
+			        </div>
+		        </div>
+		        
+		        <div id="IdentifierNumberDIV" runat="server" class="line">
+			        <div class="field vertical">
+				        <div class="label vertical">Identifier Number (optional):<br />
+				        </div>
+				        <div class="input vertical">
+               		<asp:TextBox ID="txtIdentifierNumber" runat="server" CssClass="textbox"></asp:TextBox><span>@skyslope.com</span>
+               	</div>
 			        </div>
 		        </div>
 		        
@@ -206,5 +217,5 @@
     <p>
         <asp:Button ID="btnSubmit" runat="server" Text="Continue..." OnClick="btnSubmit_Click" />
         <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" /></p>
-
+<asp:Panel ID="pnlContentScript" runat="server"></asp:Panel>
 </asp:Content>

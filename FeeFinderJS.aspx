@@ -1,1 +1,1 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FeeFinderJS.aspx.cs" Inherits="FeeFinderJS" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FeeFinderJS.aspx.cs" Inherits="Affinity.FeeFinderJS" %>

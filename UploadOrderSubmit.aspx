@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true"CodeFile="UploadOrderSubmit.aspx.cs" Inherits="UploadOrderSubmit" MasterPageFile="~/AffinityTemplate.master"%>
+<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="UploadOrderSubmit.aspx.cs" Inherits="Affinity.UploadOrderSubmit" Title="Upload Order Submit" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="pain_one_cph" runat="server">
@@ -65,7 +65,7 @@
 				        <em>Select Excel file</em>
 				        </div>
 				        <div class="input horizontal">
-                    <asp:FileUpload ID="fuAttachment" runat="server" CssClass="upload" />
+                    <asp:FileUpload ID="fuAttachment" runat="server" CssClass="upload" multiple="multiple" />
 			        </div>
 		        </div>		        
 		        
@@ -80,6 +80,42 @@
 
     <p>
         <asp:Button ID="btnSubmit" runat="server" Text="Import Orders" OnClick="btnSubmit_Click" />
-        <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" /></p>
+        <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" />
+    </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>
+    	<asp:Panel ID="pnlImportForm" runat="server" EnableViewState="true">
+    		<h2>Import Order Form Entries from AffinityIsTitle.com Web site</h2>
+        <div class="fields">
+		    <fieldset id="general">
+		    	
+		        <div class="line">
+			        <div class="field horizontal">
+				        <div class="label horizontal width_125">Originator</div>
+				        <div class="input horizontal">
+                  <asp:DropDownList ID="ddNewOriginatorImport" runat="server">
+                  </asp:DropDownList>
+                </div>
+			        </div>
+		        </div>
+		    	
+		        <div class="line">
+			        <div class="field horizontal">
+				        <asp:Button ID="btnSubmitImport" runat="server" Text="Import Orders From Web Site" OnClick="btnSubmitImport_Click" />
+        				<asp:Button ID="btnCancelImport" runat="server" Text="Cancel" OnClick="btnCancel_Click" />
+			        </div>
+		        </div>
+
+		    </fieldset>
+	    </div>
+    </asp:Panel>
+    
+    <asp:Panel ID="pnlImportResults" runat="server" EnableViewState="false" Visible="false">
+	    <p ID="pImportResults" runat="server">
+	    </p>
+    </asp:Panel>
+    </p>
+     
 
 </asp:Content>

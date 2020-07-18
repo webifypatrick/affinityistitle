@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57E266F9-84C3-434F-93CE-26781A74264C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Affinity</RootNamespace>
+    <AssemblyName>AffinitySolution</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.10301.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="App_Licenses, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\App_Licenses.dll</HintPath>
+    </Reference>
+    <Reference Include="FreeTextBox, Version=3.1.6.34851, Culture=neutral, PublicKeyToken=5962a4e684a48b87, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\FreeTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="GemBox.Spreadsheet, Version=39.3.0.1063, Culture=neutral, PublicKeyToken=b1b72c69714d4847, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\GemBox.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="HiQPdf, Version=5.10.0.0, Culture=neutral, PublicKeyToken=acd8b62594985b24, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\HiQPdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ZfLib, Version=1.4.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Interop.ZfLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.1.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Doc, Version=4.4.16.3020, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Spire.Doc.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.2.2.20, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Xceed.Compression, Version=2.0.116.0, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Xceed.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.FileSystem, Version=2.0.116.0, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Xceed.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Zip, Version=2.0.116.0, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Xceed.Zip.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccountingServices.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="AdminAccount.aspx" />
+    <Content Include="AdminAccounts.aspx" />
+    <Content Include="AdminAttachment.aspx" />
+    <Content Include="AdminAttachmentPurpose.aspx" />
+    <Content Include="AdminAttachmentPurposes.aspx" />
+    <Content Include="AdminNotifications.aspx" />
+    <Content Include="AdminCompanies.aspx" />
+    <Content Include="AdminNotification.aspx" />
+    <Content Include="AdminCompany.aspx" />
+    <Content Include="AdminContent.aspx" />
+    <Content Include="AdminContents.aspx" />
+    <Content Include="AdminDebug.aspx" />
+    <Content Include="AdminFees.aspx" />
+    <Content Include="AdminOrder.aspx" />
+    <Content Include="AdminOrders.aspx" />
+    <Content Include="AdminReport.aspx" />
+    <Content Include="AdminRequest.aspx" />
+    <Content Include="AdminRequestType.aspx" />
+    <Content Include="AdminRequestTypes.aspx" />
+    <Content Include="AdminReports.aspx" />
+    <Content Include="AdminSettings.aspx" />
+    <Content Include="AdminSiteContentByRole.aspx" />
+    <Content Include="AdminSiteContentByRoles.aspx" />
+    <Content Include="AffinityTemplate.master" />
+    <Content Include="AgentExaminationForm.aspx" />
+    <Content Include="AgentExaminationForm.html" />
+    <Content Include="AgentExaminationForm.txt" />
+    <Content Include="AutoComplete.asmx" />
+    <Content Include="Backup 1 of UpgradeLog.htm" />
+    <Content Include="bin\AgentSolution.dll" />
+    <Content Include="bin\AgentSolution.dll.config" />
+    <Content Include="bin\FreeTextBox.dll.refresh" />
+    <Content Include="bin\HiQPdf.dll.refresh" />
+    <Content Include="bin\Microsoft.Office.Interop.Excel.dll.refresh" />
+    <Content Include="bin\Microsoft.Office.Interop.Word.dll.refresh" />
+    <Content Include="Content.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Documents.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Example.aspx" />
+    <Content Include="Export.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="FeeFinder.aspx" />
+    <Content Include="FeeFinderJS.aspx" />
+    <Content Include="FeeFinder_old.aspx" />
+    <Content Include="ForgottenPass.aspx" />
+    <Content Include="Forms.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HttpRedirect.htm" />
+    <Content Include="HUDCalculator.aspx" />
+    <Content Include="log.config.xml" />
+    <Content Include="Logout.aspx" />
+    <Content Include="MyAccount.aspx" />
+    <Content Include="MyAttachment.aspx" />
+    <Content Include="MyOrder.aspx" />
+    <Content Include="MyOrderSubmit.aspx" />
+    <Content Include="MyPreferences.aspx" />
+    <Content Include="MyRequestSubmit.aspx" />
+    <Content Include="notifyUserFax.aspx" />
+    <Content Include="obj\Debug\CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Release\Affinity.csproj.ResolveComReference.cache" />
+    <Content Include="obj\Release\CoreCompileInputs.cache" />
+    <Content Include="accounts.xls" />
+    <Content Include="ATS_GFE_Fee_Finder_Calculator.xls" />
+    <Content Include="FeeFinder.csv" />
+    <Content Include="format" />
+    <Content Include="PropertyProfile.aspx" />
+    <Content Include="QuotingSheet.aspx" />
+    <Content Include="Redirect.aspx" />
+    <Content Include="taxing_district.xls" />
+    <Content Include="packages.config" />
+    <Content Include="bin\HiQPdf.dep" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Faxes\req_att_19693_201302080230.html" />
+    <Content Include="bin\AgentSolution.pdb" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\App_Licenses.dll" />
+    <Content Include="bin\FreeTextBox.dll" />
+    <Content Include="bin\fxscomex.dll" />
+    <Content Include="bin\GemBox.Spreadsheet.dll" />
+    <Content Include="bin\HiQPdf.dll" />
+    <Content Include="bin\Interop.ZfLib.dll" />
+    <Content Include="bin\log4net.dll" />
+    <Content Include="bin\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="bin\Microsoft.Office.Interop.Word.dll" />
+    <Content Include="bin\Microsoft.Vbe.Interop.dll" />
+    <Content Include="bin\MySql.Data.dll" />
+    <Content Include="bin\office.dll" />
+    <Content Include="bin\Spire.Doc.dll" />
+    <Content Include="bin\Spire.License.dll" />
+    <Content Include="bin\System.Web.Extensions.Design.dll" />
+    <Content Include="bin\System.Web.Extensions.dll" />
+    <Content Include="bin\Xceed.Compression.dll" />
+    <Content Include="bin\Xceed.FileSystem.dll" />
+    <Content Include="bin\Xceed.Zip.dll" />
+    <Content Include="obj\Debug\Affinity.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\AffinitySolution.dll" />
+    <Content Include="obj\Debug\AffinitySolution.pdb" />
+    <Content Include="obj\Release\Interop.FAXCOMEXLib.dll" />
+    <Content Include="README.txt" />
+    <Content Include="snippets.txt" />
+    <Content Include="UpgradeLog.htm" />
+    <Content Include="UpgradeLog2.htm" />
+    <Content Include="UpgradeLog3.htm" />
+    <Content Include="UpgradeLog4.htm" />
+    <Content Include="UploadFile.aspx" />
+    <Content Include="UploadOrderSubmit.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountingServices.aspx.cs">
+      <DependentUpon>AccountingServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccountingServices.designer.cs" />
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAccount.aspx.cs">
+      <DependentUpon>AdminAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAccounts.aspx.cs">
+      <DependentUpon>AdminAccounts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAttachment.aspx.cs">
+      <DependentUpon>AdminAttachment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAttachment.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAttachmentPurpose.aspx.cs">
+      <DependentUpon>AdminAttachmentPurpose.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAttachmentPurposes.aspx.cs">
+      <DependentUpon>AdminAttachmentPurposes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAttachmentPurposes.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminNotifications.aspx.cs">
+      <DependentUpon>AdminNotifications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCompanies.aspx.cs">
+      <DependentUpon>AdminCompanies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminNotifications.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCompanies.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminNotification.aspx.cs">
+      <DependentUpon>AdminNotification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCompany.aspx.cs">
+      <DependentUpon>AdminCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminNotification.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCompany.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminContent.aspx.cs">
+      <DependentUpon>AdminContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminContent.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminContents.aspx.cs">
+      <DependentUpon>AdminContents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminContents.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDebug.aspx.cs">
+      <DependentUpon>AdminDebug.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDebug.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminFees.aspx.cs">
+      <DependentUpon>AdminFees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminFees.designer .cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminOrder.aspx.cs">
+      <DependentUpon>AdminOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminOrder.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminOrders.aspx.cs">
+      <DependentUpon>AdminOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminOrders.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminReport.aspx.cs">
+      <DependentUpon>AdminReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminReport.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRequest.aspx.cs">
+      <DependentUpon>AdminRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRequest.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRequestType.aspx.cs">
+      <DependentUpon>AdminRequestType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRequestType.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRequestTypes.aspx.cs">
+      <DependentUpon>AdminRequestTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRequestTypes.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminReports.aspx.cs">
+      <DependentUpon>AdminReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSettings.aspx.cs">
+      <DependentUpon>AdminSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminReports.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSettings.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSiteContentByRole.aspx.cs">
+      <DependentUpon>AdminSiteContentByRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSiteContentByRole.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSiteContentByRoles.aspx.cs">
+      <DependentUpon>AdminSiteContentByRoles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSiteContentByRoles.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgentExaminationForm.aspx.cs">
+      <DependentUpon>AgentExaminationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgentExaminationForm.designer.cs" />
+    <Content Include="App_Code\AccountLog.cs" />
+    <Content Include="App_Code\AccountLogCriteria.cs" />
+    <Content Include="App_Code\AccountLogDao.cs" />
+    <Content Include="App_Code\AccountLogs.cs" />
+    <Compile Include="App_Code\Notification.cs" />
+    <Compile Include="App_Code\RequestNotificationAccount.cs" />
+    <Compile Include="App_Code\RequestNotificationAccountCriteria.cs" />
+    <Compile Include="App_Code\RequestNotificationAccountDAO.cs" />
+    <Compile Include="App_Code\RequestNotificationAccounts.cs" />
+    <Compile Include="App_Code\NotificationDAO.cs" />
+    <Compile Include="App_Code\NotificationCriteria.cs" />
+    <Compile Include="App_Code\Notifications.cs" />
+    <Compile Include="App_Code\NotificationAccount.cs" />
+    <Compile Include="App_Code\NotificationAccounts.cs" />
+    <Compile Include="App_Code\NotificationAccountDAO.cs" />
+    <Compile Include="App_Code\NotificationAccountCriteria.cs" />
+    <Compile Include="ForgottenPass.aspx.cs">
+      <DependentUpon>ForgottenPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HUDCalculator.aspx.cs">
+      <DependentUpon>HUDCalculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HUDCalculator.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgottenPass.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documents.aspx.cs">
+      <DependentUpon>Documents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Example.aspx.cs">
+      <DependentUpon>Example.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Export.aspx.cs">
+      <DependentUpon>Export.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeeFinder.aspx.cs">
+      <DependentUpon>FeeFinder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeeFinderJS.aspx.cs">
+      <DependentUpon>FeeFinderJS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms.aspx.cs">
+      <DependentUpon>Forms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyOrder.aspx.cs">
+      <DependentUpon>MyOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyOrderSubmit.aspx.cs">
+      <DependentUpon>MyOrderSubmit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyOrder.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyPreferences.aspx.cs">
+      <DependentUpon>MyPreferences.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyOrderSubmit.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyPreferences.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyRequestSubmit.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAttachment.aspx.cs">
+      <DependentUpon>MyAttachment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyRequestSubmit.aspx.cs">
+      <DependentUpon>MyRequestSubmit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notifyUserFax.aspx.cs">
+      <DependentUpon>notifyUserFax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PropertyProfile.aspx.cs">
+      <DependentUpon>PropertyProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuotingSheet.aspx.cs">
+      <DependentUpon>QuotingSheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuotingSheet.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadFile.aspx.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadFile.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadOrderSubmit.aspx.cs">
+      <DependentUpon>UploadOrderSubmit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadOrderSubmit.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Redirect.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content.aspx.cs">
+      <DependentUpon>Content.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount.aspx.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAttachmentPurpose.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAccounts.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAccount.designer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AffinityTemplate.master.cs">
+      <DependentUpon>AffinityTemplate.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AffinityTemplate.master.designer.cs">
+      <DependentUpon>AffinityTemplate.master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Account.cs" />
+    <Compile Include="App_Code\AccountCriteria.cs" />
+    <Compile Include="App_Code\AccountDao.cs" />
+    <Compile Include="App_Code\Accounts.cs" />
+    <Compile Include="App_Code\AffinityFaxServer.cs" />
+    <Compile Include="App_Code\Attachment.cs" />
+    <Compile Include="App_Code\AttachmentCriteria.cs" />
+    <Compile Include="App_Code\AttachmentDao.cs" />
+    <Compile Include="App_Code\AttachmentPurpose.cs" />
+    <Compile Include="App_Code\AttachmentPurposeCriteria.cs" />
+    <Compile Include="App_Code\AttachmentPurposeDao.cs" />
+    <Compile Include="App_Code\AttachmentPurposes.cs" />
+    <Compile Include="App_Code\AttachmentRole.cs" />
+    <Compile Include="App_Code\AttachmentRoles.cs" />
+    <Compile Include="App_Code\AttachmentRolesCriteria.cs" />
+    <Compile Include="App_Code\AttachmentRolesDAO.cs" />
+    <Compile Include="App_Code\Attachments.cs" />
+    <Compile Include="App_Code\AutoComplete.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Code\BaseRenderer.cs" />
+    <Compile Include="App_Code\Company.cs" />
+    <Compile Include="App_Code\CompanyCriteria.cs" />
+    <Compile Include="App_Code\CompanyDao.cs" />
+    <Compile Include="App_Code\Companys.cs" />
+    <Compile Include="App_Code\Content.cs" />
+    <Compile Include="App_Code\ContentCriteria.cs" />
+    <Compile Include="App_Code\ContentDao.cs" />
+    <Compile Include="App_Code\Contents.cs" />
+    <Compile Include="App_Code\Criteria.cs" />
+    <Compile Include="App_Code\ExportLog.cs" />
+    <Compile Include="App_Code\ExportLogCriteria.cs" />
+    <Compile Include="App_Code\ExportLogDao.cs" />
+    <Compile Include="App_Code\ExportLogs.cs" />
+    <Compile Include="App_Code\Global.asax.cs" />
+    <Compile Include="App_Code\HUDLog.cs" />
+    <Compile Include="App_Code\HUDLogCriteria.cs" />
+    <Compile Include="App_Code\HUDLogDAO.cs" />
+    <Compile Include="App_Code\HUDLogs.cs" />
+    <Compile Include="App_Code\IBaseRendere.cs" />
+    <Compile Include="App_Code\Impersonator.cs" />
+    <Compile Include="App_Code\IXmlFormCallback.cs" />
+    <Compile Include="App_Code\Loadable.cs" />
+    <Compile Include="App_Code\Location.cs" />
+    <Compile Include="App_Code\LocationCriteria.cs" />
+    <Compile Include="App_Code\LocationDao.cs" />
+    <Compile Include="App_Code\Locations.cs" />
+    <Compile Include="App_Code\Mailer.cs" />
+    <Compile Include="App_Code\NoNull.cs" />
+    <Compile Include="App_Code\Order.cs" />
+    <Compile Include="App_Code\OrderAssignment.cs" />
+    <Compile Include="App_Code\OrderAssignmentCriteria.cs" />
+    <Compile Include="App_Code\OrderAssignmentDao.cs" />
+    <Compile Include="App_Code\OrderAssignments.cs" />
+    <Compile Include="App_Code\OrderCriteria.cs" />
+    <Compile Include="App_Code\OrderDao.cs" />
+    <Compile Include="App_Code\Orders.cs" />
+    <Compile Include="App_Code\OrderStatus.cs" />
+    <Compile Include="App_Code\OrderStatusCriteria.cs" />
+    <Compile Include="App_Code\OrderStatusDao.cs" />
+    <Compile Include="App_Code\OrderStatuss.cs" />
+    <Compile Include="App_Code\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\PageShim.cs" />
+    <Compile Include="App_Code\Paths.cs" />
+    <Compile Include="App_Code\PFTChangeRenderer.cs" />
+    <Compile Include="App_Code\PFTRenderer.cs" />
+    <Compile Include="App_Code\PFTSecondMortgateRenderer.cs" />
+    <Compile Include="App_Code\Phreezer.cs" />
+    <Compile Include="App_Code\Preparer.cs" />
+    <Compile Include="App_Code\Queryable.cs" />
+    <Compile Include="App_Code\RandomPassword.cs" />
+    <Compile Include="App_Code\Request.cs" />
+    <Compile Include="App_Code\RequestCriteria.cs" />
+    <Compile Include="App_Code\RequestDao.cs" />
+    <Compile Include="App_Code\Requests.cs" />
+    <Compile Include="App_Code\RequestStatus.cs" />
+    <Compile Include="App_Code\RequestStatusCriteria.cs" />
+    <Compile Include="App_Code\RequestStatusDao.cs" />
+    <Compile Include="App_Code\RequestStatuss.cs" />
+    <Compile Include="App_Code\RequestType.cs" />
+    <Compile Include="App_Code\RequestTypeCriteria.cs" />
+    <Compile Include="App_Code\RequestTypeDao.cs" />
+    <Compile Include="App_Code\RequestTypes.cs" />
+    <Compile Include="App_Code\Role.cs" />
+    <Compile Include="App_Code\RoleCriteria.cs" />
+    <Compile Include="App_Code\RoleDao.cs" />
+    <Compile Include="App_Code\Roles.cs" />
+    <Compile Include="App_Code\ScheduleCriteria.cs" />
+    <Compile Include="App_Code\ScheduleDAO.cs" />
+    <Compile Include="App_Code\Schedules.cs" />
+    <Compile Include="App_Code\Schedules1.cs" />
+    <Compile Include="App_Code\SearchAccountCriteria.cs" />
+    <Compile Include="App_Code\SimpleHash.cs" />
+    <Compile Include="App_Code\SiteContentByRole.cs" />
+    <Compile Include="App_Code\SiteContentByRoleCriteria.cs" />
+    <Compile Include="App_Code\SiteContentByRoleDao.cs" />
+    <Compile Include="App_Code\SiteContentByRoles.cs" />
+    <Compile Include="App_Code\SystemSetting.cs" />
+    <Compile Include="App_Code\SystemSettingCriteria.cs" />
+    <Compile Include="App_Code\SystemSettingDao.cs" />
+    <Compile Include="App_Code\SystemSettings.cs" />
+    <Compile Include="App_Code\TaxingDistrictDAO.cs" />
+    <Compile Include="App_Code\TitleFeeDao.cs" />
+    <Compile Include="App_Code\TitleFees.cs" />
+    <Compile Include="App_Code\TitleFees1.cs" />
+    <Compile Include="App_Code\TitleFeesCriteria.cs" />
+    <Compile Include="App_Code\TPSServcePFTRenderer.cs" />
+    <Compile Include="App_Code\Underwriter.cs" />
+    <Compile Include="App_Code\UnderwriterCriteria.cs" />
+    <Compile Include="App_Code\UnderwriterDao.cs" />
+    <Compile Include="App_Code\Underwriters.cs" />
+    <Compile Include="App_Code\UploadLog.cs" />
+    <Compile Include="App_Code\UploadLogCriteria.cs" />
+    <Compile Include="App_Code\UploadLogDAO.cs" />
+    <Compile Include="App_Code\UploadLogs.cs" />
+    <Compile Include="App_Code\WsProcessor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Code\WsResponse.cs" />
+    <Compile Include="App_Code\WsToken.cs" />
+    <Compile Include="App_Code\XmlForm.cs" />
+    <Compile Include="App_Code\XmlREIRenderer.cs" />
+    <Compile Include="App_Code\XmlRenderer.cs" />
+    <Compile Include="App_Code\Zipcode.cs" />
+    <Compile Include="App_Code\ZipcodeCriteria.cs" />
+    <Compile Include="App_Code\ZipcodeDao.cs" />
+    <Compile Include="App_Code\Zipcodes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Redirect.aspx.cs">
+      <DependentUpon>Redirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\ar\" />
+    <Folder Include="bin\de\" />
+    <Folder Include="bin\es\" />
+    <Folder Include="bin\fr\" />
+    <Folder Include="bin\he\" />
+    <Folder Include="bin\hi\" />
+    <Folder Include="bin\it\" />
+    <Folder Include="bin\ja\" />
+    <Folder Include="bin\ko\" />
+    <Folder Include="bin\pt\" />
+    <Folder Include="bin\ru\" />
+    <Folder Include="bin\zh-CHS\" />
+    <Folder Include="bin\zh-CHT\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59132</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59132/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

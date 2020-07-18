@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="AdminRequest.aspx.cs" Inherits="AdminRequest" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="AdminRequest.aspx.cs" Inherits="Affinity.AdminRequest" Title="Untitled Page" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="pain_one_cph" runat="server">
@@ -58,7 +58,7 @@
 				        <div class="input horizontal">
                             <asp:DropDownList ID="ddFilePurpose" runat="server">
                             </asp:DropDownList>
-                            <asp:FileUpload ID="fuAttachment" runat="server" CssClass="upload" />
+                            <asp:FileUpload ID="fuAttachment" runat="server" multiple="multiple" CssClass="upload" />
                         </div>
 			        </div>
 		        </div>
@@ -78,6 +78,16 @@
 	    <br />Append Note to the email: 
             <asp:TextBox ID="txtEmailNote" runat="server" Width="458px"></asp:TextBox>
 	    </p>
+
+        <p>
+            <table>
+                <tr>
+                    <td>Send notification to the following:</td>
+                    <td><asp:ListBox Height="200" ID="selAccounts" SelectionMode="Multiple" runat="server" Width="250px"></asp:ListBox></td>
+                </tr>
+            </table>
+
+        </p>
 	    
 	    <p>
             <asp:Button ID="btnSave" runat="server" Text="Save Request" OnClick="btnSave_Click" />

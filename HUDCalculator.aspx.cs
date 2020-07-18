@@ -1,20 +1,10 @@
 using System;
-using System.Data;
-using System.Configuration;
 using System.Collections;
-using System.Web;
-using System.Web.Security;
 using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
-using System.Web.UI.HtmlControls;
 using System.IO;
 using System.Xml;
-using System.Net;
 using MySql.Data.MySqlClient;
 using GemBox.Spreadsheet;
-
-using Com.VerySimple.Util;
 
 namespace Affinity
 {
@@ -26,6 +16,10 @@ namespace Affinity
 	    	{
 					Affinity.Orders orders = new Affinity.Orders(this.phreezer);
 					Affinity.OrderCriteria oc = new Affinity.OrderCriteria();
+					if(Session["IsDemo"] != null)
+					{
+						oc.IsDemo = true;
+					}
 					oc.AppendToOrderBy("Created",true);
 					
 					string pin = Request["PIN"].Replace("WEB-", "");
@@ -37,6 +31,10 @@ namespace Affinity
 					if(orders.Count == 0)
 					{
 						oc = new Affinity.OrderCriteria();
+						if(Session["IsDemo"] != null)
+						{
+							oc.IsDemo = true;
+						}
 						oc.OriginatorId = this.GetAccount().Id;
 						
 						int pinid = 0;
@@ -49,6 +47,10 @@ namespace Affinity
 						if(orders.Count == 0)
 						{
 							oc = new Affinity.OrderCriteria();
+							if(Session["IsDemo"] != null)
+							{
+								oc.IsDemo = true;
+							}
 							oc.OriginatorId = this.GetAccount().Id;
 						
 							oc.InternalId = pin;
@@ -102,43 +104,45 @@ namespace Affinity
       			}
       			else
       			{
-							MySqlDataReader reader = this.phreezer.ExecuteReader("select * from `taxing_district` t where t.taxing_district = '" + Request["TaxingCity"] + "'");
-		          if (reader.Read())
-		          {
-			        	string liability_party = reader["Liable_party"].ToString();
-			        	bool isSeller = (liability_party.ToLower().IndexOf("sell") > -1);
-			        	bool isBuyer = (liability_party.ToLower().IndexOf("buy") > -1);
-			        	string stamp_exempt = reader["Stamp_exempt"].ToString();
-			        	string amount = reader["Amount"].ToString().Replace(",", "").Replace("$", "");
-			        	string[] amountArray = amount.Split('/');
-			        	
-			        	decimal.TryParse(amountArray[0], out stamptaxrate);
-			        	if(amountArray.Length > 1) decimal.TryParse(amountArray[1], out stamptaxper);
-			        	decimal stamptax = 0;
-			        	
-			        	if(stamptaxper > 0)
-			        	{
-				        	stamptax = (sales / stamptaxper) * stamptaxrate;
-				        }
-				        else if(amount.ToLower().IndexOf("trans") > -1)
-				        {
-				        	stamptax = stamptaxrate;
-				        }
+							using(MySqlDataReader reader = this.phreezer.ExecuteReader("select * from `taxing_district` t where t.taxing_district = '" + Request["TaxingCity"] + "'"))
+							{
+			          if (reader.Read())
+			          {
+				        	string liability_party = reader["Liable_party"].ToString();
+				        	bool isSeller = (liability_party.ToLower().IndexOf("sell") > -1);
+				        	bool isBuyer = (liability_party.ToLower().IndexOf("buy") > -1);
+				        	string stamp_exempt = reader["Stamp_exempt"].ToString();
+				        	string amount = reader["Amount"].ToString().Replace(",", "").Replace("$", "");
+				        	string[] amountArray = amount.Split('/');
 				        	
-			        	if(isSeller && isBuyer)
-			        	{
-			        		stamptaxStr = stamptax.ToString();
-			        	}
-			        	else if(isBuyer)
-			        	{
-      						stamptaxStr = stamptax.ToString() + "|0";
-			        	}
-			        	else if(isSeller)
-			        	{
-      						stamptaxStr = "0|" + stamptax.ToString();
-			        	}
-		          }
-							reader.Close();
+				        	decimal.TryParse(amountArray[0], out stamptaxrate);
+				        	if(amountArray.Length > 1) decimal.TryParse(amountArray[1], out stamptaxper);
+				        	decimal stamptax = 0;
+				        	
+				        	if(stamptaxper > 0)
+				        	{
+					        	stamptax = (sales / stamptaxper) * stamptaxrate;
+					        }
+					        else if(amount.ToLower().IndexOf("trans") > -1)
+					        {
+					        	stamptax = stamptaxrate;
+					        }
+					        	
+				        	if(isSeller && isBuyer)
+				        	{
+				        		stamptaxStr = stamptax.ToString();
+				        	}
+				        	else if(isBuyer)
+				        	{
+	      						stamptaxStr = stamptax.ToString() + "|0";
+				        	}
+				        	else if(isSeller)
+				        	{
+	      						stamptaxStr = "0|" + stamptax.ToString();
+				        	}
+			          }
+								reader.Close();
+							}
 						}
 					}
         	
@@ -160,7 +164,8 @@ namespace Affinity
 
 			        Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
 			      	tfc.FeeType = "Insurance Rate";
-			      	tfc.Name = "$" + purchidx.ToString() + "0,001 to $" + (purchidx + 1).ToString() + "0,000";
+                    tfc.State = "IL";
+                    tfc.Name = "$" + purchidx.ToString() + "0,001 to $" + (purchidx + 1).ToString() + "0,000";
 			        tfc.AppendToOrderBy("Id");
 			        tf1.Query(tfc);
 			
@@ -194,6 +199,7 @@ namespace Affinity
 
 			        Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
 			      	tfc.FeeType = "Escrow Services: Residential Closing Fees";
+                    tfc.State = "IL";
 			      	
 			      	if(purchidx < 2)
 			      	{
@@ -241,7 +247,7 @@ namespace Affinity
        }
 
 	    	
-				this.Master.SetLayout("HUD Calculator", MasterPage.LayoutStyle.ContentOnly);
+				((Affinity.MasterPage)this.Master).SetLayout("HUD Calculator", MasterPage.LayoutStyle.ContentOnly);
 				
 				
 	    	if (Page.IsPostBack)
@@ -256,8 +262,9 @@ namespace Affinity
 	    		
 			    Affinity.TitleFees tf = new Affinity.TitleFees(this.phreezer);
 		   		Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
-		      tfc.Name = "Simultaneously Issued Mortgage Policy";
-		      tf.Query(tfc);
+		        tfc.Name = "Simultaneously Issued Mortgage Policy";
+                tfc.State = "IL";
+                tf.Query(tfc);
 		      
 	        IEnumerator tfi = tf.GetEnumerator();
 	
@@ -270,8 +277,9 @@ namespace Affinity
 	    		
 	    		tf = new Affinity.TitleFees(this.phreezer);
 		   		tfc = new Affinity.TitleFeesCriteria();
-		      tfc.Name = "Abstract Fee/Search Fee";
-		      tf.Query(tfc);
+		        tfc.Name = "Abstract Fee/Search Fee";
+                tfc.State = "IL";
+                tf.Query(tfc);
 		      
 	        tfi = tf.GetEnumerator();
 	
@@ -299,20 +307,20 @@ namespace Affinity
 					{
 						isShort = true;
 					}
-					
-					XmlDocument submissionDoc = new XmlDocument();
+
+                    XmlDocument submissionDoc = new XmlDocument();
 					submissionDoc.LoadXml("<form></form>");
 					XmlNode formNode = submissionDoc.SelectSingleNode("form");
 					
 					foreach(string key in Request.Form) {
-						if(key.IndexOf("__") > -1 || key.Equals("s")) continue;
-						XmlElement newnode = submissionDoc.CreateElement(key.Replace("$", "").Replace("ctl00content_cph", ""));
+                        if (key.IndexOf("__") > -1 || key.Equals("s")) continue;
+                        XmlElement newnode = submissionDoc.CreateElement(key.Replace("$", "").Replace("_ctl0:content_cph:", ""));
 						newnode.InnerText = Request.Form[key];
 						formNode.AppendChild(newnode);
-     			}
-					
-					// Log the form submission
-					Affinity.HUDLog h = new Affinity.HUDLog(this.phreezer);
+     			    }
+
+                    // Log the form submission
+                    Affinity.HUDLog h = new Affinity.HUDLog(this.phreezer);
 					h.AccountID = this.GetAccount().Id;
 					h.SubmissionXML = submissionDoc.OuterXml;
 					h.Insert();
@@ -320,15 +328,15 @@ namespace Affinity
 					
 					ExcelFile file = new ExcelFile();
 					ExcelWorksheet ws = file.Worksheets.Add("HUD");
-					
-					// Setup Worksheet margins
-					/*
-					ws.PrintOptions.TopMargin = .3;
-					ws.PrintOptions.BottomMargin = .3;
-					ws.PrintOptions.LeftMargin = .1;
-					ws.PrintOptions.RightMargin = .1;
-					*/
-					ws.PrintOptions.FitWorksheetWidthToPages = 1;
+
+            // Setup Worksheet margins
+            /*
+            ws.PrintOptions.TopMargin = .3;
+            ws.PrintOptions.BottomMargin = .3;
+            ws.PrintOptions.LeftMargin = .1;
+            ws.PrintOptions.RightMargin = .1;
+            */
+            ws.PrintOptions.FitWorksheetWidthToPages = 1;
 		
 					// setup column widths
 	      	ws.Columns[0].Width = (10 * 250);
@@ -1321,77 +1329,80 @@ namespace Affinity
 	      	
 	      	ws.Rows[104 + addRow].Cells[5].Value = "Credit";
 	      	ws.Rows[104 + addRow].Cells[5].Style.HorizontalAlignment = HorizontalAlignmentStyle.Center;
-	      	ws.Rows[104 + addRow].Cells[5].Style.Font.Weight = ExcelFont.BoldWeight;	
-   	
-      	/*
-	      	XmlDocument doc = new XmlDocument();
-	      	string url = "http://maps.googleapis.com/maps/api/geocode/xml?address=" + PropertyAddress.Value + "&key=";
-	
-	        System.Net.HttpWebRequest req = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(url);
-	        req.Method = "GET";
-	        req.Accept = "text/xml";
-	        req.KeepAlive = false;
-	
-	        System.Net.HttpWebResponse response = null;
-	
-	        using (response = (System.Net.HttpWebResponse) req.GetResponse()) //attempt to get the response.
-	        {
-	          using (Stream RespStrm = response.GetResponseStream())
-	          {
-	            doc.Load(RespStrm);
-	          }
-	        }
-	        
-	        //ws.Rows[104 + addRow].Cells[3].Value = "fred";
-	        string city = "";
-	        XmlNode citynode = doc.SelectSingleNode("/GeocodeResponse/result/address_component[type='locality']");
-	        
-	        if(citynode != null)
-	        {
-	        	city = citynode.SelectSingleNode("long_name").InnerText;
-	        }
-	        	
-	        string county = "";
-	        XmlNode countynode = doc.SelectSingleNode("/GeocodeResponse/result/address_component[type='administrative_area_level_2']");
-	        
-	        if(countynode != null)
-	        {
-	        	county = countynode.SelectSingleNode("long_name").InnerText;
-	        }
-	        	
-        	if(!city.Equals(""))
-        	{
-						//Affinity.TaxingDistrict taxingdistrict = new TaxingDistrict(this.phreezer);
-						//taxingdistrict.Load(city);
-						
-						MySqlDataReader reader = this.phreezer.ExecuteReader("select * from `taxing_district` t where t.taxing_district = '" + city + "'");
-            if (reader.Read())
-            {
-		        	string liability_party = reader["Liable_party"].ToString();
-		        	string stamp_exempt = reader["Stamp_exempt"].ToString();
-		        	string amount = reader["Amount"].ToString().Replace("$", "");
-		        	string[] amountArray = amount.Split('/');
-		        	decimal stamptaxrate = 0;
-		        	decimal stamptaxper = 0;
-		        	
-		        	decimal.TryParse(amountArray[0], out stamptaxrate);
-		        	decimal.TryParse(amountArray[1], out stamptaxper);
-		        	decimal stamptax = (SalesPriceAmount / stamptaxper) * stamptaxrate;
-		        	ws.Rows[104 + addRow].Cells[3].Value = stamptax;
-            }
-						reader.Close();
-	        	//ws.Rows[104 + addRow].Cells[3].Value = reader["Liable_party"].ToString();
-	        }
-					*/
-	      	/*
+	      	ws.Rows[104 + addRow].Cells[5].Style.Font.Weight = ExcelFont.BoldWeight;
+
+            /*
+                XmlDocument doc = new XmlDocument();
+                string url = "http://maps.googleapis.com/maps/api/geocode/xml?address=" + PropertyAddress.Value + "&key=";
+
+                System.Net.HttpWebRequest req = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(url);
+                req.Method = "GET";
+                req.Accept = "text/xml";
+                req.KeepAlive = false;
+
+                System.Net.HttpWebResponse response = null;
+
+                using (response = (System.Net.HttpWebResponse) req.GetResponse()) //attempt to get the response.
+                {
+                  using (Stream RespStrm = response.GetResponseStream())
+                  {
+                    doc.Load(RespStrm);
+                  }
+                }
+
+                //ws.Rows[104 + addRow].Cells[3].Value = "fred";
+                string city = "";
+                XmlNode citynode = doc.SelectSingleNode("/GeocodeResponse/result/address_component[type='locality']");
+
+                if(citynode != null)
+                {
+                    city = citynode.SelectSingleNode("long_name").InnerText;
+                }
+
+                string county = "";
+                XmlNode countynode = doc.SelectSingleNode("/GeocodeResponse/result/address_component[type='administrative_area_level_2']");
+
+                if(countynode != null)
+                {
+                    county = countynode.SelectSingleNode("long_name").InnerText;
+                }
+
+                if(!city.Equals(""))
+                {
+                            //Affinity.TaxingDistrict taxingdistrict = new TaxingDistrict(this.phreezer);
+                            //taxingdistrict.Load(city);
+
+                            using(MySqlDataReader reader = this.phreezer.ExecuteReader("select * from `taxing_district` t where t.taxing_district = '" + city + "'"))
+                            {
+                    if (reader.Read())
+                    {
+                            string liability_party = reader["Liable_party"].ToString();
+                            string stamp_exempt = reader["Stamp_exempt"].ToString();
+                            string amount = reader["Amount"].ToString().Replace("$", "");
+                            string[] amountArray = amount.Split('/');
+                            decimal stamptaxrate = 0;
+                            decimal stamptaxper = 0;
+
+                            decimal.TryParse(amountArray[0], out stamptaxrate);
+                            decimal.TryParse(amountArray[1], out stamptaxper);
+                            decimal stamptax = (SalesPriceAmount / stamptaxper) * stamptaxrate;
+                            ws.Rows[104 + addRow].Cells[3].Value = stamptax;
+                    }
+                                reader.Close();
+                            }
+                    //ws.Rows[104 + addRow].Cells[3].Value = reader["Liable_party"].ToString();
+                }
+                        */
+            /*
 	      	      Affinity.TitleFees tf = new Affinity.TitleFees(this.phreezer);
 					   		Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
 					      tfc.FeeType = "Insurance Rate";
+                          tfc.State = "IL";
 					      tf.Query(tfc);
 					*/
-	
-	
-	      	/*   	
+
+
+            /*   	
 	      	ws.Rows[105 + addRow].Cells[3].Value = "Sales Price";
 	      	ws.Rows[105 + addRow].Cells[4].Formula = "=E" + (29 + addRow).ToString();
 	      	ws.Rows[106 + addRow].Cells[3].Value = "Seller Credit";
@@ -1460,11 +1471,11 @@ namespace Affinity
 	      	ws.Rows[108 + addRow].Cells[1].Formula = "=(0+0)";
 	      	ws.Rows[108 + addRow].Cells[4].Formula = "=(0+0)";
 	      	*/
-					//cr = ws.Cells.GetSubrange("B" + (21 + addRow).ToString(), "B" + (103 + addRow).ToString());
-	      	//cr.Style.NumberFormat = "_($* #,##0.00_)";
-      		//cr.Style.HorizontalAlignment = HorizontalAlignmentStyle.Right;
+            //cr = ws.Cells.GetSubrange("B" + (21 + addRow).ToString(), "B" + (103 + addRow).ToString());
+            //cr.Style.NumberFormat = "_($* #,##0.00_)";
+            //cr.Style.HorizontalAlignment = HorizontalAlignmentStyle.Right;
 
-					cr = ws.Cells.GetSubrange("B" + (106 + addRow).ToString(), "B" + (110 + addRow).ToString());
+            cr = ws.Cells.GetSubrange("B" + (106 + addRow).ToString(), "B" + (110 + addRow).ToString());
 	      	cr.Style.NumberFormat = "_($* #,##0.00_)";
       		cr.Style.HorizontalAlignment = HorizontalAlignmentStyle.Right;
 

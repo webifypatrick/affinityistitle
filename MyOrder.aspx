@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="MyOrder.aspx.cs" Inherits="MyOrder" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="MyOrder.aspx.cs" Inherits="Affinity.MyOrder" Title="Untitled Page" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="pane_one" ContentPlaceHolderID="pain_one_cph" Runat="Server">
@@ -28,6 +28,12 @@
 				        <div class="label horizontal">Tracking Code:</div>
 				        <div class="input horizontal">
                             <asp:Label CssClass="readonly" ID="txtCustomerId" runat="server"></asp:Label></div>
+			        </div>
+			        <div id="IdentifierNumberDIV" runat="server" class="field horizontal">
+				        <div class="label horizontal">Identifier Number:</div>
+				        <div class="input horizontal">
+               		<asp:Label CssClass="readonly" ID="txtIdentifierNumber" runat="server"></asp:Label>
+                </div>
 			        </div>
 		        </div>
 		        <div class="line">
@@ -98,10 +104,12 @@
 
                 <asp:Panel ID="pnlAttachments" runat="server">
                 </asp:Panel>
-                <div><a href="downloads/Disclosure_Owner.doc" class="download">Blank Controlled Business Disclosure Statement - For Owners</a></div>
-                <div><a href="downloads/Disclosure_Agent.doc" class="download">Blank Controlled Business Disclosure Statement -  For Agents</a></div>
-                <div><a href="downloads/Examination_Agent.doc" class="download">Blank Examination Form - For Agents</a></div>
-                <div><a href="AgentExaminationForm.aspx?id=<%=NoNull.GetString(Request["id"]) %>" class="download">Online Examination Form - For Agents</a></div>
+                <asp:Panel ID="pnlStandardAttachments" runat="server">
+	                <div><a id="BlankControlledOwners" runat="server" href="downloads/Disclosure_Owner.doc" class="download">Blank Controlled Business Disclosure Statement - For Owners</a></div>
+	                <div><a id="BlankControlledAgents" runat="server" href="downloads/Disclosure_Agent.doc" class="download">Blank Controlled Business Disclosure Statement -  For Agents</a></div>
+	                <div><a href="downloads/Examination_Agent.doc" class="download">Blank Examination Form - For Agents</a></div>
+	                <div><a href="AgentExaminationForm.aspx?id=<%=NoNull.GetString(Request["id"]) %>" class="download">Online Examination Form - For Agents</a></div>
+                </asp:Panel>
                 <div><a href="UploadFile.aspx?id=<%=NoNull.GetString(Request["id"]) %>" class="download">Upload File</a></div>
                 
        		</fieldset>

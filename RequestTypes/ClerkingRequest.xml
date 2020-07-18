@@ -154,7 +154,7 @@
 			</field>
 		</line>
 		<line>
-			<field ts_id="BuyersAttorneyFax" sp_id="" rei_id="" name="BuyersAttorneyFax" label="Fax" width="175" input="text" labelclass="label width_175" class="horizontal">
+			<field ts_id="BuyersAttorneyFax" sp_id="" rei_id="" name="BuyersAttorneyFax" label="Fax" width="175" input="text" labelclass="label width_175" class="horizontal" validator="required" >
 				<attribute name="onchange">verifyPhone(this);</attribute>
 			</field>
 		</line>
@@ -177,7 +177,7 @@
 			</field>
 		</line>
 		<line>
-			<field ts_id="SellersAttorneyFax" sp_id="" rei_id="" name="SellersAttorneyFax" label="Fax" width="175" input="text" labelclass="label width_175" class="horizontal">
+			<field ts_id="SellersAttorneyFax" sp_id="" rei_id="" name="SellersAttorneyFax" label="Fax" width="175" input="text" labelclass="label width_175" class="horizontal" validator="required" >
 				<attribute name="onchange">verifyPhone(this);</attribute>
 			</field>
 		</line>
@@ -188,7 +188,7 @@
 	<group name="general9" legend="Property Information">
 
 		<line>
-			<field ts_id="NumberOfDwellingUnits" sp_id="" rei_id="" name="NumberOfDwellingUnits" label="&lt;b&gt;Number Of Dwelling Units:&lt;/b&gt; &lt;br /&gt;&lt;div class=&quot;multiUnitBuilding&quot;&gt;(This is required for multi-unit buildings)&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;" input="text" width="75" labelclass="label width_175" class="horizontal" validator="required" />
+			<field ts_id="NumberOfDwellingUnits" sp_id="" rei_id="" name="NumberOfDwellingUnits" label="Number Of Dwelling Units: &lt;br /&gt;&lt;div class=&quot;multiUnitBuilding&quot;&gt;(This is required for multi-unit buildings)&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;" input="text" width="75" labelclass="label width_175" class="horizontal" validator="required" />
 		</line>
 		<line>
 			<field ts_id="DwellingUnitNotes" sp_id="" rei_id="" name="DwellingUnitNotes" label="Dwelling Unit Notes:  &lt;br /&gt;&lt;div class=&quot;multiUnitBuilding&quot;&gt;(This is required for multi-unit buildings.  Please provide location of units, i.e. 1 on 1st floor, 2 on 2nd floor and 1 on 3rd floor)&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;" input="text" width="390" labelclass="label width_175" class="horizontal" />

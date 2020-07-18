@@ -1,20 +1,8 @@
 using System;
-using System.Data;
-using System.Configuration;
 using System.Collections;
-using System.Web;
-using System.Web.Security;
 using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
-using System.Web.UI.HtmlControls;
 using System.IO;
-using System.Xml;
-using System.Net;
-using MySql.Data.MySqlClient;
 using GemBox.Spreadsheet;
-
-using Com.VerySimple.Util;
 
 namespace Affinity
 {
@@ -43,7 +31,8 @@ namespace Affinity
 
 			        Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
 			      	tfc.FeeType = "Insurance Rate";
-			      	tfc.Name = "$" + purchidx.ToString() + "0,001 to $" + (purchidx + 1).ToString() + "0,000";
+                    tfc.State = "IL";
+                    tfc.Name = "$" + purchidx.ToString() + "0,001 to $" + (purchidx + 1).ToString() + "0,000";
 			        tfc.AppendToOrderBy("Id");
 			        tf1.Query(tfc);
 			
@@ -61,111 +50,115 @@ namespace Affinity
 					Response.Write(InsuranceRate);
 	    			Response.End();
 	    	 }
-				
-				/*
-				if(Request["LoanAmount"] != null)
-				{
-		      decimal loanamt = 0;
-					decimal.TryParse(Request["LoanAmount"].Replace(",", "").Replace("$", ""), out loanamt);
-					decimal InsuranceRate = 0;
-		      
-		      if(loanamt <= 100000)
-		      {
-		        Affinity.TitleFees tf1 = new Affinity.TitleFees(this.phreezer);
 
-		        Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
-		    		tfc.FeeType = "Second/Equity Mortgage Rates";
-		      	tfc.Name = "Up to $100,000.00";
-		        tfc.AppendToOrderBy("Id");
-		        tf1.Query(tfc);
-		
-		        IEnumerator tfi = tf1.GetEnumerator();
-		
-		        // loop through the checkboxes and insert or delete as needed
-		        while (tfi.MoveNext())
-		        {
-		            Affinity.TitleFee tfitem1 = (Affinity.TitleFee) tfi.Current;
-								InsuranceRate = decimal.Parse(tfitem1.Fee.ToString());
-		        }
-		      }
-		      else if(loanamt > 200000)
-		      {
-		        Affinity.TitleFees tf1 = new Affinity.TitleFees(this.phreezer);
+            /*
+            if(Request["LoanAmount"] != null)
+            {
+          decimal loanamt = 0;
+                decimal.TryParse(Request["LoanAmount"].Replace(",", "").Replace("$", ""), out loanamt);
+                decimal InsuranceRate = 0;
 
-		        Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
-		    		tfc.FeeType = "Second/Equity Mortgage Rates";
-		      	tfc.Name = "$190,001 to $200,000";
-		        tfc.AppendToOrderBy("Id");
-		        tf1.Query(tfc);
-		
-		        IEnumerator tfi = tf1.GetEnumerator();
-		
-		        // loop through the checkboxes and insert or delete as needed
-		        while (tfi.MoveNext())
-		        {
-		            Affinity.TitleFee tfitem1 = (Affinity.TitleFee) tfi.Current;
-								InsuranceRate = decimal.Parse(tfitem1.Fee.ToString());
-		        }
-		        
-		        tf1 = new Affinity.TitleFees(this.phreezer);
+          if(loanamt <= 100000)
+          {
+            Affinity.TitleFees tf1 = new Affinity.TitleFees(this.phreezer);
 
-						decimal InsuranceRateForEvery1000 = 0;
-		        tfc = new Affinity.TitleFeesCriteria();
-		    		tfc.FeeType = "Second/Equity Mortgage Rates";
-		      	tfc.Name = "for every $1,000 over $200,000 up to $500,000";
-		        tfc.AppendToOrderBy("Id");
-		        tf1.Query(tfc);
-		
-		        tfi = tf1.GetEnumerator();
-		
-		        // loop through the checkboxes and insert or delete as needed
-		        while (tfi.MoveNext())
-		        {
-		            Affinity.TitleFee tfitem1 = (Affinity.TitleFee) tfi.Current;
-								InsuranceRateForEvery1000 = decimal.Parse(tfitem1.Fee.ToString());
-		        }
-		        
-		        if(loanamt < 500000)
-		        {
-		        	InsuranceRate = InsuranceRate + (Math.Floor((loanamt - 200000) / 1000) * InsuranceRateForEvery1000);
-		        }
-		        else
-		        {
-		        	InsuranceRate = InsuranceRate + (300 * InsuranceRateForEvery1000);
-		        }
-		      }
-		      else
-		      {
-			      for(int loanamtidx = 10; loanamtidx < 19; loanamtidx++)
-						{
-							if(loanamt > (loanamtidx * 10000) && loanamt <= ((loanamtidx + 1) * 10000))
-							{
-				        Affinity.TitleFees tf1 = new Affinity.TitleFees(this.phreezer);
-	
-				        Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
-				    		tfc.FeeType = "Second/Equity Mortgage Rates";
-				      	tfc.Name = "$" + loanamtidx.ToString() + "0,001 to $" + (loanamtidx + 1).ToString() + "0,000";
-				        tfc.AppendToOrderBy("Id");
-				        tf1.Query(tfc);
-				
-				        IEnumerator tfi = tf1.GetEnumerator();
-				
-				        // loop through the checkboxes and insert or delete as needed
-				        while (tfi.MoveNext())
-				        {
-				            Affinity.TitleFee tfitem1 = (Affinity.TitleFee) tfi.Current;
-										InsuranceRate = decimal.Parse(tfitem1.Fee.ToString());
-				        }
-				      }
-						}
-					}
-         	
-					Response.Write(InsuranceRate);
-	    		Response.End();
-	    	}
-	    	*/
-	    	 
-	    	if (Page.IsPostBack)
+            Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
+                tfc.FeeType = "Second/Equity Mortgage Rates";
+            tfc.Name = "Up to $100,000.00";
+            tfc.State = "IL";
+            tfc.AppendToOrderBy("Id");
+            tf1.Query(tfc);
+
+            IEnumerator tfi = tf1.GetEnumerator();
+
+            // loop through the checkboxes and insert or delete as needed
+            while (tfi.MoveNext())
+            {
+                Affinity.TitleFee tfitem1 = (Affinity.TitleFee) tfi.Current;
+                            InsuranceRate = decimal.Parse(tfitem1.Fee.ToString());
+            }
+          }
+          else if(loanamt > 200000)
+          {
+            Affinity.TitleFees tf1 = new Affinity.TitleFees(this.phreezer);
+
+            Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
+                tfc.FeeType = "Second/Equity Mortgage Rates";
+            tfc.Name = "$190,001 to $200,000";
+            tfc.State = "IL";
+            tfc.AppendToOrderBy("Id");
+            tf1.Query(tfc);
+
+            IEnumerator tfi = tf1.GetEnumerator();
+
+            // loop through the checkboxes and insert or delete as needed
+            while (tfi.MoveNext())
+            {
+                Affinity.TitleFee tfitem1 = (Affinity.TitleFee) tfi.Current;
+                            InsuranceRate = decimal.Parse(tfitem1.Fee.ToString());
+            }
+
+            tf1 = new Affinity.TitleFees(this.phreezer);
+
+                    decimal InsuranceRateForEvery1000 = 0;
+            tfc = new Affinity.TitleFeesCriteria();
+                tfc.FeeType = "Second/Equity Mortgage Rates";
+            tfc.Name = "for every $1,000 over $200,000 up to $500,000";
+            tfc.AppendToOrderBy("Id");
+            tfc.State = "IL";
+           tf1.Query(tfc);
+
+            tfi = tf1.GetEnumerator();
+
+            // loop through the checkboxes and insert or delete as needed
+            while (tfi.MoveNext())
+            {
+                Affinity.TitleFee tfitem1 = (Affinity.TitleFee) tfi.Current;
+                            InsuranceRateForEvery1000 = decimal.Parse(tfitem1.Fee.ToString());
+            }
+
+            if(loanamt < 500000)
+            {
+                InsuranceRate = InsuranceRate + (Math.Floor((loanamt - 200000) / 1000) * InsuranceRateForEvery1000);
+            }
+            else
+            {
+                InsuranceRate = InsuranceRate + (300 * InsuranceRateForEvery1000);
+            }
+          }
+          else
+          {
+              for(int loanamtidx = 10; loanamtidx < 19; loanamtidx++)
+                    {
+                        if(loanamt > (loanamtidx * 10000) && loanamt <= ((loanamtidx + 1) * 10000))
+                        {
+                    Affinity.TitleFees tf1 = new Affinity.TitleFees(this.phreezer);
+
+                    Affinity.TitleFeesCriteria tfc = new Affinity.TitleFeesCriteria();
+                        tfc.FeeType = "Second/Equity Mortgage Rates";
+                    tfc.Name = "$" + loanamtidx.ToString() + "0,001 to $" + (loanamtidx + 1).ToString() + "0,000";
+                    tfc.State = "IL";
+                    tfc.AppendToOrderBy("Id");
+                    tf1.Query(tfc);
+
+                    IEnumerator tfi = tf1.GetEnumerator();
+
+                    // loop through the checkboxes and insert or delete as needed
+                    while (tfi.MoveNext())
+                    {
+                        Affinity.TitleFee tfitem1 = (Affinity.TitleFee) tfi.Current;
+                                    InsuranceRate = decimal.Parse(tfitem1.Fee.ToString());
+                    }
+                  }
+                    }
+                }
+
+                Response.Write(InsuranceRate);
+            Response.End();
+        }
+        */
+
+            if (Page.IsPostBack)
 	    	{
 	    		generateSpreadsheet();
 	    	}
@@ -176,7 +169,8 @@ namespace Affinity
 	        Affinity.TitleFeesCriteria tfc2 = new Affinity.TitleFeesCriteria();
 	    		tfc2.FeeType = "Mortgage Policy/Endorsement Fees";
 	      	tfc2.Name = "Simultaneously Issued Mortgage Policy";
-	        tfc2.AppendToOrderBy("Id");
+            tfc2.State = "IL";
+            tfc2.AppendToOrderBy("Id");
 	        tf2.Query(tfc2);
 	
 	        IEnumerator tfi2 = tf2.GetEnumerator();

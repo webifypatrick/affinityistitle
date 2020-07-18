@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="MyAccount.aspx.cs" Inherits="MyAccount" MasterPageFile="~/AffinityTemplate.master"%>
+<%@ Page Language="C#" AutoEventWireup="true"  CodeBehind="MyAccount.aspx.cs" Inherits="Affinity.MyAccount" MasterPageFile="~/AffinityTemplate.master"%>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="pain_one_cph" runat="server">
@@ -86,7 +86,8 @@
     <div><a href="Content.aspx?page=clerkingprices" class="page">Advocate Title Clerking Services Price Sheet</a></div>
     <div id="DisclosureOwnerDocumentsDIV" runat="server" visible="false">
 		<div><a href="downloads/ATS_Rates_for_Title_Insurance_and_Related_Services.doc" class="download">ATS Rates for Insurance and Related Services</a></div>
-		<div><a href="downloads/Disclosure_Owner.doc" class="download">Blank Controlled Business Disclosure Statement - For Owners</a></div>
+		<div><a id="BlankControlledOwners" runat="server" href="downloads/Disclosure_Owner.doc" class="download">Blank Controlled Business Disclosure Statement - For Owners</a></div>
+
 	</div>	
 	<div id="DisclosureAgentDocumentsDIV" runat="server" visible="false">
 		<div><a href="downloads/Disclosure_Agent.doc" class="download">Blank Controlled Business Disclosure Statement -  For Agents</a></div>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeFile="UploadFile.aspx.cs" Inherits="UploadFile" Title="Upload File" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/AffinityTemplate.master" AutoEventWireup="true" CodeBehind="UploadFile.aspx.cs" Inherits="Affinity.UploadFile" Title="Upload File" %>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="pain_one" ContentPlaceHolderID="pain_one_cph" Runat="Server">
@@ -27,7 +27,7 @@
 				        <div class="input horizontal">
                   <asp:DropDownList ID="ddFilePurpose" runat="server">
                   </asp:DropDownList>
-                  <asp:FileUpload ID="fuAttachment" runat="server" CssClass="upload" />
+                  <asp:FileUpload ID="fuAttachment" runat="server" CssClass="upload" multiple="multiple" />
                 </div>
 			        </div>
 		        </div>

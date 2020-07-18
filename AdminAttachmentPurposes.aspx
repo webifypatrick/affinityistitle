@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AdminAttachmentPurposes.aspx.cs" Inherits="AdminAttachmentPurposes" MasterPageFile="~/AffinityTemplate.master"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminAttachmentPurposes.aspx.cs" Inherits="Affinity.AdminAttachmentPurposes" MasterPageFile="~/AffinityTemplate.master"%>
 <%@ MasterType virtualpath="~/AffinityTemplate.master" %>
 
 <asp:Content ID="pane_one" ContentPlaceHolderID="pain_one_cph" runat="server">

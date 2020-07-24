@@ -33,10 +33,14 @@ namespace Com.VerySimple.Phreeze
 		/// <returns></returns>
 		public int GetQueryRowCount(Criteria criteria)
 		{
-			//log.Debug(criteria.GetCountSql());
-			MySqlDataReader reader = this.GetReader(criteria.GetCountSql());
-			reader.Read();
-			int counter = Preparer.SafeInt(reader["counter"]);
+            //log.Debug(criteria.GetCountSql());
+            int counter = 0;
+
+            MySqlDataReader reader = this.GetReader(criteria.GetCountSql());
+            if (reader.Read())
+            {
+                counter = Preparer.SafeInt(reader["counter"]);
+            }
 			reader.Close();
 			return counter;
 
@@ -76,11 +80,12 @@ namespace Com.VerySimple.Phreeze
 				}
 				else
 				{
-					// we have a full page and/or are past page one, so we need to
-					// get the total record count
-					int total = this.GetQueryRowCount(criteria);
+                    // we have a full page and/or are past page one, so we need to
+                    // get the total record count
+                    int total = this.GetQueryRowCount(criteria);
+                    //int total = 10;
 
-					while (this.Count < total)
+                    while (this.Count < total)
 					{
 						this.Add(new PageShim());
 					}

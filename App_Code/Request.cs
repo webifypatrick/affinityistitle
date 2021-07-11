@@ -162,7 +162,30 @@ namespace Affinity
 			return ht;
 		}
 
-		protected override void OnInit()
+        /// <summary>
+        /// Returns the most recent previous order with the same PIN or the same address and city (or null if none exist)
+        /// </summary>
+        /// <returns>Order || null</returns>
+        public Request GetPrevious()
+        {
+            Request returnRequest = null;
+
+            RequestCriteria chkrequestCriteria = new RequestCriteria();
+            chkrequestCriteria.AppendToOrderBy("Created", true);
+            chkrequestCriteria.FindDuplicateOf = this;
+
+            Requests chkrequests = new Requests(this.phreezer);
+            chkrequests.Query(chkrequestCriteria);
+
+            if (chkrequests.Count > 0)
+            {
+                returnRequest = (Request)chkrequests[0];
+            }
+
+            return returnRequest;
+        }
+
+        protected override void OnInit()
 		{
 			this.IsCurrent = true;
 		}

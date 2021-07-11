@@ -123,6 +123,22 @@ namespace Affinity
                     PreviousOrderNotice.InnerHtml = "This order has a potential duplicate submitted on " + previousOrder.Created.ToShortDateString() + " - order number <a href=\"AdminOrder.aspx?id=" + previousOrder.Id.ToString() + "\">" + previousOrder.Id.ToString() + "</a> " + previousOrder.InternalId.ToString();
                     PreviousOrderNotice.Visible = true;
                 }
+                else
+                {
+                    Affinity.Requests requests = order.GetOrderRequests(rc);
+
+                    foreach (Affinity.Request req in requests)
+                    {
+                        Affinity.Request previousRequest = req.GetPrevious();
+                        // If there are any previous orders display a message to the admin
+                        if (previousRequest != null)
+                        {
+                            PreviousOrderNotice.InnerHtml = "This order has a potential duplicate submitted on " + previousRequest.Order.Created.ToShortDateString() + " - order number <a href=\"AdminOrder.aspx?id=" + previousRequest.Order.Id.ToString() + "\">" + previousRequest.Order.Id.ToString() + "</a> " + previousRequest.Order.InternalId.ToString();
+                            PreviousOrderNotice.Visible = true;
+                            break;
+                        }
+                    }
+                }
 
             }
         }

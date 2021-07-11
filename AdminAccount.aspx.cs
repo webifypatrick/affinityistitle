@@ -242,11 +242,12 @@ namespace Affinity
             delim = "";
             string[] percents = new string[7] { "100", "90", "88", "85", "80", "75", "50" };
 
+
             for (var underid = 0; underid < checkedUnderWriters.Length; underid++)
             {
                 foreach (var per in percents)
                 {
-                    if (Request["_ctl0:content_cph:Endorse" + per + ":" + (underid * 2)] != null && Request["_ctl0:content_cph:Endorse" + per + ":" + (underid * 2)].Equals("on"))
+                    if (Request["ctl00$content_cph$Endorse" + per + "$" + (underid * 2)] != null)
                     {
                         this.account.UnderwriterEndorsements += delim + checkedUnderWriters[underid] + per + "%";
                         delim = ",";

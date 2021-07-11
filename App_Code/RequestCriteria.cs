@@ -2,6 +2,7 @@ using System;
 using System.Text;
 using System.Collections;
 using Com.VerySimple.Phreeze;
+using System.Xml;
 
 namespace Affinity
 {
@@ -21,8 +22,9 @@ namespace Affinity
 		public string Note;
 
 		public int IdLessThan = -1;
+        public Request FindDuplicateOf = null;
 
-		protected override void Init()
+        protected override void Init()
 		{
 			this.fields = new Hashtable();
 			this.fields.Add("Id", "r_id");
@@ -41,72 +43,94 @@ namespace Affinity
 			return "select * from `request` r ";
 		}
 
-		protected override string GetWhereSql()
-		{
-			StringBuilder sb = new StringBuilder();
-			string delim = " where ";
+        protected override string GetWhereSql()
+        {
+            StringBuilder sb = new StringBuilder();
+            string delim = " where ";
 
-			if (-1 != IdLessThan)
-			{
-				sb.Append(delim + "r.r_id < '" + Preparer.Escape(IdLessThan) + "'");
-				delim = " and ";
-			}
+            if (-1 != IdLessThan)
+            {
+                sb.Append(delim + "r.r_id < '" + Preparer.Escape(IdLessThan) + "'");
+                delim = " and ";
+            }
 
-			if (-1 != Id)
-			{
-				sb.Append(delim + "r.r_id = '" + Preparer.Escape(Id) + "'");
-				delim = " and ";
-			}
+            if (-1 != Id)
+            {
+                sb.Append(delim + "r.r_id = '" + Preparer.Escape(Id) + "'");
+                delim = " and ";
+            }
 
-			if (null != RequestTypeCode)
-			{
-				sb.Append(delim + "r.r_request_type_code = '" + Preparer.Escape(RequestTypeCode) + "'");
-				delim = " and ";
-			}
+            if (null != RequestTypeCode)
+            {
+                sb.Append(delim + "r.r_request_type_code = '" + Preparer.Escape(RequestTypeCode) + "'");
+                delim = " and ";
+            }
 
-			if (-1 != OrderId)
-			{
-				sb.Append(delim + "r.r_order_id = '" + Preparer.Escape(OrderId) + "'");
-				delim = " and ";
-			}
+            if (-1 != OrderId)
+            {
+                sb.Append(delim + "r.r_order_id = '" + Preparer.Escape(OrderId) + "'");
+                delim = " and ";
+            }
 
-			if (-1 != OriginatorId)
-			{
-				sb.Append(delim + "r.r_originator_id = '" + Preparer.Escape(OriginatorId) + "'");
-				delim = " and ";
-			}
+            if (-1 != OriginatorId)
+            {
+                sb.Append(delim + "r.r_originator_id = '" + Preparer.Escape(OriginatorId) + "'");
+                delim = " and ";
+            }
 
-			if ("1-1-1 0:0:0" != Preparer.Escape(Created))
-			{
-				sb.Append(delim + "r.r_created = '" + Preparer.Escape(Created) + "'");
-				delim = " and ";
-			}
+            if ("1-1-1 0:0:0" != Preparer.Escape(Created))
+            {
+                sb.Append(delim + "r.r_created = '" + Preparer.Escape(Created) + "'");
+                delim = " and ";
+            }
 
-			if (null != StatusCode)
-			{
-				sb.Append(delim + "r.r_status_code = '" + Preparer.Escape(StatusCode) + "'");
-				delim = " and ";
-			}
+            if (null != StatusCode)
+            {
+                sb.Append(delim + "r.r_status_code = '" + Preparer.Escape(StatusCode) + "'");
+                delim = " and ";
+            }
 
-			if (null != Xml)
-			{
-				sb.Append(delim + "r.r_xml = '" + Preparer.Escape(Xml) + "'");
-				delim = " and ";
-			}
+            if (null != Xml)
+            {
+                sb.Append(delim + "r.r_xml = '" + Preparer.Escape(Xml) + "'");
+                delim = " and ";
+            }
 
-			if (-1 != IsCurrent)
-			{
-				sb.Append(delim + "r.r_is_current = '" + Preparer.Escape(IsCurrent) + "'");
-				delim = " and ";
-			}
+            if (-1 != IsCurrent)
+            {
+                sb.Append(delim + "r.r_is_current = '" + Preparer.Escape(IsCurrent) + "'");
+                delim = " and ";
+            }
 
-			if (null != Note)
-			{
-				sb.Append(delim + "r.r_note = '" + Preparer.Escape(Note) + "'");
-				delim = " and ";
-			}
+            if (null != Note)
+            {
+                sb.Append(delim + "r.r_note = '" + Preparer.Escape(Note) + "'");
+                delim = " and ";
+            }
 
-			return sb.ToString();
-		}
+            if (FindDuplicateOf != null)
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.LoadXml(FindDuplicateOf.Xml);
+                XmlNode node = doc.SelectSingleNode("//field[@name='Seller']");
+                string sellername = (node != null && node.InnerText != null) ? node.InnerText : "";
+
+                if (!sellername.Equals(""))
+                {
+                    sb.Append(delim + " ( ");
+                    sb.Append(" r.r_xml LIKE '%" + Preparer.Escape(sellername) + "%'");
+                    sb.Append(" and r.r_order_id != " + FindDuplicateOf.OrderId);
+                    sb.Append(" and r.r_status_code = 'InProgress' ) ");
+                    delim = " and ";
+                }
+                else
+                {
+                    sb.Append(delim + " ( 1 = 2 ) ");
+                    delim = " and ";
+                }
+            }
+
+            return sb.ToString();
+        }
 	}
 }

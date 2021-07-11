@@ -59,7 +59,7 @@ namespace Affinity
             string ret = "";
             try
             {
-                string pdftext = extractPdfText(@"c:\web\attachments\" + name);
+                string pdftext = extractPdfText(@"C:\inetpub\wwwroot\attachments\" + name);
                 int pos = pdftext.IndexOf("Legal Description:");
                 if (pos > -1)
                 {
@@ -118,7 +118,7 @@ namespace Affinity
 
                 foreach (Attachment att in atts)
                 {
-                    if(att.AttachmentPurpose.Code.Equals("Committment"))
+                    if(att.AttachmentPurpose.Code.Equals("Committment") && File.Exists(att.Filepath))
                     {
                         legaldescription = extractLegalDescription(att.Filepath);
                         if (!legaldescription.Equals(""))
@@ -429,7 +429,7 @@ namespace Affinity
                                     while (Reader.Read()) // this part is wrong somehow
                                     {
                                         //Response.Write("Name: " + Reader["aef_agents_name"].ToString());
-                                        SellersNameArray[0] = Reader["aef_agents_name"].ToString();
+                                        SellersNameArray[0] = XMLEscape(Reader["aef_agents_name"].ToString());
                                         Grantor = SellersNameArray[0];
                                         GrantorAddressLine1 = Reader["aef_property_address"].ToString().Trim();
                                         GrantorCity = Reader["aef_property_city_state_zip"].ToString().Trim();

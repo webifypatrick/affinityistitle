@@ -123,11 +123,15 @@ namespace Affinity
 				sb.Append(" and lower(o.o_property_city) = '" + Preparer.Escape(FindDuplicateOf.PropertyCity.ToLower()) + "'");
 				sb.Append(" and lower(o.o_property_state) = '" + Preparer.Escape(FindDuplicateOf.PropertyState.ToLower()) + "'");
 				sb.Append(" and lower(o.o_property_zip) = '" + Preparer.Escape(FindDuplicateOf.PropertyZip.ToLower()) + "'");
-				sb.Append(" ) or (");
-				sb.Append(" lower(o.o_pin) = '" + Preparer.Escape(FindDuplicateOf.Pin.ToLower()) + "'");
-				sb.Append(" and o.o_pin != ''");
-				sb.Append(" ) ");
-				sb.Append(" ) ");
+                sb.Append(" ) or (");
+                sb.Append(" lower(o.o_pin) = '" + Preparer.Escape(FindDuplicateOf.Pin.ToLower()) + "'");
+                sb.Append(" and o.o_pin != ''");
+                sb.Append(" ) or (");
+                sb.Append(" lower(o.o_client_name) = '" + Preparer.Escape(FindDuplicateOf.ClientName.ToLower()) + "'");
+                sb.Append(" and o.o_client_name != ''");
+                sb.Append(" and lower(o.o_property_zip) = '" + Preparer.Escape(FindDuplicateOf.PropertyZip.ToLower()) + "'");
+                sb.Append(" ) ");
+                sb.Append(" ) ");
 				sb.Append(" and o.o_id != '" + Preparer.Escape(FindDuplicateOf.Id) + "'");
 				delim = " and ";
 			}
